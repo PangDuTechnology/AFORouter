@@ -16,6 +16,18 @@
 		243A8D2B1FF0D100004BA1CE /* AFORouterNamesPace.h in Headers */ = {isa = PBXBuildFile; fileRef = 243A8D2A1FF0D100004BA1CE /* AFORouterNamesPace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24CA98631FE79C0500CE9BB2 /* AFORouterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24CA98641FE79C0500CE9BB2 /* AFORouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */; };
+		24E726FC232CF8CA00C850C0 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726F0232CF8CA00C850C0 /* JLRRouteDefinition.m */; };
+		24E726FD232CF8CA00C850C0 /* JLRRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F1232CF8CA00C850C0 /* JLRRouteRequest.h */; };
+		24E726FE232CF8CA00C850C0 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726F2232CF8CA00C850C0 /* JLRoutes.m */; };
+		24E726FF232CF8CA00C850C0 /* JLRRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F3232CF8CA00C850C0 /* JLRRouteResponse.h */; };
+		24E72700232CF8CA00C850C0 /* JLRRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F4232CF8CA00C850C0 /* JLRRouteHandler.h */; };
+		24E72701232CF8CA00C850C0 /* JLRParsingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F5232CF8CA00C850C0 /* JLRParsingUtilities.h */; };
+		24E72702232CF8CA00C850C0 /* JLRRouteDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F6232CF8CA00C850C0 /* JLRRouteDefinition.h */; };
+		24E72703232CF8CA00C850C0 /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726F7232CF8CA00C850C0 /* JLRRouteRequest.m */; };
+		24E72704232CF8CA00C850C0 /* JLRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F8232CF8CA00C850C0 /* JLRoutes.h */; };
+		24E72705232CF8CA00C850C0 /* JLRRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726F9232CF8CA00C850C0 /* JLRRouteHandler.m */; };
+		24E72706232CF8CA00C850C0 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726FA232CF8CA00C850C0 /* JLRRouteResponse.m */; };
+		24E72707232CF8CA00C850C0 /* JLRParsingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726FB232CF8CA00C850C0 /* JLRParsingUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +53,18 @@
 		243A8D2A1FF0D100004BA1CE /* AFORouterNamesPace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterNamesPace.h; sourceTree = "<group>"; };
 		24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterManager.h; sourceTree = "<group>"; };
 		24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterManager.m; sourceTree = "<group>"; };
+		24E726F0232CF8CA00C850C0 /* JLRRouteDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteDefinition.m; sourceTree = "<group>"; };
+		24E726F1232CF8CA00C850C0 /* JLRRouteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteRequest.h; sourceTree = "<group>"; };
+		24E726F2232CF8CA00C850C0 /* JLRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRoutes.m; sourceTree = "<group>"; };
+		24E726F3232CF8CA00C850C0 /* JLRRouteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteResponse.h; sourceTree = "<group>"; };
+		24E726F4232CF8CA00C850C0 /* JLRRouteHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteHandler.h; sourceTree = "<group>"; };
+		24E726F5232CF8CA00C850C0 /* JLRParsingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRParsingUtilities.h; sourceTree = "<group>"; };
+		24E726F6232CF8CA00C850C0 /* JLRRouteDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteDefinition.h; sourceTree = "<group>"; };
+		24E726F7232CF8CA00C850C0 /* JLRRouteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteRequest.m; sourceTree = "<group>"; };
+		24E726F8232CF8CA00C850C0 /* JLRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRoutes.h; sourceTree = "<group>"; };
+		24E726F9232CF8CA00C850C0 /* JLRRouteHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteHandler.m; sourceTree = "<group>"; };
+		24E726FA232CF8CA00C850C0 /* JLRRouteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteResponse.m; sourceTree = "<group>"; };
+		24E726FB232CF8CA00C850C0 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRParsingUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				240BAB761FE1238200D58435 /* AFORouter.h */,
+				24E72708232CF8FA00C850C0 /* JLRouter */,
 				2424F6C7232CBEAF006FA89F /* manager */,
 			);
 			path = AFORouter;
@@ -102,6 +127,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		24E72708232CF8FA00C850C0 /* JLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				24E726F0232CF8CA00C850C0 /* JLRRouteDefinition.m */,
+				24E726F1232CF8CA00C850C0 /* JLRRouteRequest.h */,
+				24E726F2232CF8CA00C850C0 /* JLRoutes.m */,
+				24E726F3232CF8CA00C850C0 /* JLRRouteResponse.h */,
+				24E726F4232CF8CA00C850C0 /* JLRRouteHandler.h */,
+				24E726F5232CF8CA00C850C0 /* JLRParsingUtilities.h */,
+				24E726F6232CF8CA00C850C0 /* JLRRouteDefinition.h */,
+				24E726F7232CF8CA00C850C0 /* JLRRouteRequest.m */,
+				24E726F8232CF8CA00C850C0 /* JLRoutes.h */,
+				24E726F9232CF8CA00C850C0 /* JLRRouteHandler.m */,
+				24E726FA232CF8CA00C850C0 /* JLRRouteResponse.m */,
+				24E726FB232CF8CA00C850C0 /* JLRParsingUtilities.m */,
+			);
+			name = JLRouter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -114,7 +158,13 @@
 				240BAB781FE1238200D58435 /* AFORouter.h in Headers */,
 				24CA98631FE79C0500CE9BB2 /* AFORouterManager.h in Headers */,
 				2408BB022008624B0049060F /* AFORouterInfoplist.h in Headers */,
+				24E72700232CF8CA00C850C0 /* JLRRouteHandler.h in Headers */,
 				2405E6051FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h in Headers */,
+				24E726FF232CF8CA00C850C0 /* JLRRouteResponse.h in Headers */,
+				24E72704232CF8CA00C850C0 /* JLRoutes.h in Headers */,
+				24E726FD232CF8CA00C850C0 /* JLRRouteRequest.h in Headers */,
+				24E72701232CF8CA00C850C0 /* JLRParsingUtilities.h in Headers */,
+				24E72702232CF8CA00C850C0 /* JLRRouteDefinition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,9 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E72703232CF8CA00C850C0 /* JLRRouteRequest.m in Sources */,
 				24CA98641FE79C0500CE9BB2 /* AFORouterManager.m in Sources */,
+				24E72707232CF8CA00C850C0 /* JLRParsingUtilities.m in Sources */,
+				24E726FE232CF8CA00C850C0 /* JLRoutes.m in Sources */,
+				24E72706232CF8CA00C850C0 /* JLRRouteResponse.m in Sources */,
 				2408BB032008624B0049060F /* AFORouterInfoplist.m in Sources */,
 				2405E6061FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m in Sources */,
+				24E726FC232CF8CA00C850C0 /* JLRRouteDefinition.m in Sources */,
+				24E72705232CF8CA00C850C0 /* JLRRouteHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
