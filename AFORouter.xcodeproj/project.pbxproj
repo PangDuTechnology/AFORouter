@@ -69,32 +69,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2405E6071FEA566900BAFF97 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */,
-				2405E6041FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		2408BAFF2008622B0049060F /* plist */ = {
-			isa = PBXGroup;
-			children = (
-				2408BB002008624B0049060F /* AFORouterInfoplist.h */,
-				2408BB012008624B0049060F /* AFORouterInfoplist.m */,
-			);
-			path = plist;
-			sourceTree = "<group>";
-		};
-		240903BA1FF0955D0022A943 /* Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */,
-			);
-			path = Delegate;
-			sourceTree = "<group>";
-		};
 		240BAB691FE1238200D58435 = {
 			isa = PBXGroup;
 			children = (
@@ -115,21 +89,39 @@
 		240BAB751FE1238200D58435 /* AFORouter */ = {
 			isa = PBXGroup;
 			children = (
-				240BAB761FE1238200D58435 /* AFORouter.h */,
-				24CA98651FE79D0A00CE9BB2 /* Manager */,
-				243A8D291FF0D04F004BA1CE /* ModelName */,
-				24CA985E1FE79B6000CE9BB2 /* Framework */,
+				2424F6C7232CBEAF006FA89F /* manager */,
+				2424F6CC232CBF92006FA89F /* routers */,
 			);
 			path = AFORouter;
 			sourceTree = "<group>";
 		};
-		24197D81224370C4002E4086 /* models */ = {
+		2424F6C7232CBEAF006FA89F /* manager */ = {
 			isa = PBXGroup;
 			children = (
-				2408BAFF2008622B0049060F /* plist */,
-				240903BA1FF0955D0022A943 /* Delegate */,
+				24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */,
+				24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */,
+				240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */,
+				2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */,
+				2405E6041FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m */,
+				243A8D2A1FF0D100004BA1CE /* AFORouterNamesPace.h */,
+				2408BB002008624B0049060F /* AFORouterInfoplist.h */,
+				2408BB012008624B0049060F /* AFORouterInfoplist.m */,
 			);
-			path = models;
+			name = manager;
+			sourceTree = "<group>";
+		};
+		2424F6CC232CBF92006FA89F /* routers */ = {
+			isa = PBXGroup;
+			children = (
+				24940C281FE8B33F008F958A /* JLRoutes.h */,
+				240BAB761FE1238200D58435 /* AFORouter.h */,
+				24940C241FE8B33F008F958A /* JLRRouteRequest.h */,
+				24940C251FE8B33F008F958A /* JLRRouteResponse.h */,
+				24940C261FE8B33F008F958A /* JLRParsingUtilities.h */,
+				24940C271FE8B33F008F958A /* JLRRouteDefinition.h */,
+				24940C231FE8B33F008F958A /* libJLRoutes.a */,
+			);
+			name = routers;
 			sourceTree = "<group>";
 		};
 		2437D9C21FF3602A00E12235 /* Frameworks */ = {
@@ -137,46 +129,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		243A8D291FF0D04F004BA1CE /* ModelName */ = {
-			isa = PBXGroup;
-			children = (
-				243A8D2A1FF0D100004BA1CE /* AFORouterNamesPace.h */,
-			);
-			path = ModelName;
-			sourceTree = "<group>";
-		};
-		24940C221FE8B33F008F958A /* JLRoutes */ = {
-			isa = PBXGroup;
-			children = (
-				24940C281FE8B33F008F958A /* JLRoutes.h */,
-				24940C241FE8B33F008F958A /* JLRRouteRequest.h */,
-				24940C251FE8B33F008F958A /* JLRRouteResponse.h */,
-				24940C261FE8B33F008F958A /* JLRParsingUtilities.h */,
-				24940C271FE8B33F008F958A /* JLRRouteDefinition.h */,
-				24940C231FE8B33F008F958A /* libJLRoutes.a */,
-			);
-			path = JLRoutes;
-			sourceTree = "<group>";
-		};
-		24CA985E1FE79B6000CE9BB2 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				24940C221FE8B33F008F958A /* JLRoutes */,
-			);
-			path = Framework;
-			sourceTree = "<group>";
-		};
-		24CA98651FE79D0A00CE9BB2 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */,
-				24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */,
-				24197D81224370C4002E4086 /* models */,
-				2405E6071FEA566900BAFF97 /* Category */,
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
