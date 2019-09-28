@@ -21,6 +21,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/PangDuTechnology/AFORouter.git", :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  s.source_files = 'AFORouter/AFORouter.h'
+  s.public_header_files = 'AFORouter/AFORouter.h'
+  
   s.subspec 'JLRouter' do |jl|
       jl.source_files = 'AFORouter/JLRouter/*.{h,m}' 
       jl.public_header_files = 'AFORouter/JLRouter/*.h' 
