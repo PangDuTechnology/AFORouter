@@ -15,16 +15,21 @@ Pod::Spec.new do |s|
   
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform     = :ios, "8.0"
-
-  #  When using multiple platforms
   s.ios.deployment_target = '8.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/PangDuTechnology/AFORouter.git", :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "AFORouter/*.{h,m}"
-  s.public_header_files = "AFORouter/*.h"
+  s.subspec 'JLRouter' do |jl|
+      jl.source_files = 'AFORouter/JLRouter/*.{h,m}' 
+      jl.public_header_files = 'AFORouter/JLRouter/*.h' 
+  end
+
+  s.subspec 'manager' do |ma|
+      ma.source_files = 'AFORouter/manager/*.{h,m}' 
+      ma.public_header_files = 'AFORouter/manager/*.h' 
+  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

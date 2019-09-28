@@ -99,25 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				240BAB761FE1238200D58435 /* AFORouter.h */,
-				24E72708232CF8FA00C850C0 /* JLRouter */,
-				2424F6C7232CBEAF006FA89F /* manager */,
+				DB3F576C233F940700BD7141 /* JLRouter */,
+				DB3F576E233F943F00BD7141 /* manager */,
+				DB3F576F233F946B00BD7141 /* plist */,
 			);
 			path = AFORouter;
-			sourceTree = "<group>";
-		};
-		2424F6C7232CBEAF006FA89F /* manager */ = {
-			isa = PBXGroup;
-			children = (
-				24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */,
-				24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */,
-				240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */,
-				2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */,
-				2405E6041FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m */,
-				243A8D2A1FF0D100004BA1CE /* AFORouterNamesPace.h */,
-				2408BB002008624B0049060F /* AFORouterInfoplist.h */,
-				2408BB012008624B0049060F /* AFORouterInfoplist.m */,
-			);
-			name = manager;
 			sourceTree = "<group>";
 		};
 		2437D9C21FF3602A00E12235 /* Frameworks */ = {
@@ -127,7 +113,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		24E72708232CF8FA00C850C0 /* JLRouter */ = {
+		DB3F576C233F940700BD7141 /* JLRouter */ = {
 			isa = PBXGroup;
 			children = (
 				24E726F0232CF8CA00C850C0 /* JLRRouteDefinition.m */,
@@ -143,7 +129,29 @@
 				24E726FA232CF8CA00C850C0 /* JLRRouteResponse.m */,
 				24E726FB232CF8CA00C850C0 /* JLRParsingUtilities.m */,
 			);
-			name = JLRouter;
+			path = JLRouter;
+			sourceTree = "<group>";
+		};
+		DB3F576E233F943F00BD7141 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */,
+				24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */,
+				240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */,
+				2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */,
+				2405E6041FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m */,
+				243A8D2A1FF0D100004BA1CE /* AFORouterNamesPace.h */,
+				2408BB002008624B0049060F /* AFORouterInfoplist.h */,
+				2408BB012008624B0049060F /* AFORouterInfoplist.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		DB3F576F233F946B00BD7141 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +204,7 @@
 		240BAB6A1FE1238200D58435 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = AFO;
 				TargetAttributes = {
 					240BAB721FE1238200D58435 = {
@@ -266,6 +274,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -273,6 +282,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -324,6 +334,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -331,6 +342,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
