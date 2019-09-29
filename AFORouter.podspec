@@ -32,7 +32,6 @@ Pod::Spec.new do |s|
   s.subspec 'manager' do |ma|
       ma.source_files = 'AFORouter/manager/*.{h,m}' 
       ma.public_header_files = 'AFORouter/manager/*.h'
-      ma.dependency = 'router'
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
