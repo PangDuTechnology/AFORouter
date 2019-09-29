@@ -39,6 +39,6 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
   s.xcconfig = { 
-                  'HEADER_SEARCH_PATHS'=> '"$(SDKROOT)/AFORouter/JLRouter/*.h","$(SDKROOT)/AFORouter/manager/*.h"'
+                  'HEADER_SEARCH_PATHS'=> '"$(SDKROOT)/AFORouter/router/*.h","$(SDKROOT)/AFORouter/manager/*.h"'
                 }
 end
