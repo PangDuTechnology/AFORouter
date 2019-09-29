@@ -37,9 +37,9 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'plist' do |plist|
-      ma.dependency 'AFOFoundation'
-      ma.source_files = 'AFORouter/plist/*.{h,m}' 
-      ma.public_header_files = 'AFORouter/plist/*.h'
+      plist.dependency 'AFOFoundation'
+      plist.source_files = 'AFORouter/plist/*.{h,m}' 
+      plist.public_header_files = 'AFORouter/plist/*.h'
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
