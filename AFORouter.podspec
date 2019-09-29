@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'manager' do |ma|
-      ma.dependency = 'AFORouter/router'
+      ma.dependency 'AFORouter/router'
       ma.source_files = 'AFORouter/manager/*.{h,m}' 
       ma.public_header_files = 'AFORouter/manager/*.h'
   end
