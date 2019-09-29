@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				240BAB761FE1238200D58435 /* AFORouter.h */,
-				DB3F576C233F940700BD7141 /* JLRouter */,
+				DB3F576C233F940700BD7141 /* router */,
 				DB3F576E233F943F00BD7141 /* manager */,
 				DB3F576F233F946B00BD7141 /* plist */,
 			);
@@ -113,7 +113,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DB3F576C233F940700BD7141 /* JLRouter */ = {
+		DB3F576C233F940700BD7141 /* router */ = {
 			isa = PBXGroup;
 			children = (
 				24E726F8232CF8CA00C850C0 /* JLRoutes.h */,
@@ -129,7 +129,7 @@
 				24E726F5232CF8CA00C850C0 /* JLRParsingUtilities.h */,
 				24E726FB232CF8CA00C850C0 /* JLRParsingUtilities.m */,
 			);
-			path = JLRouter;
+			path = router;
 			sourceTree = "<group>";
 		};
 		DB3F576E233F943F00BD7141 /* manager */ = {

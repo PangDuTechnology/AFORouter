@@ -24,15 +24,15 @@ Pod::Spec.new do |s|
   s.source_files = 'AFORouter/AFORouter.h'
   s.public_header_files = 'AFORouter/AFORouter.h'   
 
-  s.subspec 'JLRouter' do |jl|
-      jl.source_files = 'AFORouter/JLRouter/*.{h,m}' 
-      jl.public_header_files = 'AFORouter/JLRouter/*.h' 
+  s.subspec 'router' do |jl|
+      jl.source_files = 'AFORouter/router/*.{h,m}' 
+      jl.public_header_files = 'AFORouter/router/*.h' 
   end
 
   s.subspec 'manager' do |ma|
       ma.source_files = 'AFORouter/manager/*.{h,m}' 
       ma.public_header_files = 'AFORouter/manager/*.h'
-      ma.dependency = 'JLRouter'
+      ma.dependency = 'router'
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
