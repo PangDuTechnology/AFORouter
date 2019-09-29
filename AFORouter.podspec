@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files = 'AFORouter/AFORouter.h'
   s.public_header_files = 'AFORouter/AFORouter.h'
-  
+     
   s.subspec 'JLRouter' do |jl|
       jl.source_files = 'AFORouter/JLRouter/*.{h,m}' 
       jl.public_header_files = 'AFORouter/JLRouter/*.h' 
@@ -38,5 +38,7 @@ Pod::Spec.new do |s|
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
-  
+   s.xcconfig = { 
+                  'HEADER_SEARCH_PATHS'=> '"$(SDKROOT)/AFORouter/JLRouter/*.h","$(SDKROOT)/AFORouter/manager/*.h"'
+                }
 end

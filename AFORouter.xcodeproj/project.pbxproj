@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2405E6051FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */; };
+		2405E6051FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2405E6061FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405E6041FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m */; };
-		2408BB022008624B0049060F /* AFORouterInfoplist.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB002008624B0049060F /* AFORouterInfoplist.h */; };
+		2408BB022008624B0049060F /* AFORouterInfoplist.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB002008624B0049060F /* AFORouterInfoplist.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2408BB032008624B0049060F /* AFORouterInfoplist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408BB012008624B0049060F /* AFORouterInfoplist.m */; };
 		240903BC1FF0955D0022A943 /* AFORouterManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		240BAB781FE1238200D58435 /* AFORouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 240BAB761FE1238200D58435 /* AFORouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,14 +17,14 @@
 		24CA98631FE79C0500CE9BB2 /* AFORouterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24CA98641FE79C0500CE9BB2 /* AFORouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */; };
 		24E726FC232CF8CA00C850C0 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726F0232CF8CA00C850C0 /* JLRRouteDefinition.m */; };
-		24E726FD232CF8CA00C850C0 /* JLRRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F1232CF8CA00C850C0 /* JLRRouteRequest.h */; };
+		24E726FD232CF8CA00C850C0 /* JLRRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F1232CF8CA00C850C0 /* JLRRouteRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		24E726FE232CF8CA00C850C0 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726F2232CF8CA00C850C0 /* JLRoutes.m */; };
-		24E726FF232CF8CA00C850C0 /* JLRRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F3232CF8CA00C850C0 /* JLRRouteResponse.h */; };
-		24E72700232CF8CA00C850C0 /* JLRRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F4232CF8CA00C850C0 /* JLRRouteHandler.h */; };
-		24E72701232CF8CA00C850C0 /* JLRParsingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F5232CF8CA00C850C0 /* JLRParsingUtilities.h */; };
-		24E72702232CF8CA00C850C0 /* JLRRouteDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F6232CF8CA00C850C0 /* JLRRouteDefinition.h */; };
+		24E726FF232CF8CA00C850C0 /* JLRRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F3232CF8CA00C850C0 /* JLRRouteResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		24E72700232CF8CA00C850C0 /* JLRRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F4232CF8CA00C850C0 /* JLRRouteHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		24E72701232CF8CA00C850C0 /* JLRParsingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F5232CF8CA00C850C0 /* JLRParsingUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		24E72702232CF8CA00C850C0 /* JLRRouteDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F6232CF8CA00C850C0 /* JLRRouteDefinition.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		24E72703232CF8CA00C850C0 /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726F7232CF8CA00C850C0 /* JLRRouteRequest.m */; };
-		24E72704232CF8CA00C850C0 /* JLRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F8232CF8CA00C850C0 /* JLRoutes.h */; };
+		24E72704232CF8CA00C850C0 /* JLRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E726F8232CF8CA00C850C0 /* JLRoutes.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		24E72705232CF8CA00C850C0 /* JLRRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726F9232CF8CA00C850C0 /* JLRRouteHandler.m */; };
 		24E72706232CF8CA00C850C0 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726FA232CF8CA00C850C0 /* JLRRouteResponse.m */; };
 		24E72707232CF8CA00C850C0 /* JLRParsingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726FB232CF8CA00C850C0 /* JLRParsingUtilities.m */; };
@@ -165,11 +165,11 @@
 				243A8D2B1FF0D100004BA1CE /* AFORouterNamesPace.h in Headers */,
 				240BAB781FE1238200D58435 /* AFORouter.h in Headers */,
 				24CA98631FE79C0500CE9BB2 /* AFORouterManager.h in Headers */,
+				24E72704232CF8CA00C850C0 /* JLRoutes.h in Headers */,
 				2408BB022008624B0049060F /* AFORouterInfoplist.h in Headers */,
 				24E72700232CF8CA00C850C0 /* JLRRouteHandler.h in Headers */,
 				2405E6051FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h in Headers */,
 				24E726FF232CF8CA00C850C0 /* JLRRouteResponse.h in Headers */,
-				24E72704232CF8CA00C850C0 /* JLRoutes.h in Headers */,
 				24E726FD232CF8CA00C850C0 /* JLRRouteRequest.h in Headers */,
 				24E72701232CF8CA00C850C0 /* JLRParsingUtilities.h in Headers */,
 				24E72702232CF8CA00C850C0 /* JLRRouteDefinition.h in Headers */,
@@ -385,11 +385,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/AFORouter/Framework",
-				);
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AFORouter/Framework";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -416,11 +413,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/AFORouter/Framework",
-				);
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AFORouter/Framework";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
