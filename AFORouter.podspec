@@ -35,13 +35,7 @@ Pod::Spec.new do |s|
       ma.source_files = 'AFORouter/manager/*.{h,m}' 
       ma.public_header_files = 'AFORouter/manager/*.h'
   end
-
-  s.subspec 'plist' do |plist|
-      plist.dependency 'AFOFoundation'
-      plist.source_files = 'AFORouter/plist/*.{h,m}' 
-      plist.public_header_files = 'AFORouter/plist/*.h'
-  end
-
+  
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
