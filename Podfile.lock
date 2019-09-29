@@ -1,0 +1,30 @@
+PODS:
+  - AFOFoundation (1.0.7):
+    - AFOFoundation/array (= 1.0.7)
+    - AFOFoundation/bundle (= 1.0.7)
+    - AFOFoundation/define (= 1.0.7)
+    - AFOFoundation/dictionary (= 1.0.7)
+    - AFOFoundation/sandbox (= 1.0.7)
+    - AFOFoundation/string (= 1.0.7)
+    - AFOFoundation/weak (= 1.0.7)
+  - AFOFoundation/array (1.0.7)
+  - AFOFoundation/bundle (1.0.7)
+  - AFOFoundation/define (1.0.7)
+  - AFOFoundation/dictionary (1.0.7)
+  - AFOFoundation/sandbox (1.0.7)
+  - AFOFoundation/string (1.0.7)
+  - AFOFoundation/weak (1.0.7)
+
+DEPENDENCIES:
+  - AFOFoundation
+
+SPEC REPOS:
+  trunk:
+    - AFOFoundation
+
+SPEC CHECKSUMS:
+  AFOFoundation: 984bbc3d77ca72b5fa604b879065a12c108567fb
+
+PODFILE CHECKSUM: 3a1259afdeb8f554ec20d3be4dfbe1110b8b4d49
+
+COCOAPODS: 1.8.0
