@@ -29,6 +29,8 @@
 		24E72706232CF8CA00C850C0 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726FA232CF8CA00C850C0 /* JLRRouteResponse.m */; };
 		24E72707232CF8CA00C850C0 /* JLRParsingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726FB232CF8CA00C850C0 /* JLRParsingUtilities.m */; };
 		45CAF7307F009D40F214941F /* libPods-AFORouter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1756AA9F8EA3FE32C7736FFD /* libPods-AFORouter.a */; };
+		DBE653E0234098720022B8DA /* AFOOperationRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE653DE234098720022B8DA /* AFOOperationRouter.h */; };
+		DBE653E1234098720022B8DA /* AFOOperationRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE653DF234098720022B8DA /* AFOOperationRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +71,8 @@
 		24E726F9232CF8CA00C850C0 /* JLRRouteHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteHandler.m; sourceTree = "<group>"; };
 		24E726FA232CF8CA00C850C0 /* JLRRouteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteResponse.m; sourceTree = "<group>"; };
 		24E726FB232CF8CA00C850C0 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRParsingUtilities.m; sourceTree = "<group>"; };
+		DBE653DE234098720022B8DA /* AFOOperationRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOOperationRouter.h; sourceTree = "<group>"; };
+		DBE653DF234098720022B8DA /* AFOOperationRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOOperationRouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +130,6 @@
 				128F025D38F2E2A9769FA82E /* Pods-AFORouter.debug.xcconfig */,
 				07F1DB13B8058B04FE6EA04F /* Pods-AFORouter.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -167,6 +170,8 @@
 		DB3F576F233F946B00BD7141 /* plist */ = {
 			isa = PBXGroup;
 			children = (
+				DBE653DE234098720022B8DA /* AFOOperationRouter.h */,
+				DBE653DF234098720022B8DA /* AFOOperationRouter.m */,
 			);
 			path = plist;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				24E726FF232CF8CA00C850C0 /* JLRRouteResponse.h in Headers */,
 				24E726FD232CF8CA00C850C0 /* JLRRouteRequest.h in Headers */,
 				24E72701232CF8CA00C850C0 /* JLRParsingUtilities.h in Headers */,
+				DBE653E0234098720022B8DA /* AFOOperationRouter.h in Headers */,
 				24E72702232CF8CA00C850C0 /* JLRRouteDefinition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +301,7 @@
 				24E72706232CF8CA00C850C0 /* JLRRouteResponse.m in Sources */,
 				2408BB032008624B0049060F /* AFORouterInfoplist.m in Sources */,
 				2405E6061FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m in Sources */,
+				DBE653E1234098720022B8DA /* AFOOperationRouter.m in Sources */,
 				24E726FC232CF8CA00C850C0 /* JLRRouteDefinition.m in Sources */,
 				24E72705232CF8CA00C850C0 /* JLRRouteHandler.m in Sources */,
 			);

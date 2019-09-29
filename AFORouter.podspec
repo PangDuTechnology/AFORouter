@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFORouter"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "The router."
   s.description  = 'Used to pass values between pages.'
   s.homepage     = "https://github.com/PangDuTechnology/AFORouter.git"
@@ -34,6 +34,12 @@ Pod::Spec.new do |s|
       ma.dependency 'AFOFoundation'
       ma.source_files = 'AFORouter/manager/*.{h,m}' 
       ma.public_header_files = 'AFORouter/manager/*.h'
+  end
+
+  s.subspec 'plist' do |plist|
+      ma.dependency 'AFOFoundation'
+      ma.source_files = 'AFORouter/plist/*.{h,m}' 
+      ma.public_header_files = 'AFORouter/plist/*.h'
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
