@@ -155,8 +155,8 @@
 		DB3F576E233F943F00BD7141 /* manager */ = {
 			isa = PBXGroup;
 			children = (
-				243A8D2A1FF0D100004BA1CE /* AFORouterNamesPace.h */,
 				240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */,
+				243A8D2A1FF0D100004BA1CE /* AFORouterNamesPace.h */,
 				24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */,
 				24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */,
 				2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */,
