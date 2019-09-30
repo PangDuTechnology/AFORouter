@@ -169,7 +169,7 @@
 }
 #pragma mark ------ UIApplicationDelegate
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation{
-    return [self routeURL:[self joiningTogetherUrl:url]];
+    return [self routeURL:url];
 }
 #pragma mark ------ dealloc
 - (void)dealloc{
