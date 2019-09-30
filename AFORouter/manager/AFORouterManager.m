@@ -129,25 +129,30 @@
     NSString *strResult;
     NSString *strBase = [self.strScheme stringByAppendingString:@"://"];
     strBase = [strBase stringByAppendingString:dictionary[@"modelName"]];
-    strBase = [strBase stringByAppendingString:@"/"];
     NSString *controller = dictionary[@"controller"];
     NSString *present = dictionary[@"present"];
     NSString *action = dictionary[@"action"];
     if (controller != nil && present != nil) {
-        strResult = [strBase stringByAppendingString:present];
-        strResult = [strResult stringByAppendingString:@"/"];
-        strResult = [strResult stringByAppendingString:controller];
-        strResult = [strResult stringByAppendingString:@"/"];
-        strResult = [strResult stringByAppendingString:action];
+        strResult = [[self slashString:strBase] stringByAppendingString:present];
+        strResult = [[self slashString:strResult] stringByAppendingString:controller];
+        strResult = [[self slashString:strResult] stringByAppendingString:action];
     }else{
         strResult = [strBase stringByAppendingString:controller];
-        strResult = [strResult stringByAppendingString:@"/"];
-        strResult = [strResult stringByAppendingString:action];
+        strResult = [[self slashString:strResult] stringByAppendingString:action];
     }
     if (dictionary.count > 0) {
-        strResult = [self addQueryStringToUrl:strResult params:dictionary];
+        strResult = [self addQueryStringToUrl:strResult params:[self paramesDictionary:dictionary]];
     }
     return strResult;
+}
+- (NSString *)slashString:(NSString *)baseString{
+    
+    return [baseString stringByAppendingString:@"/"];
+}
+- (NSDictionary *)paramesDictionary:(NSDictionary *)dictionary{
+    NSMutableDictionary *dic = [[NSMutableDictionary alloc] initWithDictionary:dictionary];
+    [dic removeObjectsForKeys:@[@"modelName",@"action"]];
+    return dic;
 }
 #pragma mark ------ UIApplicationDelegate
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation{
