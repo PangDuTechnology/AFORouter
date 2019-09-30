@@ -127,8 +127,9 @@
 #pragma mark ------
 - (NSString *)settingRoutesParameters:(NSDictionary *)dictionary{
     NSString *strResult;
-    NSString *strBase = [self.strScheme stringByAppendingString:@"/"];
+    NSString *strBase = [self.strScheme stringByAppendingString:@"://"];
     strBase = [strBase stringByAppendingString:dictionary[@"modelName"]];
+    strBase = [strBase stringByAppendingString:@"/"];
     NSString *controller = dictionary[@"controller"];
     NSString *present = dictionary[@"present"];
     NSString *action = dictionary[@"action"];
