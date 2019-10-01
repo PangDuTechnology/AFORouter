@@ -11,7 +11,6 @@
 #import <AFOFoundation/AFOFoundation.h>
 #import "JLRoutes.h"
 #import "AFORouterManager+StringManipulation.h"
-#import "AFORouterInfoplist.h"
 #import "AFORouterManagerDelegate.h"
 
 @interface AFORouterManager ()<AFORouterManagerDelegate,UIApplicationDelegate>
@@ -42,8 +41,8 @@
 }
 #pragma mark ------ 设置Schemes
 - (void)readRouterScheme{
-    self.strScheme = [AFORouterInfoplist readAppInfoPlistFile];
-    _routes = [JLRoutes routesForScheme:self.strScheme];
+    self.strScheme = [NSString readSchemesFromInfoPlist];
+    self.routes = [JLRoutes routesForScheme:self.strScheme];
 }
 #pragma mark ------ 添加跳转规则
 - (void)loadRotesFile{
@@ -54,7 +53,7 @@
         Class classPush = NSClassFromString(parameters[@"next"]);
         UIViewController *nextController = [[classPush alloc] init];
         nextController.hidesBottomBarWhenPushed = YES;
-        UIViewController *currentController = [self currentViewController];
+        UIViewController *currentController = [AFORouterManager currentViewController];
         [self addSenderControllerRouterManagerDelegate:nextController present:currentController parameters:parameters];
         [currentController.navigationController pushViewController:nextController animated:YES];
         return YES;
@@ -78,13 +77,34 @@
     }
 }
 #pragma mark ------ 当前Controller
-- (UIViewController *)currentViewController{
-    if ([self.rootController isKindOfClass:[UINavigationController class]]) {
-        return [self returnNavigationLastObject:self.rootController];
-    }else if ([self.rootController isKindOfClass:[UITabBarController class]]){
-        return [self returnTabBarControllerSelect:self.rootController];
+//- (UIViewController *)currentViewController{
+//    if ([self.rootController isKindOfClass:[UINavigationController class]]) {
+//        return [self returnNavigationLastObject:self.rootController];
+//    }else if ([self.rootController isKindOfClass:[UITabBarController class]]){
+//        return [self returnTabBarControllerSelect:self.rootController];
+//    }
+//    return self.rootController;
+//}
++ (UIViewController *)currentViewController {
+    UIViewController *controller = [UIApplication sharedApplication].keyWindow.rootViewController;
+    UIViewController *currentController = [self currentControllerFrom:controller];
+    return currentController;
+}
++ (UIViewController *)currentControllerFrom:(UIViewController *)controller{
+    UIViewController *currentController;
+    if ([controller presentedViewController]) {
+        UIViewController *nextController = [controller presentedViewController];
+        currentController = [self currentControllerFrom:nextController];
+    } else if ([controller isKindOfClass:[UITabBarController class]]) {
+        UIViewController *nextController = [(UITabBarController *)currentController selectedViewController];
+        currentController = [self currentControllerFrom:nextController];
+    } else if ([controller isKindOfClass:[UINavigationController class]]){
+        UIViewController *nextController = [(UINavigationController *)currentController visibleViewController];
+        currentController = [self currentControllerFrom:nextController];
+    } else {
+        currentController = controller;
     }
-    return self.rootController;
+    return currentController;
 }
 #pragma mark ------ navigation last Controller
 - (id)returnNavigationLastObject:(id)controller{

@@ -1,30 +1,35 @@
 PODS:
-  - AFOFoundation (1.0.7):
-    - AFOFoundation/array (= 1.0.7)
-    - AFOFoundation/bundle (= 1.0.7)
-    - AFOFoundation/define (= 1.0.7)
-    - AFOFoundation/dictionary (= 1.0.7)
-    - AFOFoundation/sandbox (= 1.0.7)
-    - AFOFoundation/string (= 1.0.7)
-    - AFOFoundation/weak (= 1.0.7)
-  - AFOFoundation/array (1.0.7)
-  - AFOFoundation/bundle (1.0.7)
-  - AFOFoundation/define (1.0.7)
-  - AFOFoundation/dictionary (1.0.7)
-  - AFOFoundation/sandbox (1.0.7)
-  - AFOFoundation/string (1.0.7)
-  - AFOFoundation/weak (1.0.7)
+  - AFOFoundation (1.0.8):
+    - AFOFoundation/array (= 1.0.8)
+    - AFOFoundation/bundle (= 1.0.8)
+    - AFOFoundation/define (= 1.0.8)
+    - AFOFoundation/dictionary (= 1.0.8)
+    - AFOFoundation/sandbox (= 1.0.8)
+    - AFOFoundation/string (= 1.0.8)
+    - AFOFoundation/weak (= 1.0.8)
+  - AFOFoundation/array (1.0.8)
+  - AFOFoundation/bundle (1.0.8)
+  - AFOFoundation/define (1.0.8)
+  - AFOFoundation/dictionary (1.0.8)
+  - AFOFoundation/sandbox (1.0.8)
+  - AFOFoundation/string (1.0.8)
+  - AFOFoundation/weak (1.0.8)
 
 DEPENDENCIES:
-  - AFOFoundation
+  - AFOFoundation (from `/Users/xianxueguang/Documents/GitHub/AFOFoundation`)
 
-SPEC REPOS:
-  trunk:
-    - AFOFoundation
+EXTERNAL SOURCES:
+  AFOFoundation:
+    :git: "/Users/xianxueguang/Documents/GitHub/AFOFoundation"
+
+CHECKOUT OPTIONS:
+  AFOFoundation:
+    :commit: 0e0e903002c8c86c2622bb07ad289afa466a72ba
+    :git: "/Users/xianxueguang/Documents/GitHub/AFOFoundation"
 
 SPEC CHECKSUMS:
-  AFOFoundation: 984bbc3d77ca72b5fa604b879065a12c108567fb
+  AFOFoundation: 3908d8d762ce86095d411062b3f23897c848b63e
 
-PODFILE CHECKSUM: 3a1259afdeb8f554ec20d3be4dfbe1110b8b4d49
+PODFILE CHECKSUM: 05205c3197180ca3f016da9238772cd4161da71a
 
 COCOAPODS: 1.8.0

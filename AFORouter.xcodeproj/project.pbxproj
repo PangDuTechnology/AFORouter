@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		2405E6051FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */; };
 		2405E6061FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405E6041FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m */; };
-		2408BB022008624B0049060F /* AFORouterInfoplist.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB002008624B0049060F /* AFORouterInfoplist.h */; };
-		2408BB032008624B0049060F /* AFORouterInfoplist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408BB012008624B0049060F /* AFORouterInfoplist.m */; };
 		240903BC1FF0955D0022A943 /* AFORouterManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		240BAB781FE1238200D58435 /* AFORouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 240BAB761FE1238200D58435 /* AFORouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		243A8D2B1FF0D100004BA1CE /* AFORouterNamesPace.h in Headers */ = {isa = PBXBuildFile; fileRef = 243A8D2A1FF0D100004BA1CE /* AFORouterNamesPace.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +27,15 @@
 		24E72706232CF8CA00C850C0 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726FA232CF8CA00C850C0 /* JLRRouteResponse.m */; };
 		24E72707232CF8CA00C850C0 /* JLRParsingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E726FB232CF8CA00C850C0 /* JLRParsingUtilities.m */; };
 		45CAF7307F009D40F214941F /* libPods-AFORouter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1756AA9F8EA3FE32C7736FFD /* libPods-AFORouter.a */; };
+		DB3C59ED23435E9A001AA3CB /* AFORouterActionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C59EC23435E9A001AA3CB /* AFORouterActionDelegate.h */; };
+		DB3C59F023435ED2001AA3CB /* AFORouterPushAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C59EE23435ED2001AA3CB /* AFORouterPushAction.h */; };
+		DB3C59F123435ED2001AA3CB /* AFORouterPushAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C59EF23435ED2001AA3CB /* AFORouterPushAction.m */; };
+		DB3C59F423435F3B001AA3CB /* AFORouterPresentAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C59F223435F3B001AA3CB /* AFORouterPresentAction.h */; };
+		DB3C59F523435F3B001AA3CB /* AFORouterPresentAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C59F323435F3B001AA3CB /* AFORouterPresentAction.m */; };
+		DB3C59F823436021001AA3CB /* AFORouterTypeAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C59F623436021001AA3CB /* AFORouterTypeAction.h */; };
+		DB3C59F923436021001AA3CB /* AFORouterTypeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C59F723436021001AA3CB /* AFORouterTypeAction.m */; };
+		DB3C59FC234361A3001AA3CB /* AFORouterActionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C59FA234361A3001AA3CB /* AFORouterActionContext.h */; };
+		DB3C59FD234361A3001AA3CB /* AFORouterActionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C59FB234361A3001AA3CB /* AFORouterActionContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,8 +56,6 @@
 		1756AA9F8EA3FE32C7736FFD /* libPods-AFORouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFORouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFORouterManager+StringManipulation.h"; sourceTree = "<group>"; };
 		2405E6041FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFORouterManager+StringManipulation.m"; sourceTree = "<group>"; };
-		2408BB002008624B0049060F /* AFORouterInfoplist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterInfoplist.h; sourceTree = "<group>"; };
-		2408BB012008624B0049060F /* AFORouterInfoplist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterInfoplist.m; sourceTree = "<group>"; };
 		240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFORouterManagerDelegate.h; sourceTree = "<group>"; };
 		240BAB731FE1238200D58435 /* AFORouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFORouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240BAB761FE1238200D58435 /* AFORouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouter.h; sourceTree = "<group>"; };
@@ -69,6 +74,15 @@
 		24E726F9232CF8CA00C850C0 /* JLRRouteHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteHandler.m; sourceTree = "<group>"; };
 		24E726FA232CF8CA00C850C0 /* JLRRouteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteResponse.m; sourceTree = "<group>"; };
 		24E726FB232CF8CA00C850C0 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRParsingUtilities.m; sourceTree = "<group>"; };
+		DB3C59EC23435E9A001AA3CB /* AFORouterActionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterActionDelegate.h; sourceTree = "<group>"; };
+		DB3C59EE23435ED2001AA3CB /* AFORouterPushAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterPushAction.h; sourceTree = "<group>"; };
+		DB3C59EF23435ED2001AA3CB /* AFORouterPushAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterPushAction.m; sourceTree = "<group>"; };
+		DB3C59F223435F3B001AA3CB /* AFORouterPresentAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterPresentAction.h; sourceTree = "<group>"; };
+		DB3C59F323435F3B001AA3CB /* AFORouterPresentAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterPresentAction.m; sourceTree = "<group>"; };
+		DB3C59F623436021001AA3CB /* AFORouterTypeAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterTypeAction.h; sourceTree = "<group>"; };
+		DB3C59F723436021001AA3CB /* AFORouterTypeAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterTypeAction.m; sourceTree = "<group>"; };
+		DB3C59FA234361A3001AA3CB /* AFORouterActionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterActionContext.h; sourceTree = "<group>"; };
+		DB3C59FB234361A3001AA3CB /* AFORouterActionContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterActionContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +142,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DB3C59EB23435E69001AA3CB /* action */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C59EC23435E9A001AA3CB /* AFORouterActionDelegate.h */,
+				DB3C59F623436021001AA3CB /* AFORouterTypeAction.h */,
+				DB3C59F723436021001AA3CB /* AFORouterTypeAction.m */,
+				DB3C59EE23435ED2001AA3CB /* AFORouterPushAction.h */,
+				DB3C59EF23435ED2001AA3CB /* AFORouterPushAction.m */,
+				DB3C59F223435F3B001AA3CB /* AFORouterPresentAction.h */,
+				DB3C59F323435F3B001AA3CB /* AFORouterPresentAction.m */,
+				DB3C59FA234361A3001AA3CB /* AFORouterActionContext.h */,
+				DB3C59FB234361A3001AA3CB /* AFORouterActionContext.m */,
+			);
+			path = action;
+			sourceTree = "<group>";
+		};
 		DB3F576C233F940700BD7141 /* router */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,8 +186,7 @@
 				24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */,
 				2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */,
 				2405E6041FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m */,
-				2408BB002008624B0049060F /* AFORouterInfoplist.h */,
-				2408BB012008624B0049060F /* AFORouterInfoplist.m */,
+				DB3C59EB23435E69001AA3CB /* action */,
 			);
 			path = manager;
 			sourceTree = "<group>";
@@ -172,11 +201,15 @@
 				240903BC1FF0955D0022A943 /* AFORouterManagerDelegate.h in Headers */,
 				243A8D2B1FF0D100004BA1CE /* AFORouterNamesPace.h in Headers */,
 				240BAB781FE1238200D58435 /* AFORouter.h in Headers */,
+				DB3C59ED23435E9A001AA3CB /* AFORouterActionDelegate.h in Headers */,
 				24CA98631FE79C0500CE9BB2 /* AFORouterManager.h in Headers */,
 				24E72704232CF8CA00C850C0 /* JLRoutes.h in Headers */,
-				2408BB022008624B0049060F /* AFORouterInfoplist.h in Headers */,
 				24E72700232CF8CA00C850C0 /* JLRRouteHandler.h in Headers */,
 				2405E6051FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h in Headers */,
+				DB3C59FC234361A3001AA3CB /* AFORouterActionContext.h in Headers */,
+				DB3C59F823436021001AA3CB /* AFORouterTypeAction.h in Headers */,
+				DB3C59F423435F3B001AA3CB /* AFORouterPresentAction.h in Headers */,
+				DB3C59F023435ED2001AA3CB /* AFORouterPushAction.h in Headers */,
 				24E726FF232CF8CA00C850C0 /* JLRRouteResponse.h in Headers */,
 				24E726FD232CF8CA00C850C0 /* JLRRouteRequest.h in Headers */,
 				24E72701232CF8CA00C850C0 /* JLRParsingUtilities.h in Headers */,
@@ -280,12 +313,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				24E72703232CF8CA00C850C0 /* JLRRouteRequest.m in Sources */,
+				DB3C59FD234361A3001AA3CB /* AFORouterActionContext.m in Sources */,
 				24CA98641FE79C0500CE9BB2 /* AFORouterManager.m in Sources */,
 				24E72707232CF8CA00C850C0 /* JLRParsingUtilities.m in Sources */,
+				DB3C59F123435ED2001AA3CB /* AFORouterPushAction.m in Sources */,
 				24E726FE232CF8CA00C850C0 /* JLRoutes.m in Sources */,
 				24E72706232CF8CA00C850C0 /* JLRRouteResponse.m in Sources */,
-				2408BB032008624B0049060F /* AFORouterInfoplist.m in Sources */,
 				2405E6061FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m in Sources */,
+				DB3C59F523435F3B001AA3CB /* AFORouterPresentAction.m in Sources */,
+				DB3C59F923436021001AA3CB /* AFORouterTypeAction.m in Sources */,
 				24E726FC232CF8CA00C850C0 /* JLRRouteDefinition.m in Sources */,
 				24E72705232CF8CA00C850C0 /* JLRRouteHandler.m in Sources */,
 			);
