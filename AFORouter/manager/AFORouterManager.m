@@ -44,17 +44,22 @@
     WeakObject(self);
     [self.routes addRoute:@"/:modelName/:current/:next/:action"handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
         StrongObject(self)
-        ///------
-        Class classPush = NSClassFromString(parameters[@"next"]);
-        UIViewController *nextController = [[classPush alloc] init];
-        nextController.hidesBottomBarWhenPushed = YES;
-        UIViewController *currentController = [AFORouterManager currentViewController];
-        [self addSenderControllerRouterManagerDelegate:nextController present:currentController parameters:parameters];
+        [self addSenderControllerRouterManagerDelegate:[self nextController:parameters] present:[self currentController:parameters] parameters:parameters];
         AFORouterActionContext *action = [[AFORouterActionContext alloc] initAction:parameters[@"action"]];
-        [action currentController:currentController nextController:nextController];
-//        [currentController.navigationController pushViewController:nextController animated:YES];
+        [action currentController:[self currentController:parameters] nextController:[self nextController:parameters]];
         return YES;
     }];
+}
+- (UIViewController *)currentController:(NSDictionary *)parameters{
+    Class class = NSClassFromString(parameters[@"current"]);
+    UIViewController *controller = [[class alloc] init];
+    return controller;
+}
+- (UIViewController *)nextController:(NSDictionary *)parameters{
+    Class class = NSClassFromString(parameters[@"next"]);
+    UIViewController *controller = [[class alloc] init];
+    controller.hidesBottomBarWhenPushed = YES;
+    return controller;
 }
 #pragma mark ------------
 - (void)addSenderControllerRouterManagerDelegate:(id)pushController
@@ -71,42 +76,6 @@
     ///------ 获取值
     if ([pushController respondsToSelector:@selector(didReceiverRouterManagerDelegate:parameters:)] && self.valueModel) {
         [pushController performSelector:@selector(didReceiverRouterManagerDelegate:parameters:) withObject:self.valueModel withObject:parameters];
-    }
-}
-#pragma mark ------ 当前Controller
-+ (UIViewController *)currentViewController {
-    UIViewController *controller = [UIApplication sharedApplication].keyWindow.rootViewController;
-    UIViewController *currentController = [self currentControllerFrom:controller];
-    return currentController;
-}
-+ (UIViewController *)currentControllerFrom:(UIViewController *)controller{
-    UIViewController *currentController;
-    if ([controller presentedViewController]) {
-        UIViewController *nextController = [controller presentedViewController];
-        currentController = [self currentControllerFrom:nextController];
-    } else if ([controller isKindOfClass:[UITabBarController class]]) {
-        UIViewController *nextController = [(UITabBarController *)controller selectedViewController];
-        currentController = [self currentControllerFrom:nextController];
-    } else if ([controller isKindOfClass:[UINavigationController class]]){
-        UIViewController *nextController = [(UINavigationController *)controller visibleViewController];
-        currentController = [self currentControllerFrom:nextController];
-    } else {
-        currentController = controller;
-    }
-    return currentController;
-}
-#pragma mark ------ navigation last Controller
-- (id)returnNavigationLastObject:(id)controller{
-    UINavigationController  *navigation = (UINavigationController *)controller;
-    return [[navigation viewControllers] lastObject];
-}
-#pragma mark ------ tabBarController select Controller
-- (id)returnTabBarControllerSelect:(id)controller{
-    UITabBarController *tabBar = controller;
-    if ([tabBar.selectedViewController isKindOfClass:[UINavigationController class]]) {
-        return [self returnNavigationLastObject:tabBar.selectedViewController];
-    }else{
-        return tabBar.selectedViewController;
     }
 }
 #pragma mark ------ 匹配URL
