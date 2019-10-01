@@ -12,7 +12,7 @@
 #import "JLRoutes.h"
 #import "AFORouterManager+StringManipulation.h"
 #import "AFORouterManagerDelegate.h"
-
+#import "AFORouterActionContext.h"
 @interface AFORouterManager ()<AFORouterManagerDelegate,UIApplicationDelegate>
 @property (nonatomic, strong) JLRoutes                  *routes;
 @property (nonatomic, copy)   NSString                  *strScheme;
@@ -50,7 +50,9 @@
         nextController.hidesBottomBarWhenPushed = YES;
         UIViewController *currentController = [AFORouterManager currentViewController];
         [self addSenderControllerRouterManagerDelegate:nextController present:currentController parameters:parameters];
-        [currentController.navigationController pushViewController:nextController animated:YES];
+        AFORouterActionContext *action = [[AFORouterActionContext alloc] initAction:parameters[@"action"]];
+        [action currentController:currentController nextController:nextController];
+//        [currentController.navigationController pushViewController:nextController animated:YES];
         return YES;
     }];
 }

@@ -1,5 +1,5 @@
 //
-//  AFORouterActionContext.h
+//  AFORouterActionDelegate.h
 //  AFORouter
 //
 //  Created by xianxueguang on 2019/10/1.
@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-@interface AFORouterActionContext : NSObject
-- (instancetype)initAction:(NSString *)strAction;
-- (void)viewControllerAction;
+
+@protocol AFORouterActionDelegate <NSObject>
+- (void)currentController:(UIViewController *)current
+           nextController:(UIViewController *)next;
 @end
 
 NS_ASSUME_NONNULL_END

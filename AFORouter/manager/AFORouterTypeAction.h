@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "AFORouterTypeAction.h"
 #import "AFORouterActionDelegate.h"
 NS_ASSUME_NONNULL_BEGIN

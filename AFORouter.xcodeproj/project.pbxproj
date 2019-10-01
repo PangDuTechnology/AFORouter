@@ -142,7 +142,7 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		DB3C59EB23435E69001AA3CB /* action */ = {
+		DB30B47F2343989A0076594E /* action */ = {
 			isa = PBXGroup;
 			children = (
 				DB3C59EC23435E9A001AA3CB /* AFORouterActionDelegate.h */,
@@ -155,7 +155,7 @@
 				DB3C59FA234361A3001AA3CB /* AFORouterActionContext.h */,
 				DB3C59FB234361A3001AA3CB /* AFORouterActionContext.m */,
 			);
-			path = action;
+			name = action;
 			sourceTree = "<group>";
 		};
 		DB3F576C233F940700BD7141 /* router */ = {
@@ -186,7 +186,7 @@
 				24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */,
 				2405E6031FEA565A00BAFF97 /* AFORouterManager+StringManipulation.h */,
 				2405E6041FEA565A00BAFF97 /* AFORouterManager+StringManipulation.m */,
-				DB3C59EB23435E69001AA3CB /* action */,
+				DB30B47F2343989A0076594E /* action */,
 			);
 			path = manager;
 			sourceTree = "<group>";

@@ -10,7 +10,8 @@
 
 @implementation AFORouterTypeAction
 #pragma mark ------ AFORouterActionDelegate
-- (void)viewControllerActionDelegate{
+- (void)currentController:(UIViewController *)current
+           nextController:(UIViewController *)next{
     
 }
 @end

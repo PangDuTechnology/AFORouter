@@ -13,8 +13,9 @@
 
 @implementation AFORouterPushAction
 #pragma mark ------ AFORouterActionDelegate
-- (void)viewControllerActionDelegate{
-    
+- (void)currentController:(UIViewController *)current
+           nextController:(UIViewController *)next{
+    next.hidesBottomBarWhenPushed = YES;
+    [current.navigationController pushViewController:next animated:YES];
 }
-
 @end
