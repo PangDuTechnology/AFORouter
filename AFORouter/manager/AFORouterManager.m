@@ -54,10 +54,10 @@
 #pragma mark ------ 添加跳转规则
 - (void)loadRotesFile{
     WeakObject(self);
-    [self.routes addRoute:@"/push/:presentController/:pushController"handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+    [self.routes addRoute:@"/modelName/:start/:next/:action"handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
         StrongObject(self)
         ///------
-        Class classPush = NSClassFromString(parameters[@"pushController"]);
+        Class classPush = NSClassFromString(parameters[@"present"]);
         UIViewController *nextController = [[classPush alloc] init];
         nextController.hidesBottomBarWhenPushed = YES;
         UIViewController *currentController = [self currentViewController];
