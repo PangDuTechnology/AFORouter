@@ -32,12 +32,6 @@
     return shareInstance;
 }
 #pragma mark ------
-+ (void)initialize{
-    if (self == [AFORouterManager class]) {
-//        [self loadNotification];
-    }
-}
-#pragma mark ------
 + (void)loadNotification{
     [[AFORouterManager shareInstance] readRouterScheme];
     [[AFORouterManager shareInstance] loadRotesFile];
@@ -54,7 +48,7 @@
 #pragma mark ------ 添加跳转规则
 - (void)loadRotesFile{
     WeakObject(self);
-    [self.routes addRoute:@"/modelName/:start/:next/:action"handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+    [self.routes addRoute:@"/:modelName/:start/:next/:action"handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
         StrongObject(self)
         ///------
         Class classPush = NSClassFromString(parameters[@"present"]);
