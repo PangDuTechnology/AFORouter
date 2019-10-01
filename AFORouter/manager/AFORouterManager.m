@@ -96,10 +96,10 @@
         UIViewController *nextController = [controller presentedViewController];
         currentController = [self currentControllerFrom:nextController];
     } else if ([controller isKindOfClass:[UITabBarController class]]) {
-        UIViewController *nextController = [(UITabBarController *)currentController selectedViewController];
+        UIViewController *nextController = [(UITabBarController *)controller selectedViewController];
         currentController = [self currentControllerFrom:nextController];
     } else if ([controller isKindOfClass:[UINavigationController class]]){
-        UIViewController *nextController = [(UINavigationController *)currentController visibleViewController];
+        UIViewController *nextController = [(UINavigationController *)controller visibleViewController];
         currentController = [self currentControllerFrom:nextController];
     } else {
         currentController = controller;
