@@ -34,7 +34,7 @@
 #pragma mark ------
 + (void)initialize{
     if (self == [AFORouterManager class]) {
-        [self loadNotification];
+//        [self loadNotification];
     }
 }
 #pragma mark ------
@@ -154,20 +154,11 @@
     [dic removeObjectsForKeys:@[@"modelName",@"action",@"present"]];
     return dic;
 }
--(NSDictionary *)convertToDictionary:(NSString *)jsonStr{
-    NSData *data = [jsonStr dataUsingEncoding:NSUTF8StringEncoding];
-    NSDictionary *tempDic = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-    
-    return tempDic;
-}
-- (NSURL *)joiningTogetherUrl:(NSURL *)url{
-    NSString *baseString = [url absoluteString];
-    NSDictionary *dictionary = [self convertToDictionary:baseString];
-    NSString *urlString = [self settingRoutesParameters:dictionary];
-    NSURL *router = [[NSURL alloc] initWithString:urlString];
-    return router;
-}
 #pragma mark ------ UIApplicationDelegate
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [AFORouterManager loadNotification];
+    return YES;
+}
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation{
     return [self routeURL:url];
 }
