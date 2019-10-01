@@ -32,9 +32,9 @@
     return shareInstance;
 }
 #pragma mark ------
-+ (void)loadNotification{
-    [[AFORouterManager shareInstance] readRouterScheme];
-    [[AFORouterManager shareInstance] loadRotesFile];
+- (void)loadNotification{
+    [self readRouterScheme];
+    [self loadRotesFile];
 }
 #pragma mark ------ 获取RooterController
 - (void)settingRooterController:(id)controller{
@@ -150,7 +150,7 @@
 }
 #pragma mark ------ UIApplicationDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [AFORouterManager loadNotification];
+    [self loadNotification];
     return YES;
 }
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation{
