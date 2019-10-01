@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AFORouterPushAction : NSObject
+@interface AFORouterPushAction : AFORouterTypeAction
 
 @end
 
