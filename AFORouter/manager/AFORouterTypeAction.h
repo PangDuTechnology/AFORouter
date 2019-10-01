@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "AFORouterTypeAction.h"
-#import "AFORouterActionDelegate.h"
 NS_ASSUME_NONNULL_BEGIN
 @interface AFORouterTypeAction : NSObject
-@property (nonatomic, weak) id<AFORouterActionDelegate> delegate;
+- (void)currentController:(UIViewController *)current
+           nextController:(UIViewController *)next;
 @end
 
 NS_ASSUME_NONNULL_END

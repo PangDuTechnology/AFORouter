@@ -25,8 +25,8 @@
            nextController:(UIViewController *)next{
     Class class = NSClassFromString(self.actionDic[self.strAction]);
     self.action = [[class alloc] init];
-    if ([self.action.delegate respondsToSelector:@selector(currentController:nextController:)]) {
-        [self.action.delegate currentController:current nextController:next];
+    if ([self.action respondsToSelector:@selector(currentController:nextController:)]) {
+        [self.action currentController:current nextController:next];
     }
 }
 #pragma mark ------ property
