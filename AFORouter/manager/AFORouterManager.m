@@ -16,7 +16,6 @@
 @interface AFORouterManager ()<AFORouterManagerDelegate,UIApplicationDelegate>
 @property (nonatomic, strong) JLRoutes                  *routes;
 @property (nonatomic, copy)   NSString                  *strScheme;
-@property (nonatomic, strong)       id                   rootController;
 @property (nonatomic, strong)       id                   valueModel;
 @end
 
@@ -34,10 +33,6 @@
 - (void)loadNotification{
     [self readRouterScheme];
     [self loadRotesFile];
-}
-#pragma mark ------ 获取RooterController
-- (void)settingRooterController:(id)controller{
-    self.rootController = controller;
 }
 #pragma mark ------ 设置Schemes
 - (void)readRouterScheme{
@@ -77,14 +72,6 @@
     }
 }
 #pragma mark ------ 当前Controller
-//- (UIViewController *)currentViewController{
-//    if ([self.rootController isKindOfClass:[UINavigationController class]]) {
-//        return [self returnNavigationLastObject:self.rootController];
-//    }else if ([self.rootController isKindOfClass:[UITabBarController class]]){
-//        return [self returnTabBarControllerSelect:self.rootController];
-//    }
-//    return self.rootController;
-//}
 + (UIViewController *)currentViewController {
     UIViewController *controller = [UIApplication sharedApplication].keyWindow.rootViewController;
     UIViewController *currentController = [self currentControllerFrom:controller];
@@ -181,10 +168,4 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 #pragma mark ------ property
-- (UIViewController *)rootController{
-    if (!_rootController) {
-        _rootController = [[UIViewController alloc]init];
-    }
-    return _rootController;
-}
 @end

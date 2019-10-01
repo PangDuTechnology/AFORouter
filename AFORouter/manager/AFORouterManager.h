@@ -53,12 +53,6 @@
 - (NSString *)settingPushControllerRouter:(id)controller
                                   present:(id)present
                                    params:(NSDictionary *)dictionary;
-/**
- <#Description#>
-
- @param controller <#controller description#>
- */
-- (void)settingRooterController:(id)controller;
 
 /**
  <#Description#>
