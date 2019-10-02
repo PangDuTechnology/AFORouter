@@ -11,13 +11,11 @@
 #import <AFOUIKIT/UIViewController+CurrentController.h>
 #import <AFOFoundation/AFOFoundation.h>
 #import "JLRoutes.h"
-#import "AFORouterManager+StringManipulation.h"
 #import "AFORouterManagerDelegate.h"
 #import "AFORouterActionContext.h"
 @interface AFORouterManager ()<AFORouterManagerDelegate,UIApplicationDelegate>
 @property (nonatomic, strong) JLRoutes                  *routes;
 @property (nonatomic, copy)   NSString                  *strScheme;
-@property (nonatomic, strong)       id                   valueModel;
 @end
 
 @implementation AFORouterManager
@@ -56,40 +54,9 @@
     controller.hidesBottomBarWhenPushed = YES;
     return controller;
 }
-#pragma mark ------------
-- (void)addSenderControllerRouterManagerDelegate:(id)pushController
-                                         present:(id)presentController
-                                      parameters:(NSDictionary *)parameters{
-    ///------ 传递值
-    if ([presentController respondsToSelector:@selector(didSenderRouterManagerDelegate)]) {
-        self.valueModel = [presentController performSelector:@selector(didSenderRouterManagerDelegate)];
-    }
-    ///------ 获取值
-    if ([pushController respondsToSelector:@selector(didReceiverRouterManagerDelegate:)]) {
-        [pushController performSelector:@selector(didReceiverRouterManagerDelegate:) withObject:parameters];
-    }
-    ///------ 获取值
-    if ([pushController respondsToSelector:@selector(didReceiverRouterManagerDelegate:parameters:)] && self.valueModel) {
-        [pushController performSelector:@selector(didReceiverRouterManagerDelegate:parameters:) withObject:self.valueModel withObject:parameters];
-    }
-}
 #pragma mark ------ 匹配URL
 - (BOOL)routeURL:(NSURL *)url{
     return [self.routes routeURL:url];
-}
-#pragma mark ------ 不带参数URL
-- (NSString *)settingPushControllerRouter:(id)controller{
-    return [self settingPushControllerRouter:controller scheme:self.strScheme params:nil];
-}
-#pragma mark ------ 带参数URL
-- (NSString *)settingPushControllerRouter:(id)controller params:(NSDictionary *)dictionary{
-    return [self settingPushControllerRouter:controller scheme:self.strScheme params:dictionary];
-}
-#pragma mark ------
-- (NSString *)settingPushControllerRouter:(id)controller
-                                  present:(id)present
-                                   params:(NSDictionary *)dictionary{
-    return [self settingPushControllerRouter:controller present:present scheme:self.strScheme params:dictionary];
 }
 #pragma mark ------ UIApplicationDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
