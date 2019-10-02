@@ -111,8 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				240BAB761FE1238200D58435 /* AFORouter.h */,
-				DB3F576C233F940700BD7141 /* router */,
 				DB3F576E233F943F00BD7141 /* manager */,
+				DB3F576C233F940700BD7141 /* router */,
 			);
 			path = AFORouter;
 			sourceTree = "<group>";
