@@ -12,7 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface AFORouterActionContext : NSObject
 - (instancetype)initAction:(NSString *)strAction;
 - (void)currentController:(UIViewController *)current
-           nextController:(UIViewController *)next;
+           nextController:(UIViewController *)next
+                parameter:(NSDictionary *)paramenter;
 @end
 
 NS_ASSUME_NONNULL_END

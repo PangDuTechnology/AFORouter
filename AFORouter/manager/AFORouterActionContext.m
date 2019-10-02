@@ -22,11 +22,12 @@
     return self;
 }
 - (void)currentController:(UIViewController *)current
-           nextController:(UIViewController *)next{
+           nextController:(UIViewController *)next
+                parameter:(nonnull NSDictionary *)paramenter{
     Class class = NSClassFromString(self.actionDic[self.strAction]);
     self.action = [[class alloc] init];
-    if ([self.action respondsToSelector:@selector(currentController:nextController:)]) {
-        [self.action currentController:current nextController:next];
+    if ([self.action respondsToSelector:@selector(currentController:nextController: parameter:)]) {
+        [self.action performSelector:@selector(currentController:nextController: parameter:) withObject:paramenter];
     }
 }
 #pragma mark ------ property
