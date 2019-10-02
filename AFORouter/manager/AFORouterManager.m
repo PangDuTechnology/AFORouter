@@ -45,8 +45,8 @@
     WeakObject(self);
     [self.routes addRoute:@"/:modelName/:current/:next/:action"handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
         StrongObject(self)
-        [self addSenderControllerRouterManagerDelegate:[self nextController:parameters] present:[UIViewController currentViewController] parameters:parameters];
         AFORouterActionContext *action = [[AFORouterActionContext alloc] initAction:parameters[@"action"]];
+        [self addSenderControllerRouterManagerDelegate:[self nextController:parameters] present:[UIViewController currentViewController] parameters:parameters];
         [action currentController:[UIViewController currentViewController] nextController:[self nextController:parameters]];
         return YES;
     }];
