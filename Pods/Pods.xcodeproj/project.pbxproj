@@ -7,37 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B2C6222D0D34EC3C75EAFA344B7C7E /* Pods-AFORouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4DE68C8A376991161FBACED06E77B /* Pods-AFORouter-dummy.m */; };
-		1C017D7C52B4195A65749927D6A995D5 /* NSString+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC03DB372E94DDD86BCDE23432BB68A /* NSString+Dictionary.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3569096D6A1A68F146977DB335EF71E2 /* NSMutableArray+AFOAbnormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02EF8AE3FA85DF036F3B0FFC6B0DF1 /* NSMutableArray+AFOAbnormal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3F55375A88D0635A757325F3CB364477 /* NSString+URLSchemes.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F5846E11B77AA56E982E3D7B4FD0A2 /* NSString+URLSchemes.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4082B73DE875D07DD2B7793B654CBD4E /* NSBundle+AFOCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D2435FC4EE652183C8DADC1E9D4FAD /* NSBundle+AFOCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		473DFA5F7AC3FC2C68D9D804E13E93A4 /* NSDictionary+AFOAbnormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CF235A60001348B90535F351B639E2 /* NSDictionary+AFOAbnormal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		48565E24AFAB5A582663B13B815B1FA4 /* NSMutableDictionary+AFOAbnormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D806E586F409B68BDFFB169C2C47B74 /* NSMutableDictionary+AFOAbnormal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		50A0828A3986FE7B3869127DF673EB37 /* NSArray+AFOAbnormal.m in Sources */ = {isa = PBXBuildFile; fileRef = EE028BBDD2F4B326A92D53508730AEE7 /* NSArray+AFOAbnormal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		54E18036E8988F4A4C2BEBDE967010C6 /* AFOMacroDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0023ACA08066CABD16CFD69EEDDF9A5F /* AFOMacroDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6938462BBB0E34523FDFBCF642630BD4 /* NSString+URLSchemes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8ECE65EE37B731313FC122845FF7B0 /* NSString+URLSchemes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6C8CB2CC3AA8897B5005994DDC73537E /* NSFileManager+AFOOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0A814CDAE35A414031B374E8C2774 /* NSFileManager+AFOOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6F22CD64DB4494D2E8DF8EE9626A9792 /* NSFileManager+AFOSandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 87675948CB439F7FBA6F666AEFE3F939 /* NSFileManager+AFOSandBox.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		86AE52F5811ACF2681B5EF557F49F440 /* NSString+Formatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 820F13C2AE80A1ACE654BA304CC8504C /* NSString+Formatting.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		88999BD4DE665EC92E5B89EF8C465D2F /* NSArray+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0526AFFA2BAE8495E0A4E29B44B88500 /* NSArray+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8E2BC598ECBC5AA987DCC71A84768C63 /* AFOFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BACD05FAACD60ACE6AD465BAA0D493 /* AFOFoundation-dummy.m */; };
-		8FDB17919C5F9DD145FEC748182290EE /* NSFileManager+AFOSandBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D7D0187EF0C2B927EEA819FC67DB9C /* NSFileManager+AFOSandBox.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		942752625206A9B5C2263CFA81EAD68C /* NSString+URLParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A46BAD2BC0BE6FFB995DD5F4E5CC0C /* NSString+URLParameter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9C6DB3984B4A3EF79E516EB0A23BE08E /* NSString+Formatting.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E7D027F9B558EA12D03A0317EDE7FF /* NSString+Formatting.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9D3F003893F4225DC8266A0C8A90F836 /* AFOFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B27BE9806DC123BA62C77022B133A189 /* AFOFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A722D516B9140B43C46F680F8FE23AAA /* AFOWeakInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB4DF539BF4F3D865A9320E92DABB6F /* AFOWeakInstance.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B35BF17756399B1239972C077E14595B /* NSString+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDE9B5A24667B5C382685AD0A065C7F /* NSString+Dictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C1789DC11D63C4F1628F525156B92082 /* NSDictionary+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F419745CAB519C113066C2AEBD7ECB /* NSDictionary+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C6FA8A61CE10B48B4FD9C4EF62CF14D5 /* NSBundle+AFOCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B4020DD2769845295A4D079B3B79B6A3 /* NSBundle+AFOCategory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EB216A146B4DBC9401E82A19D0B021BB /* NSFileManager+AFOOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A9AA9C2F44AEE6140B410F3E93AD8D /* NSFileManager+AFOOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EDCD822CB17E7661A0A17E6E92409413 /* NSMutableArray+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A903439F4F821B4E36EA1FBB7411D3 /* NSMutableArray+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE05A825A4BB2FE966E7DFBD44FB92BA /* NSMutableDictionary+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8653D3BBB50920119B0AE522D3E672EF /* NSMutableDictionary+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FF12CE6D03D7B1FA7B57C31ED2B77D56 /* NSString+URLParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DB3EB573F5D8A08EDACA70AA178E2B /* NSString+URLParameter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		013C8D24BEE4A5EB4DF3A31CDF99F9C6 /* AFOWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B9BA97765C2276331B888B95BBD4BE /* AFOWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B025A06B4B1D53F6B6DDAA9C6FA75DE /* Pods-AFORouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4DE68C8A376991161FBACED06E77B /* Pods-AFORouter-dummy.m */; };
+		1C017D7C52B4195A65749927D6A995D5 /* NSString+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBB46AABBF5392E129CB6A9C5E9EA55 /* NSString+Dictionary.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		248AD228EAFB91F2FCAC9F05C8C854FF /* AFOTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BC55B8EBC577B0CA52347604B66AEC /* AFOTabBarController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3569096D6A1A68F146977DB335EF71E2 /* NSMutableArray+AFOAbnormal.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FE13A861F2AB39FEBD6AE6AC4AE80E /* NSMutableArray+AFOAbnormal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3BB5A2D7015E33540D136452F57381EF /* AFOWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD7F796DC4175E971FC150AC6230233 /* AFOWindow.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3F55375A88D0635A757325F3CB364477 /* NSString+URLSchemes.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2C6A99F8C4B58F7C365914CE54BDE /* NSString+URLSchemes.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4082B73DE875D07DD2B7793B654CBD4E /* NSBundle+AFOCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A23CF76EE45E9CEE2DD68CFDA378D37 /* NSBundle+AFOCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		473DFA5F7AC3FC2C68D9D804E13E93A4 /* NSDictionary+AFOAbnormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F572A059952FA7FF9E0562408B488A /* NSDictionary+AFOAbnormal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		48565E24AFAB5A582663B13B815B1FA4 /* NSMutableDictionary+AFOAbnormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199EAD9B2EC3C70728A458B9FE12A49 /* NSMutableDictionary+AFOAbnormal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		48D7336A17417BEBB8A289310B059155 /* AFOCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 790A071BD4B06421AE3D57B6F0AA2C8B /* AFOCollectionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49220AABA3865A9CDBEBAEDBFE0E556A /* AFOUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D8DF6F6B88106FE031D6F5288BAC57CC /* AFOUIKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C70BBE94840B777559A1AA26FF9FC01 /* AFOCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5BBC8F3042DDF6C4EB7EC9D376AE90 /* AFOCollectionViewLayout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4D8B82CA6DF903437BBF60CA01044EA9 /* AFOUIKIT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2302D63E52E9ED34E81D38154CA4A9E7 /* AFOUIKIT-dummy.m */; };
+		50A0828A3986FE7B3869127DF673EB37 /* NSArray+AFOAbnormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E8E9F36136A3AB7FADD72EB02A96C4 /* NSArray+AFOAbnormal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5440C71AC3B8834CB5328CC5BDF9F4CC /* AFONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19BA910CCF474A2184EBB9C2C0C7A19 /* AFONavigationController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		54E18036E8988F4A4C2BEBDE967010C6 /* AFOMacroDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4D6CA29BF23F17C7E5989CB0502D33 /* AFOMacroDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6938462BBB0E34523FDFBCF642630BD4 /* NSString+URLSchemes.h in Headers */ = {isa = PBXBuildFile; fileRef = 98398C6A683F5F7EB9F4CE83904FCBA3 /* NSString+URLSchemes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C8CB2CC3AA8897B5005994DDC73537E /* NSFileManager+AFOOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD24F6410E5828FC08FE99CBBFC22BD /* NSFileManager+AFOOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6F22CD64DB4494D2E8DF8EE9626A9792 /* NSFileManager+AFOSandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A8759A7F7B472F633BBD3A5D6462FCCC /* NSFileManager+AFOSandBox.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6FABFE71F1EEB625B205F47A12EB9C16 /* AFOCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A67FBCCB91C68EBD5CE598B89DA34BC /* AFOCollectionView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		86AE52F5811ACF2681B5EF557F49F440 /* NSString+Formatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 557564EB34C190CA0D9703A270170FB0 /* NSString+Formatting.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		88999BD4DE665EC92E5B89EF8C465D2F /* NSArray+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = D6438265DE52C7ACA945F62255F2324B /* NSArray+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E2BC598ECBC5AA987DCC71A84768C63 /* AFOFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78439C180E241B08FB9D39C30A198110 /* AFOFoundation-dummy.m */; };
+		8FDB17919C5F9DD145FEC748182290EE /* NSFileManager+AFOSandBox.h in Headers */ = {isa = PBXBuildFile; fileRef = A71AE4BD7D2C6A3C9ED216214464F8FE /* NSFileManager+AFOSandBox.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		942752625206A9B5C2263CFA81EAD68C /* NSString+URLParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = A85F045B49D5D7342350674D7B231635 /* NSString+URLParameter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C6DB3984B4A3EF79E516EB0A23BE08E /* NSString+Formatting.h in Headers */ = {isa = PBXBuildFile; fileRef = B15DB85B1CA29D2F9BE04E1450CDD78A /* NSString+Formatting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D3F003893F4225DC8266A0C8A90F836 /* AFOFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = AD696F9E26A890415968674886CCE4D9 /* AFOFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A722D516B9140B43C46F680F8FE23AAA /* AFOWeakInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 08C603DE16A153B788C4F0EDE88817B1 /* AFOWeakInstance.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B19D3741258FD401E73B2288FD3836B5 /* UIViewController+CurrentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B61CEDEB74DB4071D0D890D66A8BD47 /* UIViewController+CurrentController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B35BF17756399B1239972C077E14595B /* NSString+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D126A78855DB517ACA4F40FFF0FD38A /* NSString+Dictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5A2BC6189C188D5AC11249A71743323 /* AFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF1FD166D18A57359987AF703007FD /* AFOViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C040A916DCF8B7D605595BA1E6E5C54E /* UIViewController+CurrentController.h in Headers */ = {isa = PBXBuildFile; fileRef = 076AB77442F50593CE1E221B30C7AACA /* UIViewController+CurrentController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1789DC11D63C4F1628F525156B92082 /* NSDictionary+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = 35013E1DCF07E2F9F48CA1FAC25730C2 /* NSDictionary+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6FA8A61CE10B48B4FD9C4EF62CF14D5 /* NSBundle+AFOCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D29108D23F266E512ECD6E1DAFCBA /* NSBundle+AFOCategory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CB83D27E9C4D2D421A00F1F3514789C5 /* AFOViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDECCE9796AF9E2043E4228D9AEEC7F /* AFOViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE3B35CF16512226684644DA3215F542 /* AFOTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E3B9C9D0D6978E47DC83F2CB353B2A /* AFOTabBarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB216A146B4DBC9401E82A19D0B021BB /* NSFileManager+AFOOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7232D8F72B62FBBF9DDEE29C68261D /* NSFileManager+AFOOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDCD822CB17E7661A0A17E6E92409413 /* NSMutableArray+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = E504CB59F9C9C66C849C1D7242EA7F6C /* NSMutableArray+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE05A825A4BB2FE966E7DFBD44FB92BA /* NSMutableDictionary+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3EADC326CAE688291D8B00BAD465F6 /* NSMutableDictionary+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F99D8D973BE1A2DB3FF7F61A7A867DCF /* AFONavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2C36248BCA0918B842717D03D5D919 /* AFONavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB6E943F8F099502FE3D9EF84D3C1498 /* AFOCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8F68506025691617245F8F9DFCB0F9 /* AFOCollectionViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF12CE6D03D7B1FA7B57C31ED2B77D56 /* NSString+URLParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ADBC5216A912D85B2ABF1526B6DE1F /* NSString+URLParameter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E95819F24743F27FF305C27CD3C4907D /* PBXContainerItemProxy */ = {
+		71AAE672C2D26027B3BFF587A0521F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6ED1F81EC081CA8059D773C0580E3E3;
+			remoteInfo = AFOUIKIT;
+		};
+		C9D3C99FC909B639A5775517F993CCE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -47,46 +70,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0023ACA08066CABD16CFD69EEDDF9A5F /* AFOMacroDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOMacroDefinition.h; path = AFOFoundation/define/AFOMacroDefinition.h; sourceTree = "<group>"; };
-		002D0DD98C7224E3D85A76C59471482B /* AFOFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFOFoundation.xcconfig; sourceTree = "<group>"; };
-		01A46BAD2BC0BE6FFB995DD5F4E5CC0C /* NSString+URLParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLParameter.h"; path = "AFOFoundation/string/NSString+URLParameter.h"; sourceTree = "<group>"; };
-		0526AFFA2BAE8495E0A4E29B44B88500 /* NSArray+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+AFOAbnormal.h"; path = "AFOFoundation/array/NSArray+AFOAbnormal.h"; sourceTree = "<group>"; };
+		076AB77442F50593CE1E221B30C7AACA /* UIViewController+CurrentController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CurrentController.h"; path = "AFOUIKIT/viewController/UIViewController+CurrentController.h"; sourceTree = "<group>"; };
+		08C603DE16A153B788C4F0EDE88817B1 /* AFOWeakInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOWeakInstance.h; path = AFOFoundation/weak/AFOWeakInstance.h; sourceTree = "<group>"; };
+		09ADBC5216A912D85B2ABF1526B6DE1F /* NSString+URLParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLParameter.m"; path = "AFOFoundation/string/NSString+URLParameter.m"; sourceTree = "<group>"; };
 		0BF4DE68C8A376991161FBACED06E77B /* Pods-AFORouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFORouter-dummy.m"; sourceTree = "<group>"; };
-		14A903439F4F821B4E36EA1FBB7411D3 /* NSMutableArray+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+AFOAbnormal.h"; path = "AFOFoundation/array/NSMutableArray+AFOAbnormal.h"; sourceTree = "<group>"; };
-		1BB4DF539BF4F3D865A9320E92DABB6F /* AFOWeakInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOWeakInstance.h; path = AFOFoundation/weak/AFOWeakInstance.h; sourceTree = "<group>"; };
+		18B9BA97765C2276331B888B95BBD4BE /* AFOWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOWindow.h; path = AFOUIKIT/AFOWindow.h; sourceTree = "<group>"; };
 		1E86058C67AAACCF8D2A7DE5AE932EF5 /* Pods-AFORouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFORouter.debug.xcconfig"; sourceTree = "<group>"; };
-		37E7D027F9B558EA12D03A0317EDE7FF /* NSString+Formatting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Formatting.h"; path = "AFOFoundation/string/NSString+Formatting.h"; sourceTree = "<group>"; };
-		38F5846E11B77AA56E982E3D7B4FD0A2 /* NSString+URLSchemes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLSchemes.m"; path = "AFOFoundation/string/NSString+URLSchemes.m"; sourceTree = "<group>"; };
-		41D2435FC4EE652183C8DADC1E9D4FAD /* NSBundle+AFOCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+AFOCategory.h"; path = "AFOFoundation/bundle/NSBundle+AFOCategory.h"; sourceTree = "<group>"; };
+		2302D63E52E9ED34E81D38154CA4A9E7 /* AFOUIKIT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFOUIKIT-dummy.m"; sourceTree = "<group>"; };
+		23B971A6FA00788501EAB4B80ACF13A1 /* AFOFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFOFoundation.xcconfig; sourceTree = "<group>"; };
+		23BF1FD166D18A57359987AF703007FD /* AFOViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOViewController.m; path = AFOUIKIT/AFOViewController.m; sourceTree = "<group>"; };
+		30E8E9F36136A3AB7FADD72EB02A96C4 /* NSArray+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+AFOAbnormal.m"; path = "AFOFoundation/array/NSArray+AFOAbnormal.m"; sourceTree = "<group>"; };
+		35013E1DCF07E2F9F48CA1FAC25730C2 /* NSDictionary+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AFOAbnormal.h"; path = "AFOFoundation/dictionary/NSDictionary+AFOAbnormal.h"; sourceTree = "<group>"; };
+		3B61CEDEB74DB4071D0D890D66A8BD47 /* UIViewController+CurrentController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CurrentController.m"; path = "AFOUIKIT/viewController/UIViewController+CurrentController.m"; sourceTree = "<group>"; };
+		3C6B9ADF1FA8F5B575B877160A0D5FAF /* AFOUIKIT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFOUIKIT-prefix.pch"; sourceTree = "<group>"; };
 		43BEECC953DE9AE800FF0B4B8EBF337D /* libPods-AFORouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AFORouter.a"; path = "libPods-AFORouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D806E586F409B68BDFFB169C2C47B74 /* NSMutableDictionary+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+AFOAbnormal.m"; path = "AFOFoundation/dictionary/NSMutableDictionary+AFOAbnormal.m"; sourceTree = "<group>"; };
+		44E2C6A99F8C4B58F7C365914CE54BDE /* NSString+URLSchemes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLSchemes.m"; path = "AFOFoundation/string/NSString+URLSchemes.m"; sourceTree = "<group>"; };
+		4D126A78855DB517ACA4F40FFF0FD38A /* NSString+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Dictionary.h"; path = "AFOFoundation/string/NSString+Dictionary.h"; sourceTree = "<group>"; };
 		4EB0959E61EAC889D51F90641FD082AC /* libAFOFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOFoundation.a; path = libAFOFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FEFCB8D425024F46984A729ADC95281 /* AFOFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFOFoundation-prefix.pch"; sourceTree = "<group>"; };
-		58BACD05FAACD60ACE6AD465BAA0D493 /* AFOFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFOFoundation-dummy.m"; sourceTree = "<group>"; };
+		4F5D29108D23F266E512ECD6E1DAFCBA /* NSBundle+AFOCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+AFOCategory.m"; path = "AFOFoundation/bundle/NSBundle+AFOCategory.m"; sourceTree = "<group>"; };
+		52F572A059952FA7FF9E0562408B488A /* NSDictionary+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AFOAbnormal.m"; path = "AFOFoundation/dictionary/NSDictionary+AFOAbnormal.m"; sourceTree = "<group>"; };
+		557564EB34C190CA0D9703A270170FB0 /* NSString+Formatting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Formatting.m"; path = "AFOFoundation/string/NSString+Formatting.m"; sourceTree = "<group>"; };
+		5F2C36248BCA0918B842717D03D5D919 /* AFONavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFONavigationController.h; path = AFOUIKIT/AFONavigationController.h; sourceTree = "<group>"; };
 		6146DD76FA2FD8C50F31BC41871B0D44 /* Pods-AFORouter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFORouter-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6E8ECE65EE37B731313FC122845FF7B0 /* NSString+URLSchemes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLSchemes.h"; path = "AFOFoundation/string/NSString+URLSchemes.h"; sourceTree = "<group>"; };
-		75A9AA9C2F44AEE6140B410F3E93AD8D /* NSFileManager+AFOOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+AFOOperation.h"; path = "AFOFoundation/sandbox/NSFileManager+AFOOperation.h"; sourceTree = "<group>"; };
-		79D7D0187EF0C2B927EEA819FC67DB9C /* NSFileManager+AFOSandBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+AFOSandBox.h"; path = "AFOFoundation/sandbox/NSFileManager+AFOSandBox.h"; sourceTree = "<group>"; };
-		7A02EF8AE3FA85DF036F3B0FFC6B0DF1 /* NSMutableArray+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+AFOAbnormal.m"; path = "AFOFoundation/array/NSMutableArray+AFOAbnormal.m"; sourceTree = "<group>"; };
-		820F13C2AE80A1ACE654BA304CC8504C /* NSString+Formatting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Formatting.m"; path = "AFOFoundation/string/NSString+Formatting.m"; sourceTree = "<group>"; };
-		8653D3BBB50920119B0AE522D3E672EF /* NSMutableDictionary+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+AFOAbnormal.h"; path = "AFOFoundation/dictionary/NSMutableDictionary+AFOAbnormal.h"; sourceTree = "<group>"; };
-		87675948CB439F7FBA6F666AEFE3F939 /* NSFileManager+AFOSandBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AFOSandBox.m"; path = "AFOFoundation/sandbox/NSFileManager+AFOSandBox.m"; sourceTree = "<group>"; };
-		8BDE9B5A24667B5C382685AD0A065C7F /* NSString+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Dictionary.h"; path = "AFOFoundation/string/NSString+Dictionary.h"; sourceTree = "<group>"; };
-		92CF235A60001348B90535F351B639E2 /* NSDictionary+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AFOAbnormal.m"; path = "AFOFoundation/dictionary/NSDictionary+AFOAbnormal.m"; sourceTree = "<group>"; };
+		78439C180E241B08FB9D39C30A198110 /* AFOFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFOFoundation-dummy.m"; sourceTree = "<group>"; };
+		790A071BD4B06421AE3D57B6F0AA2C8B /* AFOCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOCollectionView.h; path = AFOUIKIT/AFOCollectionView.h; sourceTree = "<group>"; };
+		7A67FBCCB91C68EBD5CE598B89DA34BC /* AFOCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOCollectionView.m; path = AFOUIKIT/AFOCollectionView.m; sourceTree = "<group>"; };
+		8199EAD9B2EC3C70728A458B9FE12A49 /* NSMutableDictionary+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+AFOAbnormal.m"; path = "AFOFoundation/dictionary/NSMutableDictionary+AFOAbnormal.m"; sourceTree = "<group>"; };
+		98398C6A683F5F7EB9F4CE83904FCBA3 /* NSString+URLSchemes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLSchemes.h"; path = "AFOFoundation/string/NSString+URLSchemes.h"; sourceTree = "<group>"; };
+		99BC55B8EBC577B0CA52347604B66AEC /* AFOTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOTabBarController.m; path = AFOUIKIT/AFOTabBarController.m; sourceTree = "<group>"; };
+		9A23CF76EE45E9CEE2DD68CFDA378D37 /* NSBundle+AFOCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+AFOCategory.h"; path = "AFOFoundation/bundle/NSBundle+AFOCategory.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2F419745CAB519C113066C2AEBD7ECB /* NSDictionary+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AFOAbnormal.h"; path = "AFOFoundation/dictionary/NSDictionary+AFOAbnormal.h"; sourceTree = "<group>"; };
-		B27BE9806DC123BA62C77022B133A189 /* AFOFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOFoundation.h; path = AFOFoundation/AFOFoundation.h; sourceTree = "<group>"; };
-		B4020DD2769845295A4D079B3B79B6A3 /* NSBundle+AFOCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+AFOCategory.m"; path = "AFOFoundation/bundle/NSBundle+AFOCategory.m"; sourceTree = "<group>"; };
+		9EDECCE9796AF9E2043E4228D9AEEC7F /* AFOViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOViewController.h; path = AFOUIKIT/AFOViewController.h; sourceTree = "<group>"; };
+		A71AE4BD7D2C6A3C9ED216214464F8FE /* NSFileManager+AFOSandBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+AFOSandBox.h"; path = "AFOFoundation/sandbox/NSFileManager+AFOSandBox.h"; sourceTree = "<group>"; };
+		A85F045B49D5D7342350674D7B231635 /* NSString+URLParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLParameter.h"; path = "AFOFoundation/string/NSString+URLParameter.h"; sourceTree = "<group>"; };
+		A8759A7F7B472F633BBD3A5D6462FCCC /* NSFileManager+AFOSandBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AFOSandBox.m"; path = "AFOFoundation/sandbox/NSFileManager+AFOSandBox.m"; sourceTree = "<group>"; };
+		AD696F9E26A890415968674886CCE4D9 /* AFOFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOFoundation.h; path = AFOFoundation/AFOFoundation.h; sourceTree = "<group>"; };
+		AE3EADC326CAE688291D8B00BAD465F6 /* NSMutableDictionary+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+AFOAbnormal.h"; path = "AFOFoundation/dictionary/NSMutableDictionary+AFOAbnormal.h"; sourceTree = "<group>"; };
+		B15DB85B1CA29D2F9BE04E1450CDD78A /* NSString+Formatting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Formatting.h"; path = "AFOFoundation/string/NSString+Formatting.h"; sourceTree = "<group>"; };
+		BFBB46AABBF5392E129CB6A9C5E9EA55 /* NSString+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Dictionary.m"; path = "AFOFoundation/string/NSString+Dictionary.m"; sourceTree = "<group>"; };
+		C1FE13A861F2AB39FEBD6AE6AC4AE80E /* NSMutableArray+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+AFOAbnormal.m"; path = "AFOFoundation/array/NSMutableArray+AFOAbnormal.m"; sourceTree = "<group>"; };
+		C3E3B9C9D0D6978E47DC83F2CB353B2A /* AFOTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOTabBarController.h; path = AFOUIKIT/AFOTabBarController.h; sourceTree = "<group>"; };
+		CA7110210569519F0F48BAFEC1A6747A /* AFOUIKIT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFOUIKIT.xcconfig; sourceTree = "<group>"; };
+		CB4D6CA29BF23F17C7E5989CB0502D33 /* AFOMacroDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOMacroDefinition.h; path = AFOFoundation/define/AFOMacroDefinition.h; sourceTree = "<group>"; };
 		CFA4E1C496D2DDE4504C3D13F914DE7F /* Pods-AFORouter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFORouter-acknowledgements.plist"; sourceTree = "<group>"; };
-		DDC03DB372E94DDD86BCDE23432BB68A /* NSString+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Dictionary.m"; path = "AFOFoundation/string/NSString+Dictionary.m"; sourceTree = "<group>"; };
-		EE028BBDD2F4B326A92D53508730AEE7 /* NSArray+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+AFOAbnormal.m"; path = "AFOFoundation/array/NSArray+AFOAbnormal.m"; sourceTree = "<group>"; };
-		F0DB3EB573F5D8A08EDACA70AA178E2B /* NSString+URLParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLParameter.m"; path = "AFOFoundation/string/NSString+URLParameter.m"; sourceTree = "<group>"; };
+		D19BA910CCF474A2184EBB9C2C0C7A19 /* AFONavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFONavigationController.m; path = AFOUIKIT/AFONavigationController.m; sourceTree = "<group>"; };
+		D6438265DE52C7ACA945F62255F2324B /* NSArray+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+AFOAbnormal.h"; path = "AFOFoundation/array/NSArray+AFOAbnormal.h"; sourceTree = "<group>"; };
+		D8DF6F6B88106FE031D6F5288BAC57CC /* AFOUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOUIKit.h; path = AFOUIKIT/AFOUIKit.h; sourceTree = "<group>"; };
+		DA808CBA7A17F0BC5CF18EB263966EF1 /* AFOFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFOFoundation-prefix.pch"; sourceTree = "<group>"; };
+		E504CB59F9C9C66C849C1D7242EA7F6C /* NSMutableArray+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+AFOAbnormal.h"; path = "AFOFoundation/array/NSMutableArray+AFOAbnormal.h"; sourceTree = "<group>"; };
+		EA8F68506025691617245F8F9DFCB0F9 /* AFOCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOCollectionViewLayout.h; path = AFOUIKIT/AFOCollectionViewLayout.h; sourceTree = "<group>"; };
+		EC5BBC8F3042DDF6C4EB7EC9D376AE90 /* AFOCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOCollectionViewLayout.m; path = AFOUIKIT/AFOCollectionViewLayout.m; sourceTree = "<group>"; };
 		F281150817BECDC29654AE67706441E1 /* Pods-AFORouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFORouter.release.xcconfig"; sourceTree = "<group>"; };
-		FDA0A814CDAE35A414031B374E8C2774 /* NSFileManager+AFOOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AFOOperation.m"; path = "AFOFoundation/sandbox/NSFileManager+AFOOperation.m"; sourceTree = "<group>"; };
+		F39383F0AADA6BCF727C03C26374B1B7 /* libAFOUIKIT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOUIKIT.a; path = libAFOUIKIT.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7232D8F72B62FBBF9DDEE29C68261D /* NSFileManager+AFOOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+AFOOperation.h"; path = "AFOFoundation/sandbox/NSFileManager+AFOOperation.h"; sourceTree = "<group>"; };
+		FFD24F6410E5828FC08FE99CBBFC22BD /* NSFileManager+AFOOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AFOOperation.m"; path = "AFOFoundation/sandbox/NSFileManager+AFOOperation.m"; sourceTree = "<group>"; };
+		FFD7F796DC4175E971FC150AC6230233 /* AFOWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOWindow.m; path = AFOUIKIT/AFOWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52BE3AFC09B431E4E95EF4DB0C998890 /* Frameworks */ = {
+		30C67E9264ADCA8B714F3F50E01FF049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826E2DD828D2257BE09AB4036BC61741 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -103,13 +152,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EF9D7171BCA49478FBF569DF13946A9 /* Products */ = {
+		2520DB3C2E68ED6603FEC8A44B66CDE7 /* AFOFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				4EB0959E61EAC889D51F90641FD082AC /* libAFOFoundation.a */,
-				43BEECC953DE9AE800FF0B4B8EBF337D /* libPods-AFORouter.a */,
+				AD696F9E26A890415968674886CCE4D9 /* AFOFoundation.h */,
+				D40E1F3FFC18BEA84BFCCD121F6A5D51 /* array */,
+				6B04AC3AD30DBA9D8DF562999D993CB9 /* bundle */,
+				80F90BB99C849C2DB85BA8F9B6D13E5A /* define */,
+				C53B6130A6A45B737B0376D5575E1402 /* dictionary */,
+				8E5DB75B459CCF82578752EC42932672 /* sandbox */,
+				C1A5800F48C16D8FD9270AE0D8C2F7E0 /* string */,
+				C8D1B4515DBD188FA8AB8913D919BC8A /* Support Files */,
+				AEDE6DCD5191BE811872ADE8B0EDE9C4 /* weak */,
 			);
-			name = Products;
+			name = AFOFoundation;
+			path = AFOFoundation;
+			sourceTree = "<group>";
+		};
+		37FE069211DC60D4BE4A582373870A51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA7110210569519F0F48BAFEC1A6747A /* AFOUIKIT.xcconfig */,
+				2302D63E52E9ED34E81D38154CA4A9E7 /* AFOUIKIT-dummy.m */,
+				3C6B9ADF1FA8F5B575B877160A0D5FAF /* AFOUIKIT-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFOUIKIT";
 			sourceTree = "<group>";
 		};
 		39C5554FBC3B0914D099079E2AA3E2A1 /* Targets Support Files */ = {
@@ -120,51 +188,82 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4DEE2F78E1C57D3A24A7C8C943FE078C /* define */ = {
+		6B04AC3AD30DBA9D8DF562999D993CB9 /* bundle */ = {
 			isa = PBXGroup;
 			children = (
-				0023ACA08066CABD16CFD69EEDDF9A5F /* AFOMacroDefinition.h */,
+				9A23CF76EE45E9CEE2DD68CFDA378D37 /* NSBundle+AFOCategory.h */,
+				4F5D29108D23F266E512ECD6E1DAFCBA /* NSBundle+AFOCategory.m */,
+			);
+			name = bundle;
+			sourceTree = "<group>";
+		};
+		7DCC16A554CBA1817BFA05785A544A64 /* AFOUIKIT */ = {
+			isa = PBXGroup;
+			children = (
+				790A071BD4B06421AE3D57B6F0AA2C8B /* AFOCollectionView.h */,
+				7A67FBCCB91C68EBD5CE598B89DA34BC /* AFOCollectionView.m */,
+				EA8F68506025691617245F8F9DFCB0F9 /* AFOCollectionViewLayout.h */,
+				EC5BBC8F3042DDF6C4EB7EC9D376AE90 /* AFOCollectionViewLayout.m */,
+				5F2C36248BCA0918B842717D03D5D919 /* AFONavigationController.h */,
+				D19BA910CCF474A2184EBB9C2C0C7A19 /* AFONavigationController.m */,
+				C3E3B9C9D0D6978E47DC83F2CB353B2A /* AFOTabBarController.h */,
+				99BC55B8EBC577B0CA52347604B66AEC /* AFOTabBarController.m */,
+				D8DF6F6B88106FE031D6F5288BAC57CC /* AFOUIKit.h */,
+				9EDECCE9796AF9E2043E4228D9AEEC7F /* AFOViewController.h */,
+				23BF1FD166D18A57359987AF703007FD /* AFOViewController.m */,
+				18B9BA97765C2276331B888B95BBD4BE /* AFOWindow.h */,
+				FFD7F796DC4175E971FC150AC6230233 /* AFOWindow.m */,
+				37FE069211DC60D4BE4A582373870A51 /* Support Files */,
+				8C6877AECA9708B0D225D8B17CED3D2C /* viewController */,
+			);
+			name = AFOUIKIT;
+			path = AFOUIKIT;
+			sourceTree = "<group>";
+		};
+		80F90BB99C849C2DB85BA8F9B6D13E5A /* define */ = {
+			isa = PBXGroup;
+			children = (
+				CB4D6CA29BF23F17C7E5989CB0502D33 /* AFOMacroDefinition.h */,
 			);
 			name = define;
 			sourceTree = "<group>";
 		};
-		7CCE60AA7F0B69A041CD03A80AF3DFCC /* sandbox */ = {
+		8C6877AECA9708B0D225D8B17CED3D2C /* viewController */ = {
 			isa = PBXGroup;
 			children = (
-				75A9AA9C2F44AEE6140B410F3E93AD8D /* NSFileManager+AFOOperation.h */,
-				FDA0A814CDAE35A414031B374E8C2774 /* NSFileManager+AFOOperation.m */,
-				79D7D0187EF0C2B927EEA819FC67DB9C /* NSFileManager+AFOSandBox.h */,
-				87675948CB439F7FBA6F666AEFE3F939 /* NSFileManager+AFOSandBox.m */,
+				076AB77442F50593CE1E221B30C7AACA /* UIViewController+CurrentController.h */,
+				3B61CEDEB74DB4071D0D890D66A8BD47 /* UIViewController+CurrentController.m */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		8E5DB75B459CCF82578752EC42932672 /* sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				FB7232D8F72B62FBBF9DDEE29C68261D /* NSFileManager+AFOOperation.h */,
+				FFD24F6410E5828FC08FE99CBBFC22BD /* NSFileManager+AFOOperation.m */,
+				A71AE4BD7D2C6A3C9ED216214464F8FE /* NSFileManager+AFOSandBox.h */,
+				A8759A7F7B472F633BBD3A5D6462FCCC /* NSFileManager+AFOSandBox.m */,
 			);
 			name = sandbox;
 			sourceTree = "<group>";
 		};
-		803C4601B0ADC3F688170CC966490673 /* dictionary */ = {
+		9BD433D204970C3C929B3E1AE9DB3C17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2F419745CAB519C113066C2AEBD7ECB /* NSDictionary+AFOAbnormal.h */,
-				92CF235A60001348B90535F351B639E2 /* NSDictionary+AFOAbnormal.m */,
-				8653D3BBB50920119B0AE522D3E672EF /* NSMutableDictionary+AFOAbnormal.h */,
-				4D806E586F409B68BDFFB169C2C47B74 /* NSMutableDictionary+AFOAbnormal.m */,
+				4EB0959E61EAC889D51F90641FD082AC /* libAFOFoundation.a */,
+				F39383F0AADA6BCF727C03C26374B1B7 /* libAFOUIKIT.a */,
+				43BEECC953DE9AE800FF0B4B8EBF337D /* libPods-AFORouter.a */,
 			);
-			name = dictionary;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		9C253E8C1C7ABF69940C57A0851B12F8 /* AFOFoundation */ = {
+		AEDE6DCD5191BE811872ADE8B0EDE9C4 /* weak */ = {
 			isa = PBXGroup;
 			children = (
-				B27BE9806DC123BA62C77022B133A189 /* AFOFoundation.h */,
-				FAD66344F887567EA2CC8A3392BBFE00 /* array */,
-				D985FD128C08002631F1551DE457015A /* bundle */,
-				4DEE2F78E1C57D3A24A7C8C943FE078C /* define */,
-				803C4601B0ADC3F688170CC966490673 /* dictionary */,
-				7CCE60AA7F0B69A041CD03A80AF3DFCC /* sandbox */,
-				F4F49E4FBF6A21B457C1C35298997D23 /* string */,
-				CAB893436E99A47861FD99BAEA8F39CF /* Support Files */,
-				DEC6D3BCB9FDA2B2C92828F525C03CF9 /* weak */,
+				08C603DE16A153B788C4F0EDE88817B1 /* AFOWeakInstance.h */,
 			);
-			name = AFOFoundation;
-			path = AFOFoundation;
+			name = weak;
 			sourceTree = "<group>";
 		};
 		BE44803DD6F848EF2B03E2DEE7FB239F /* Pods-AFORouter */ = {
@@ -180,20 +279,38 @@
 			path = "Target Support Files/Pods-AFORouter";
 			sourceTree = "<group>";
 		};
-		C12B7977056C21313D5081CFFD16E51D /* Pods */ = {
+		C1A5800F48C16D8FD9270AE0D8C2F7E0 /* string */ = {
 			isa = PBXGroup;
 			children = (
-				9C253E8C1C7ABF69940C57A0851B12F8 /* AFOFoundation */,
+				4D126A78855DB517ACA4F40FFF0FD38A /* NSString+Dictionary.h */,
+				BFBB46AABBF5392E129CB6A9C5E9EA55 /* NSString+Dictionary.m */,
+				B15DB85B1CA29D2F9BE04E1450CDD78A /* NSString+Formatting.h */,
+				557564EB34C190CA0D9703A270170FB0 /* NSString+Formatting.m */,
+				A85F045B49D5D7342350674D7B231635 /* NSString+URLParameter.h */,
+				09ADBC5216A912D85B2ABF1526B6DE1F /* NSString+URLParameter.m */,
+				98398C6A683F5F7EB9F4CE83904FCBA3 /* NSString+URLSchemes.h */,
+				44E2C6A99F8C4B58F7C365914CE54BDE /* NSString+URLSchemes.m */,
 			);
-			name = Pods;
+			name = string;
 			sourceTree = "<group>";
 		};
-		CAB893436E99A47861FD99BAEA8F39CF /* Support Files */ = {
+		C53B6130A6A45B737B0376D5575E1402 /* dictionary */ = {
 			isa = PBXGroup;
 			children = (
-				002D0DD98C7224E3D85A76C59471482B /* AFOFoundation.xcconfig */,
-				58BACD05FAACD60ACE6AD465BAA0D493 /* AFOFoundation-dummy.m */,
-				4FEFCB8D425024F46984A729ADC95281 /* AFOFoundation-prefix.pch */,
+				35013E1DCF07E2F9F48CA1FAC25730C2 /* NSDictionary+AFOAbnormal.h */,
+				52F572A059952FA7FF9E0562408B488A /* NSDictionary+AFOAbnormal.m */,
+				AE3EADC326CAE688291D8B00BAD465F6 /* NSMutableDictionary+AFOAbnormal.h */,
+				8199EAD9B2EC3C70728A458B9FE12A49 /* NSMutableDictionary+AFOAbnormal.m */,
+			);
+			name = dictionary;
+			sourceTree = "<group>";
+		};
+		C8D1B4515DBD188FA8AB8913D919BC8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23B971A6FA00788501EAB4B80ACF13A1 /* AFOFoundation.xcconfig */,
+				78439C180E241B08FB9D39C30A198110 /* AFOFoundation-dummy.m */,
+				DA808CBA7A17F0BC5CF18EB263966EF1 /* AFOFoundation-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AFOFoundation";
@@ -204,10 +321,21 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				C12B7977056C21313D5081CFFD16E51D /* Pods */,
-				2EF9D7171BCA49478FBF569DF13946A9 /* Products */,
+				DE7E1BFB3D9827B3E6C8B76741B4655B /* Pods */,
+				9BD433D204970C3C929B3E1AE9DB3C17 /* Products */,
 				39C5554FBC3B0914D099079E2AA3E2A1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D40E1F3FFC18BEA84BFCCD121F6A5D51 /* array */ = {
+			isa = PBXGroup;
+			children = (
+				D6438265DE52C7ACA945F62255F2324B /* NSArray+AFOAbnormal.h */,
+				30E8E9F36136A3AB7FADD72EB02A96C4 /* NSArray+AFOAbnormal.m */,
+				E504CB59F9C9C66C849C1D7242EA7F6C /* NSMutableArray+AFOAbnormal.h */,
+				C1FE13A861F2AB39FEBD6AE6AC4AE80E /* NSMutableArray+AFOAbnormal.m */,
+			);
+			name = array;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -217,52 +345,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D985FD128C08002631F1551DE457015A /* bundle */ = {
+		DE7E1BFB3D9827B3E6C8B76741B4655B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				41D2435FC4EE652183C8DADC1E9D4FAD /* NSBundle+AFOCategory.h */,
-				B4020DD2769845295A4D079B3B79B6A3 /* NSBundle+AFOCategory.m */,
+				2520DB3C2E68ED6603FEC8A44B66CDE7 /* AFOFoundation */,
+				7DCC16A554CBA1817BFA05785A544A64 /* AFOUIKIT */,
 			);
-			name = bundle;
-			sourceTree = "<group>";
-		};
-		DEC6D3BCB9FDA2B2C92828F525C03CF9 /* weak */ = {
-			isa = PBXGroup;
-			children = (
-				1BB4DF539BF4F3D865A9320E92DABB6F /* AFOWeakInstance.h */,
-			);
-			name = weak;
-			sourceTree = "<group>";
-		};
-		F4F49E4FBF6A21B457C1C35298997D23 /* string */ = {
-			isa = PBXGroup;
-			children = (
-				8BDE9B5A24667B5C382685AD0A065C7F /* NSString+Dictionary.h */,
-				DDC03DB372E94DDD86BCDE23432BB68A /* NSString+Dictionary.m */,
-				37E7D027F9B558EA12D03A0317EDE7FF /* NSString+Formatting.h */,
-				820F13C2AE80A1ACE654BA304CC8504C /* NSString+Formatting.m */,
-				01A46BAD2BC0BE6FFB995DD5F4E5CC0C /* NSString+URLParameter.h */,
-				F0DB3EB573F5D8A08EDACA70AA178E2B /* NSString+URLParameter.m */,
-				6E8ECE65EE37B731313FC122845FF7B0 /* NSString+URLSchemes.h */,
-				38F5846E11B77AA56E982E3D7B4FD0A2 /* NSString+URLSchemes.m */,
-			);
-			name = string;
-			sourceTree = "<group>";
-		};
-		FAD66344F887567EA2CC8A3392BBFE00 /* array */ = {
-			isa = PBXGroup;
-			children = (
-				0526AFFA2BAE8495E0A4E29B44B88500 /* NSArray+AFOAbnormal.h */,
-				EE028BBDD2F4B326A92D53508730AEE7 /* NSArray+AFOAbnormal.m */,
-				14A903439F4F821B4E36EA1FBB7411D3 /* NSMutableArray+AFOAbnormal.h */,
-				7A02EF8AE3FA85DF036F3B0FFC6B0DF1 /* NSMutableArray+AFOAbnormal.m */,
-			);
-			name = array;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		05A10F3D1B9E1C5E8C9A91E9E4950892 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D7336A17417BEBB8A289310B059155 /* AFOCollectionView.h in Headers */,
+				FB6E943F8F099502FE3D9EF84D3C1498 /* AFOCollectionViewLayout.h in Headers */,
+				F99D8D973BE1A2DB3FF7F61A7A867DCF /* AFONavigationController.h in Headers */,
+				DE3B35CF16512226684644DA3215F542 /* AFOTabBarController.h in Headers */,
+				49220AABA3865A9CDBEBAEDBFE0E556A /* AFOUIKit.h in Headers */,
+				CB83D27E9C4D2D421A00F1F3514789C5 /* AFOViewController.h in Headers */,
+				013C8D24BEE4A5EB4DF3A31CDF99F9C6 /* AFOWindow.h in Headers */,
+				C040A916DCF8B7D605595BA1E6E5C54E /* UIViewController+CurrentController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		442C39B46F9FFBBA5E39E6875BA27E1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57E7DF319CDDBCDA9E474FAD6468A756 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,13 +397,6 @@
 				9C6DB3984B4A3EF79E516EB0A23BE08E /* NSString+Formatting.h in Headers */,
 				942752625206A9B5C2263CFA81EAD68C /* NSString+URLParameter.h in Headers */,
 				6938462BBB0E34523FDFBCF642630BD4 /* NSString+URLSchemes.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D255138A1DEAF98898DC9FCF0FE74002 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,20 +422,38 @@
 		};
 		1BC7E3E0910254F8F48F7268D8C3F189 /* Pods-AFORouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF089B3A61B15B25318B2951AC02CE94 /* Build configuration list for PBXNativeTarget "Pods-AFORouter" */;
+			buildConfigurationList = 87EBDCC610103E643748D82B4F690267 /* Build configuration list for PBXNativeTarget "Pods-AFORouter" */;
 			buildPhases = (
-				D255138A1DEAF98898DC9FCF0FE74002 /* Headers */,
-				451A70A52B8FA455826B337EFC76C73D /* Sources */,
-				52BE3AFC09B431E4E95EF4DB0C998890 /* Frameworks */,
+				442C39B46F9FFBBA5E39E6875BA27E1F /* Headers */,
+				9E39EEE9352785291EC4CD126E48F0F7 /* Sources */,
+				826E2DD828D2257BE09AB4036BC61741 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88676BC6CDBB4D13E9642FC19094F668 /* PBXTargetDependency */,
+				DD775044A39218744143EC88078A41C5 /* PBXTargetDependency */,
+				77FA5DBE20F0DF8C8247FA066E57CB27 /* PBXTargetDependency */,
 			);
 			name = "Pods-AFORouter";
 			productName = "Pods-AFORouter";
 			productReference = 43BEECC953DE9AE800FF0B4B8EBF337D /* libPods-AFORouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6ED1F81EC081CA8059D773C0580E3E3 /* AFOUIKIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE1CB4BD1C711021E984A03E98FC87B /* Build configuration list for PBXNativeTarget "AFOUIKIT" */;
+			buildPhases = (
+				05A10F3D1B9E1C5E8C9A91E9E4950892 /* Headers */,
+				3A4DCBC3FAE4BC0DAA16954B1B3C0DD6 /* Sources */,
+				30C67E9264ADCA8B714F3F50E01FF049 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFOUIKIT;
+			productName = AFOUIKIT;
+			productReference = F39383F0AADA6BCF727C03C26374B1B7 /* libAFOUIKIT.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -346,22 +473,38 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2EF9D7171BCA49478FBF569DF13946A9 /* Products */;
+			productRefGroup = 9BD433D204970C3C929B3E1AE9DB3C17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0E6822B490412B4C83DAF77B7F359535 /* AFOFoundation */,
+				A6ED1F81EC081CA8059D773C0580E3E3 /* AFOUIKIT */,
 				1BC7E3E0910254F8F48F7268D8C3F189 /* Pods-AFORouter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		451A70A52B8FA455826B337EFC76C73D /* Sources */ = {
+		3A4DCBC3FAE4BC0DAA16954B1B3C0DD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B2C6222D0D34EC3C75EAFA344B7C7E /* Pods-AFORouter-dummy.m in Sources */,
+				6FABFE71F1EEB625B205F47A12EB9C16 /* AFOCollectionView.m in Sources */,
+				4C70BBE94840B777559A1AA26FF9FC01 /* AFOCollectionViewLayout.m in Sources */,
+				5440C71AC3B8834CB5328CC5BDF9F4CC /* AFONavigationController.m in Sources */,
+				248AD228EAFB91F2FCAC9F05C8C854FF /* AFOTabBarController.m in Sources */,
+				4D8B82CA6DF903437BBF60CA01044EA9 /* AFOUIKIT-dummy.m in Sources */,
+				B5A2BC6189C188D5AC11249A71743323 /* AFOViewController.m in Sources */,
+				3BB5A2D7015E33540D136452F57381EF /* AFOWindow.m in Sources */,
+				B19D3741258FD401E73B2288FD3836B5 /* UIViewController+CurrentController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E39EEE9352785291EC4CD126E48F0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B025A06B4B1D53F6B6DDAA9C6FA75DE /* Pods-AFORouter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,18 +530,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		88676BC6CDBB4D13E9642FC19094F668 /* PBXTargetDependency */ = {
+		77FA5DBE20F0DF8C8247FA066E57CB27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFOUIKIT;
+			target = A6ED1F81EC081CA8059D773C0580E3E3 /* AFOUIKIT */;
+			targetProxy = 71AAE672C2D26027B3BFF587A0521F01 /* PBXContainerItemProxy */;
+		};
+		DD775044A39218744143EC88078A41C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFOFoundation;
 			target = 0E6822B490412B4C83DAF77B7F359535 /* AFOFoundation */;
-			targetProxy = E95819F24743F27FF305C27CD3C4907D /* PBXContainerItemProxy */;
+			targetProxy = C9D3C99FC909B639A5775517F993CCE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D8F882439C15FD63AA0688EA1CFD969 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002D0DD98C7224E3D85A76C59471482B /* AFOFoundation.xcconfig */;
+			baseConfigurationReference = 23B971A6FA00788501EAB4B80ACF13A1 /* AFOFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -415,6 +564,49 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2439E1FB14C5A6E415325D53F543AEEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E86058C67AAACCF8D2A7DE5AE932EF5 /* Pods-AFORouter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		389D8D1F3AA9AD5AD9C895A9283776F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F281150817BECDC29654AE67706441E1 /* Pods-AFORouter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -477,28 +669,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		71F2E6B21376B0A16E5FE0F22B3CCA1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F281150817BECDC29654AE67706441E1 /* Pods-AFORouter.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -566,9 +736,33 @@
 			};
 			name = Debug;
 		};
+		903EC6E798CBE23C5DEEB97EA1FF78FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7110210569519F0F48BAFEC1A6747A /* AFOUIKIT.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AFOUIKIT/AFOUIKIT-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AFOUIKIT;
+				PRODUCT_NAME = AFOUIKIT;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		B6AFC880F6C612F8879E2EBBED286E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002D0DD98C7224E3D85A76C59471482B /* AFOFoundation.xcconfig */;
+			baseConfigurationReference = 23B971A6FA00788501EAB4B80ACF13A1 /* AFOFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -589,23 +783,25 @@
 			};
 			name = Debug;
 		};
-		D411EBA426FCB23C5DE47A34AE5B32F7 /* Debug */ = {
+		F0BAE5FA509541E221D1A2CFB7A89731 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E86058C67AAACCF8D2A7DE5AE932EF5 /* Pods-AFORouter.debug.xcconfig */;
+			baseConfigurationReference = CA7110210569519F0F48BAFEC1A6747A /* AFOUIKIT.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AFOUIKIT/AFOUIKIT-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AFOUIKIT;
+				PRODUCT_NAME = AFOUIKIT;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -622,11 +818,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF089B3A61B15B25318B2951AC02CE94 /* Build configuration list for PBXNativeTarget "Pods-AFORouter" */ = {
+		5BE1CB4BD1C711021E984A03E98FC87B /* Build configuration list for PBXNativeTarget "AFOUIKIT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D411EBA426FCB23C5DE47A34AE5B32F7 /* Debug */,
-				71F2E6B21376B0A16E5FE0F22B3CCA1C /* Release */,
+				F0BAE5FA509541E221D1A2CFB7A89731 /* Debug */,
+				903EC6E798CBE23C5DEEB97EA1FF78FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87EBDCC610103E643748D82B4F690267 /* Build configuration list for PBXNativeTarget "Pods-AFORouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2439E1FB14C5A6E415325D53F543AEEC /* Debug */,
+				389D8D1F3AA9AD5AD9C895A9283776F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

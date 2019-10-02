@@ -14,22 +14,32 @@ PODS:
   - AFOFoundation/sandbox (1.0.8)
   - AFOFoundation/string (1.0.8)
   - AFOFoundation/weak (1.0.8)
+  - AFOUIKIT (0.0.7):
+    - AFOUIKIT/viewController (= 0.0.7)
+  - AFOUIKIT/viewController (0.0.7)
 
 DEPENDENCIES:
   - AFOFoundation (from `/Users/xianxueguang/Documents/GitHub/AFOFoundation`)
+  - AFOUIKIT (from `/Users/xianxueguang/Documents/GitHub/AFOUIKIT`)
 
 EXTERNAL SOURCES:
   AFOFoundation:
     :git: "/Users/xianxueguang/Documents/GitHub/AFOFoundation"
+  AFOUIKIT:
+    :git: "/Users/xianxueguang/Documents/GitHub/AFOUIKIT"
 
 CHECKOUT OPTIONS:
   AFOFoundation:
     :commit: 0e0e903002c8c86c2622bb07ad289afa466a72ba
     :git: "/Users/xianxueguang/Documents/GitHub/AFOFoundation"
+  AFOUIKIT:
+    :commit: 63c9740e4d1c97868c8a354c1ac5d928ca24c9f9
+    :git: "/Users/xianxueguang/Documents/GitHub/AFOUIKIT"
 
 SPEC CHECKSUMS:
   AFOFoundation: 3908d8d762ce86095d411062b3f23897c848b63e
+  AFOUIKIT: b1e12d14891b02f23c5dd3808db57ee6873e5c15
 
-PODFILE CHECKSUM: 05205c3197180ca3f016da9238772cd4161da71a
+PODFILE CHECKSUM: 706ca3ca9a9843156c86f6df8dccf18cf4321189
 
 COCOAPODS: 1.8.0

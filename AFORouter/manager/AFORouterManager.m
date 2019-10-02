@@ -8,6 +8,7 @@
 
 #import "AFORouterManager.h"
 #import <UIKit/UIKit.h>
+#import <AFOUIKIT/UIViewController+CurrentController.h>
 #import <AFOFoundation/AFOFoundation.h>
 #import "JLRoutes.h"
 #import "AFORouterManager+StringManipulation.h"
@@ -44,16 +45,11 @@
     WeakObject(self);
     [self.routes addRoute:@"/:modelName/:current/:next/:action"handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
         StrongObject(self)
-        [self addSenderControllerRouterManagerDelegate:[self nextController:parameters] present:[self currentController:parameters] parameters:parameters];
+        [self addSenderControllerRouterManagerDelegate:[self nextController:parameters] present:[UIViewController currentViewController] parameters:parameters];
         AFORouterActionContext *action = [[AFORouterActionContext alloc] initAction:parameters[@"action"]];
-        [action currentController:[self currentController:parameters] nextController:[self nextController:parameters]];
+        [action currentController:[UIViewController currentViewController] nextController:[self nextController:parameters]];
         return YES;
     }];
-}
-- (UIViewController *)currentController:(NSDictionary *)parameters{
-    Class class = NSClassFromString(parameters[@"current"]);
-    UIViewController *controller = [[class alloc] init];
-    return controller;
 }
 - (UIViewController *)nextController:(NSDictionary *)parameters{
     Class class = NSClassFromString(parameters[@"next"]);
@@ -95,36 +91,6 @@
                                   present:(id)present
                                    params:(NSDictionary *)dictionary{
     return [self settingPushControllerRouter:controller present:present scheme:self.strScheme params:dictionary];
-}
-#pragma mark ------
-- (NSString *)settingRoutesParameters:(NSDictionary *)dictionary{
-    NSString *strResult;
-    NSString *strBase = [self.strScheme stringByAppendingString:@"://"];
-    strBase = [strBase stringByAppendingString:dictionary[@"modelName"]];
-    NSString *controller = dictionary[@"controller"];
-    NSString *present = dictionary[@"present"];
-    NSString *action = dictionary[@"action"];
-    if (controller != nil && present != nil) {
-        strResult = [[self slashString:strBase] stringByAppendingString:present];
-        strResult = [[self slashString:strResult] stringByAppendingString:controller];
-        strResult = [[self slashString:strResult] stringByAppendingString:action];
-    }else{
-        strResult = [strBase stringByAppendingString:controller];
-        strResult = [[self slashString:strResult] stringByAppendingString:action];
-    }
-    if (dictionary.count > 0) {
-        strResult = [self addQueryStringToUrl:strResult params:[self paramesDictionary:dictionary]];
-    }
-    return strResult;
-}
-- (NSString *)slashString:(NSString *)baseString{
-    
-    return [baseString stringByAppendingString:@"/"];
-}
-- (NSDictionary *)paramesDictionary:(NSDictionary *)dictionary{
-    NSMutableDictionary *dic = [[NSMutableDictionary alloc] initWithDictionary:dictionary];
-    [dic removeObjectsForKeys:@[@"modelName",@"action",@"present"]];
-    return dic;
 }
 #pragma mark ------ UIApplicationDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
