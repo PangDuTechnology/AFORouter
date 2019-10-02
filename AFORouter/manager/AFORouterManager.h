@@ -54,11 +54,4 @@
                                   present:(id)present
                                    params:(NSDictionary *)dictionary;
 
-/**
- <#Description#>
-
- @param dictionary <#dictionary description#>
- @return <#return value description#>
- */
-- (NSString *)settingRoutesParameters:(NSDictionary *)dictionary;
 @end
