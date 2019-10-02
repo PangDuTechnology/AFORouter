@@ -12,7 +12,7 @@
 @end
 
 @implementation AFORouterPushAction
-#pragma mark ------ AFORouterActionDelegate
+#pragma mark ------ 
 - (void)currentController:(UIViewController *)current
            nextController:(UIViewController *)next
                 parameter:(nonnull NSDictionary *)paramenter{

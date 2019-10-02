@@ -47,7 +47,6 @@
         StrongObject(self)
         AFORouterActionContext *action = [[AFORouterActionContext alloc] initAction:parameters[@"action"]];
         [action currentController:[UIViewController currentViewController] nextController:[self nextController:parameters] parameter:parameters];
-//        [self addSenderControllerRouterManagerDelegate:[self nextController:parameters] present:[UIViewController currentViewController] parameters:parameters];
         return YES;
     }];
 }

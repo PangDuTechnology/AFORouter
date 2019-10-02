@@ -27,7 +27,7 @@
     Class class = NSClassFromString(self.actionDic[self.strAction]);
     self.action = [[class alloc] init];
     if ([self.action respondsToSelector:@selector(currentController:nextController: parameter:)]) {
-        [self.action performSelector:@selector(currentController:nextController: parameter:) withObject:paramenter];
+        [self.action currentController:current nextController:next parameter:paramenter];
     }
 }
 #pragma mark ------ property
