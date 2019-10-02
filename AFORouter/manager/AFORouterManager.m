@@ -15,7 +15,6 @@
 #import "AFORouterActionContext.h"
 @interface AFORouterManager ()<AFORouterManagerDelegate,UIApplicationDelegate>
 @property (nonatomic, strong) JLRoutes                  *routes;
-@property (nonatomic, copy)   NSString                  *strScheme;
 @end
 
 @implementation AFORouterManager
@@ -27,16 +26,6 @@
         shareInstance = [[[self class] alloc] init];
     });
     return shareInstance;
-}
-#pragma mark ------
-- (void)loadNotification{
-    [self readRouterScheme];
-    [self loadRotesFile];
-}
-#pragma mark ------ 设置Schemes
-- (void)readRouterScheme{
-    self.strScheme = [NSString readSchemesFromInfoPlist];
-    self.routes = [JLRoutes routesForScheme:self.strScheme];
 }
 #pragma mark ------ 添加跳转规则
 - (void)loadRotesFile{
@@ -60,7 +49,7 @@
 }
 #pragma mark ------ UIApplicationDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [self loadNotification];
+    [self loadRotesFile];
     return YES;
 }
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation{
@@ -71,4 +60,10 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 #pragma mark ------ property
+- (JLRoutes *)routes{
+    if (!_routes) {
+        _routes = [JLRoutes routesForScheme:[NSString readSchemesFromInfoPlist]];
+    }
+    return _routes;
+}
 @end
