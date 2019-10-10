@@ -36,11 +36,12 @@ Pod::Spec.new do |s|
       ma.public_header_files = 'AFORouter/manager/*.h'
   end
   
+  s.subspec 'scheduler' do |scheduler|
+      scheduler.source_files = 'AFORouter/scheduler/*.{h,m}' 
+      scheduler.public_header_files = 'AFORouter/scheduler/*.h'
+  end
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
-  s.xcconfig = { 
-                  'HEADER_SEARCH_PATHS'=> '"$(SDKROOT)/AFORouter/router/*.h","$(SDKROOT)/AFORouter/manager/*.h"'
-                }
 end
