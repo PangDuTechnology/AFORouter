@@ -46,9 +46,20 @@ type argumentValue = [(NSNumber *)obj typeValue];\
 }
 #pragma mark ------ 类方法
 - (nullable id)schedulerClassMethod:(nonnull SEL)method
-                             target:(nonnull id)target
+                             target:(nonnull char *)target
                              params:(NSArray *)params{
-    return params;
+    Class class = [self getClassForName:target];
+    return [self schedulerInstanceMethod:method target:class params:params];
+}
+- (nullable Class)getClassForName:(nonnull char*)className{
+    if (className == nil || className ==NULL) {
+        return nil;
+    }
+    Class class = objc_getClass(className);
+    if (class == nil) {
+        return nil;
+    }
+    return class;
 }
 #pragma mark ------ NSInvocation
 - (void)schedulerInvocationMethodTarget:(id)target
@@ -153,7 +164,7 @@ type argumentValue = [(NSNumber *)obj typeValue];\
     if (![target respondsToSelector:method]){
         block([self errorDomain:@"方法未实现!" code:AFO_SCHEDULER_ERROR_CODES_SELECTOR_UNREALIZED info:nil]);
     }
-    if (target == NULL){
+    if (target == NULL || target == nil){
         block([self errorDomain:@"对象为空!" code:AFO_SCHEDULER_ERROR_CODES_TARGET_NULL info:nil]);
     }
     block([self errorDomain:@"传入参数正常!" code:AFO_SCHEDULER_ERROR_CODES_NONE info:nil]);

@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
                                 target:(id)target
                                 params:(NSArray *)params;
 - (nullable id)schedulerClassMethod:(SEL)method
-                                target:(id)target
+                                target:(char *)target
                                 params:(NSArray *)params;
 @end
 
