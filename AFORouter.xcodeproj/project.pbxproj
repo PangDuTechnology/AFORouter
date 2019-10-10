@@ -32,6 +32,10 @@
 		DB3C59F923436021001AA3CB /* AFORouterTypeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C59F723436021001AA3CB /* AFORouterTypeAction.m */; };
 		DB3C59FC234361A3001AA3CB /* AFORouterActionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C59FA234361A3001AA3CB /* AFORouterActionContext.h */; };
 		DB3C59FD234361A3001AA3CB /* AFORouterActionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C59FB234361A3001AA3CB /* AFORouterActionContext.m */; };
+		DBC69998234DCB0000A41037 /* AFOSchedulerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC69996234DCB0000A41037 /* AFOSchedulerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC69999234DCB0000A41037 /* AFOSchedulerCore.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC69997234DCB0000A41037 /* AFOSchedulerCore.m */; };
+		DBC6999C234DCB8F00A41037 /* NSObject+AFOScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC6999A234DCB8F00A41037 /* NSObject+AFOScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC6999D234DCB8F00A41037 /* NSObject+AFOScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC6999B234DCB8F00A41037 /* NSObject+AFOScheduler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +79,10 @@
 		DB3C59F723436021001AA3CB /* AFORouterTypeAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterTypeAction.m; sourceTree = "<group>"; };
 		DB3C59FA234361A3001AA3CB /* AFORouterActionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterActionContext.h; sourceTree = "<group>"; };
 		DB3C59FB234361A3001AA3CB /* AFORouterActionContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterActionContext.m; sourceTree = "<group>"; };
+		DBC69996234DCB0000A41037 /* AFOSchedulerCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSchedulerCore.h; sourceTree = "<group>"; };
+		DBC69997234DCB0000A41037 /* AFOSchedulerCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOSchedulerCore.m; sourceTree = "<group>"; };
+		DBC6999A234DCB8F00A41037 /* NSObject+AFOScheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+AFOScheduler.h"; sourceTree = "<group>"; };
+		DBC6999B234DCB8F00A41037 /* NSObject+AFOScheduler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AFOScheduler.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				240BAB761FE1238200D58435 /* AFORouter.h */,
+				DBC69995234DB76800A41037 /* scheduler */,
 				DB3F576E233F943F00BD7141 /* manager */,
 				DB3F576C233F940700BD7141 /* router */,
 			);
@@ -179,6 +188,17 @@
 			path = manager;
 			sourceTree = "<group>";
 		};
+		DBC69995234DB76800A41037 /* scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				DBC69996234DCB0000A41037 /* AFOSchedulerCore.h */,
+				DBC69997234DCB0000A41037 /* AFOSchedulerCore.m */,
+				DBC6999A234DCB8F00A41037 /* NSObject+AFOScheduler.h */,
+				DBC6999B234DCB8F00A41037 /* NSObject+AFOScheduler.m */,
+			);
+			path = scheduler;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -189,6 +209,8 @@
 				240903BC1FF0955D0022A943 /* AFORouterManagerDelegate.h in Headers */,
 				240BAB781FE1238200D58435 /* AFORouter.h in Headers */,
 				24CA98631FE79C0500CE9BB2 /* AFORouterManager.h in Headers */,
+				DBC6999C234DCB8F00A41037 /* NSObject+AFOScheduler.h in Headers */,
+				DBC69998234DCB0000A41037 /* AFOSchedulerCore.h in Headers */,
 				24E72704232CF8CA00C850C0 /* JLRoutes.h in Headers */,
 				24E72700232CF8CA00C850C0 /* JLRRouteHandler.h in Headers */,
 				DB3C59FC234361A3001AA3CB /* AFORouterActionContext.h in Headers */,
@@ -300,6 +322,7 @@
 				24E72703232CF8CA00C850C0 /* JLRRouteRequest.m in Sources */,
 				DB3C59FD234361A3001AA3CB /* AFORouterActionContext.m in Sources */,
 				24CA98641FE79C0500CE9BB2 /* AFORouterManager.m in Sources */,
+				DBC6999D234DCB8F00A41037 /* NSObject+AFOScheduler.m in Sources */,
 				24E72707232CF8CA00C850C0 /* JLRParsingUtilities.m in Sources */,
 				DB3C59F123435ED2001AA3CB /* AFORouterPushAction.m in Sources */,
 				24E726FE232CF8CA00C850C0 /* JLRoutes.m in Sources */,
@@ -308,6 +331,7 @@
 				DB3C59F923436021001AA3CB /* AFORouterTypeAction.m in Sources */,
 				24E726FC232CF8CA00C850C0 /* JLRRouteDefinition.m in Sources */,
 				24E72705232CF8CA00C850C0 /* JLRRouteHandler.m in Sources */,
+				DBC69999234DCB0000A41037 /* AFOSchedulerCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
