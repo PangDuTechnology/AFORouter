@@ -12,7 +12,6 @@
 #import <AFOUIKIT/UIViewController+CurrentController.h>
 #import <AFOFoundation/AFOFoundation.h>
 #import "JLRoutes.h"
-#import "AFORouterActionContext.h"
 @interface AFORouterManager ()<UIApplicationDelegate>
 @property (nonatomic, strong) JLRoutes                  *routes;
 @end
@@ -32,8 +31,16 @@
     WeakObject(self);
     [self.routes addRoute:@"/:modelName/:current/:next/:action"handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
         StrongObject(self)
-        AFORouterActionContext *action = [[AFORouterActionContext alloc] initAction:parameters[@"action"]];
-        [action currentController:[UIViewController currentViewController] nextController:[self nextController:parameters] parameter:parameters];
+        Class class = NSClassFromString(@"AFORouterActionContext");
+        id instance = [[class alloc] init];
+        [instance setValue:parameters[@"action"] forKey:@"strAction"];
+        [instance setValue:[UIViewController currentViewController] forKey:@"currentController"];
+        [instance setValue:[self nextController:parameters] forKey:@"nextController"];
+        if ([instance respondsToSelector:@selector(passingParameters:)]) {
+            [instance performSelector:@selector(passingParameters:)withObject:parameters];
+        }
+//        AFORouterActionContext *action = [[AFORouterActionContext alloc] initAction:parameters[@"action"]];
+//        [action currentController:[UIViewController currentViewController] nextController:[self nextController:parameters] parameter:parameters];
         return YES;
     }];
 }

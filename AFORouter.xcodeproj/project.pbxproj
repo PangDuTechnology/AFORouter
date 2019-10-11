@@ -32,6 +32,8 @@
 		DB3C59F923436021001AA3CB /* AFORouterTypeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C59F723436021001AA3CB /* AFORouterTypeAction.m */; };
 		DB3C59FC234361A3001AA3CB /* AFORouterActionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C59FA234361A3001AA3CB /* AFORouterActionContext.h */; };
 		DB3C59FD234361A3001AA3CB /* AFORouterActionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C59FB234361A3001AA3CB /* AFORouterActionContext.m */; };
+		DBA93D09235083F6003F390A /* AFORouterScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA93D07235083F6003F390A /* AFORouterScheduler.h */; };
+		DBA93D0A235083F6003F390A /* AFORouterScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA93D08235083F6003F390A /* AFORouterScheduler.m */; };
 		DBC69998234DCB0000A41037 /* AFOSchedulerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC69996234DCB0000A41037 /* AFOSchedulerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBC69999234DCB0000A41037 /* AFOSchedulerCore.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC69997234DCB0000A41037 /* AFOSchedulerCore.m */; };
 		DBC6999C234DCB8F00A41037 /* NSObject+AFOScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC6999A234DCB8F00A41037 /* NSObject+AFOScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,6 +81,8 @@
 		DB3C59F723436021001AA3CB /* AFORouterTypeAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterTypeAction.m; sourceTree = "<group>"; };
 		DB3C59FA234361A3001AA3CB /* AFORouterActionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterActionContext.h; sourceTree = "<group>"; };
 		DB3C59FB234361A3001AA3CB /* AFORouterActionContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterActionContext.m; sourceTree = "<group>"; };
+		DBA93D07235083F6003F390A /* AFORouterScheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterScheduler.h; sourceTree = "<group>"; };
+		DBA93D08235083F6003F390A /* AFORouterScheduler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterScheduler.m; sourceTree = "<group>"; };
 		DBC69996234DCB0000A41037 /* AFOSchedulerCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSchedulerCore.h; sourceTree = "<group>"; };
 		DBC69997234DCB0000A41037 /* AFOSchedulerCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOSchedulerCore.m; sourceTree = "<group>"; };
 		DBC6999A234DCB8F00A41037 /* NSObject+AFOScheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+AFOScheduler.h"; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 				DBC69997234DCB0000A41037 /* AFOSchedulerCore.m */,
 				DBC6999A234DCB8F00A41037 /* NSObject+AFOScheduler.h */,
 				DBC6999B234DCB8F00A41037 /* NSObject+AFOScheduler.m */,
+				DBA93D07235083F6003F390A /* AFORouterScheduler.h */,
+				DBA93D08235083F6003F390A /* AFORouterScheduler.m */,
 			);
 			path = scheduler;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA93D09235083F6003F390A /* AFORouterScheduler.h in Headers */,
 				240903BC1FF0955D0022A943 /* AFORouterManagerDelegate.h in Headers */,
 				240BAB781FE1238200D58435 /* AFORouter.h in Headers */,
 				24CA98631FE79C0500CE9BB2 /* AFORouterManager.h in Headers */,
@@ -322,6 +329,7 @@
 				24E72703232CF8CA00C850C0 /* JLRRouteRequest.m in Sources */,
 				DB3C59FD234361A3001AA3CB /* AFORouterActionContext.m in Sources */,
 				24CA98641FE79C0500CE9BB2 /* AFORouterManager.m in Sources */,
+				DBA93D0A235083F6003F390A /* AFORouterScheduler.m in Sources */,
 				DBC6999D234DCB8F00A41037 /* NSObject+AFOScheduler.m in Sources */,
 				24E72707232CF8CA00C850C0 /* JLRParsingUtilities.m in Sources */,
 				DB3C59F123435ED2001AA3CB /* AFORouterPushAction.m in Sources */,
