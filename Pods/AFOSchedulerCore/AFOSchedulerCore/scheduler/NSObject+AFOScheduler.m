@@ -7,10 +7,10 @@
 //
 
 #import "NSObject+AFOScheduler.h"
-#import "AFOSchedulerCore.h"
+#import "AFOSchedulerInvocation.h"
 @implementation NSObject (AFOScheduler)
 - (nullable id)schedulerPerformSelector:(SEL)selector{
-    return [[AFOSchedulerCore shareSchedulerCore] schedulerInstanceMethod:selector target:self params:@[]];
+    return [[AFOSchedulerInvocation shareSchedulerCore] schedulerInstanceMethod:selector target:self params:@[]];
 }
 - (nullable id)schedulerPerformSelector:(SEL)selector
                             params:(nullable NSArray *)params{

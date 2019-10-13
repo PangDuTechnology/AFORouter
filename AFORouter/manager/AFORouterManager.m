@@ -8,7 +8,6 @@
 
 #import "AFORouterManager.h"
 #import <UIKit/UIKit.h>
-#import <AFOSchedulerCore/AFOSchedulerCore.h>
 #import <AFOUIKIT/UIViewController+CurrentController.h>
 #import <AFOFoundation/AFOFoundation.h>
 #import "JLRoutes.h"

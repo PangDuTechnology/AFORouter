@@ -7,7 +7,6 @@
 //
 
 #import "AFORouterScheduler.h"
-#import <AFOSchedulerCore/AFOSchedulerCore.h>
 @implementation AFORouterScheduler
 
 @end
