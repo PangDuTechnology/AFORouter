@@ -12,8 +12,6 @@
 @interface AFORouterActionContext ()
 @property (nonatomic, strong)           NSDictionary *actionDic;
 @property (nonatomic, strong)    AFORouterTypeAction *action;
-@property (nonatomic, strong)    UIViewController    *currentController;
-@property (nonatomic, strong)   UIViewController     *nextController;
 @end
 
 @implementation AFORouterActionContext

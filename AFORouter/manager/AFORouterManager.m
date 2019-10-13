@@ -46,6 +46,7 @@
 }
 #pragma mark ------ dealloc
 - (void)dealloc{
+    NSLog(@"AFORouterManager dealloc");
 }
 #pragma mark ------ property
 - (JLRoutes *)routes{
