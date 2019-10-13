@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'scheduler' do |scheduler|
+      scheduler.dependency 'AFOSchedulerCore'
       scheduler.source_files = 'AFORouter/scheduler/*.{h,m}' 
       scheduler.public_header_files = 'AFORouter/scheduler/*.h'
   end
@@ -44,5 +45,4 @@ Pod::Spec.new do |s|
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
-  s.dependency 'AFOSchedulerCore'
 end
