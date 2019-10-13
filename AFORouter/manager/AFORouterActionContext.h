@@ -12,7 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)passingCurrentController:(UIViewController *)current
                   nextController:(UIViewController *)next
                       parameters:(NSDictionary *)paramenter;
-- (void)passingParameters:(NSDictionary *)paramenter;
 @end
 
 NS_ASSUME_NONNULL_END

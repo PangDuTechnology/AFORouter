@@ -16,7 +16,10 @@
     id instance = [[class alloc] init];
 //    [instance setValue:[UIViewController currentViewController] forKey:@"currentController"];
 //    [instance setValue:[self nextController:parameters] forKey:@"nextController"];
-    [instance schedulerPerformSelector:@selector(passingParameters:) params:paraArray];
+    SEL sel = NSSelectorFromString(@"passingCurrentController:nextController:parameters:");
+    if ([instance respondsToSelector:sel]) {
+        [instance schedulerPerformSelector:sel params:paraArray];
+    }
 }
 + (UIViewController *)nextController:(NSDictionary *)parameters{
     Class class = NSClassFromString(parameters[@"next"]);
