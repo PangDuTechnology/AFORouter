@@ -8,7 +8,6 @@
 
 #import "AFORouterManager.h"
 #import <UIKit/UIKit.h>
-#import <AFOUIKIT/UIViewController+CurrentController.h>
 #import <AFOFoundation/AFOFoundation.h>
 #import "AFOSchedulerBaseClass+AFORouter.h"
 #import "JLRoutes.h"
@@ -30,14 +29,6 @@
 - (void)loadRotesFile{
     [self.routes addRoute:@"/:modelName/:current/:next/:action"handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
         [AFOSchedulerBaseClass jumpPassingParameters:parameters];
-//        Class class = NSClassFromString(@"AFORouterActionContext");
-//        id instance = [[class alloc] init];
-//        [instance setValue:parameters[@"action"] forKey:@"strAction"];
-//        [instance setValue:[UIViewController currentViewController] forKey:@"currentController"];
-//        [instance setValue:[self nextController:parameters] forKey:@"nextController"];
-//        if ([instance respondsToSelector:@selector(passingParameters:)]) {
-//            [instance performSelector:@selector(passingParameters:)withObject:parameters];
-//        }
         return YES;
     }];
 }

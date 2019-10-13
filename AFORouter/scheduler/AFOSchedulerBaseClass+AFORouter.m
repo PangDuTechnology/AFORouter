@@ -13,9 +13,9 @@
 + (void)jumpPassingParameters:(NSDictionary *)parameters{
     Class class = NSClassFromString(@"AFORouterActionContext");
     id instance = [[class alloc] init];
-    [instance setValue:[UIViewController currentViewController] forKey:@"currentController"];
-    [instance setValue:[self nextController:parameters] forKey:@"nextController"];
-    [instance schedulerPerformSelector:@selector(passingParameters:) params:@[parameters]];
+//    [instance setValue:[UIViewController currentViewController] forKey:@"currentController"];
+//    [instance setValue:[self nextController:parameters] forKey:@"nextController"];
+    [instance schedulerPerformSelector:@selector(passingParameters:) params:@[[UIViewController currentViewController],[self nextController:parameters],parameters]];
 }
 + (UIViewController *)nextController:(NSDictionary *)parameters{
     Class class = NSClassFromString(parameters[@"next"]);

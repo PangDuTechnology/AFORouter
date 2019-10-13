@@ -17,12 +17,14 @@
 @end
 
 @implementation AFORouterActionContext
-- (void)passingParameters:(NSDictionary *)paramenter{
+- (void)passingCurrentController:(UIViewController *)current
+                  nextController:(UIViewController *)next
+                      parameters:(NSDictionary *)paramenter{
     NSString *strAction = paramenter[@"action"];
     Class class = NSClassFromString(self.actionDic[strAction]);
     self.action = [[class alloc] init];
     if ([self.action respondsToSelector:@selector(currentController:nextController: parameter:)]) {
-        [self.action currentController:self.currentController nextController:self.nextController parameter:paramenter];
+        [self.action currentController:current nextController:next parameter:paramenter];
     }
 }
 #pragma mark ------ property

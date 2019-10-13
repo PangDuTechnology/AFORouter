@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 NS_ASSUME_NONNULL_BEGIN
 @interface AFORouterActionContext : NSObject
+- (void)passingCurrentController:(UIViewController *)current
+                  nextController:(UIViewController *)next
+                      parameters:(NSDictionary *)paramenter;
 - (void)passingParameters:(NSDictionary *)paramenter;
 @end
 
