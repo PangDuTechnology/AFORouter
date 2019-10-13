@@ -14,8 +14,6 @@
     NSArray *paraArray = @[[UIViewController currentViewController],[self nextController:parameters],parameters];
     Class class = NSClassFromString(@"AFORouterActionContext");
     id instance = [[class alloc] init];
-//    [instance setValue:[UIViewController currentViewController] forKey:@"currentController"];
-//    [instance setValue:[self nextController:parameters] forKey:@"nextController"];
     SEL sel = NSSelectorFromString(@"passingCurrentController:nextController:parameters:");
     if ([instance respondsToSelector:sel]) {
         [instance schedulerPerformSelector:sel params:paraArray];
