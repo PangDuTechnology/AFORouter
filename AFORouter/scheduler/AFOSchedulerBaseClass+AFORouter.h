@@ -6,8 +6,7 @@
 //  Copyright © 2019 AFO. All rights reserved.
 //
 
-#import "AFOSchedulerBaseClass.h"
-
+#import <AFOSchedulerCore/AFOSchedulerBaseClass.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AFOSchedulerBaseClass (AFORouter)

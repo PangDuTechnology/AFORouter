@@ -28,25 +28,18 @@
 }
 #pragma mark ------ 添加跳转规则
 - (void)loadRotesFile{
-    WeakObject(self);
     [self.routes addRoute:@"/:modelName/:current/:next/:action"handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
-        StrongObject(self)
-        Class class = NSClassFromString(@"AFORouterActionContext");
-        id instance = [[class alloc] init];
-        [instance setValue:parameters[@"action"] forKey:@"strAction"];
-        [instance setValue:[UIViewController currentViewController] forKey:@"currentController"];
-        [instance setValue:[self nextController:parameters] forKey:@"nextController"];
-        if ([instance respondsToSelector:@selector(passingParameters:)]) {
-            [instance performSelector:@selector(passingParameters:)withObject:parameters];
-        }
+        [AFOSchedulerBaseClass jumpPassingParameters:parameters];
+//        Class class = NSClassFromString(@"AFORouterActionContext");
+//        id instance = [[class alloc] init];
+//        [instance setValue:parameters[@"action"] forKey:@"strAction"];
+//        [instance setValue:[UIViewController currentViewController] forKey:@"currentController"];
+//        [instance setValue:[self nextController:parameters] forKey:@"nextController"];
+//        if ([instance respondsToSelector:@selector(passingParameters:)]) {
+//            [instance performSelector:@selector(passingParameters:)withObject:parameters];
+//        }
         return YES;
     }];
-}
-- (UIViewController *)nextController:(NSDictionary *)parameters{
-    Class class = NSClassFromString(parameters[@"next"]);
-    UIViewController *controller = [[class alloc] init];
-    controller.hidesBottomBarWhenPushed = YES;
-    return controller;
 }
 #pragma mark ------ 匹配URL
 - (BOOL)routeURL:(NSURL *)url{

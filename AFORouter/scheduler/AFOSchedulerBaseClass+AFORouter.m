@@ -7,7 +7,7 @@
 //
 #import <UIKit/UIKit.h>
 #import "AFOSchedulerBaseClass+AFORouter.h"
-#import <AFOSchedulerCore/AFOSchedulerCore.h>
+#import <AFOSchedulerCore/NSObject+AFOScheduler.h>
 #import <AFOUIKIT/UIViewController+CurrentController.h>
 @implementation AFOSchedulerBaseClass (AFORouter)
 + (void)jumpPassingParameters:(NSDictionary *)parameters{

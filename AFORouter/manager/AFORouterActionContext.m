@@ -6,6 +6,7 @@
 //  Copyright © 2019年 AFO. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "AFORouterActionContext.h"
 #import "AFORouterTypeAction.h"
 @interface AFORouterActionContext ()
@@ -16,12 +17,6 @@
 @end
 
 @implementation AFORouterActionContext
-- (instancetype)initAction:(NSString*)strAction{
-    if (self = [super init]) {
-        _strAction = strAction;
-    }
-    return self;
-}
 - (void)passingParameters:(NSDictionary *)paramenter{
     NSString *strAction = paramenter[@"action"];
     Class class = NSClassFromString(self.actionDic[strAction]);
