@@ -11,11 +11,12 @@
 #import <AFOUIKIT/UIViewController+CurrentController.h>
 @implementation AFOSchedulerBaseClass (AFORouter)
 + (void)jumpPassingParameters:(NSDictionary *)parameters{
+    NSArray *paraArray = @[[UIViewController currentViewController],[self nextController:parameters],parameters];
     Class class = NSClassFromString(@"AFORouterActionContext");
     id instance = [[class alloc] init];
 //    [instance setValue:[UIViewController currentViewController] forKey:@"currentController"];
 //    [instance setValue:[self nextController:parameters] forKey:@"nextController"];
-    [instance schedulerPerformSelector:@selector(passingParameters:) params:@[[UIViewController currentViewController],[self nextController:parameters],parameters]];
+    [instance schedulerPerformSelector:@selector(passingParameters:) params:paraArray];
 }
 + (UIViewController *)nextController:(NSDictionary *)parameters{
     Class class = NSClassFromString(parameters[@"next"]);
