@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		013C8D24BEE4A5EB4DF3A31CDF99F9C6 /* AFOWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3E378F66C938D050E401476940E4FC /* AFOWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1C017D7C52B4195A65749927D6A995D5 /* NSString+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F07064914D55CD458D45916198034482 /* NSString+Dictionary.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1DB12A78476E421F788D2862EA8298E5 /* AFOSchedulerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EB9FDD6F2A2A0B5E8AB964FE016F86 /* AFOSchedulerCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D57C16329CD93515447EEA0C97A285F /* AFOSchedulerCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CFEF521782D8F5A48774EFBD1FCF34 /* AFOSchedulerCore-dummy.m */; };
 		248AD228EAFB91F2FCAC9F05C8C854FF /* AFOTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B0896D94D40509BDF18615865E8C50 /* AFOTabBarController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3569096D6A1A68F146977DB335EF71E2 /* NSMutableArray+AFOAbnormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 64337C6CA86C3737927E0621C9770510 /* NSMutableArray+AFOAbnormal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3BB5A2D7015E33540D136452F57381EF /* AFOWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DEFC469241F17387975B30159FBA0D /* AFOWindow.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -23,36 +23,38 @@
 		4D8B82CA6DF903437BBF60CA01044EA9 /* AFOUIKIT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C97932BC443D337EBF89D54F5E0F48F4 /* AFOUIKIT-dummy.m */; };
 		50A0828A3986FE7B3869127DF673EB37 /* NSArray+AFOAbnormal.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B8337CE994F98B22191FD79B88490 /* NSArray+AFOAbnormal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5281A6C66938BA59BF93B1725CDB649A /* Pods-AFORouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4DE68C8A376991161FBACED06E77B /* Pods-AFORouter-dummy.m */; };
-		5295436DA24C0C82343224B63C8AD9E4 /* AFOSchedulerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C01107C6E6966FE973BE92C27DC2B74B /* AFOSchedulerCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5440C71AC3B8834CB5328CC5BDF9F4CC /* AFONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97824D8FD2687771654F0FF5F1A85376 /* AFONavigationController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		54E18036E8988F4A4C2BEBDE967010C6 /* AFOMacroDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = C6040C7FC68AADCFE17D4D32A2C36CC7 /* AFOMacroDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57AB5808C0608A9282A8357F5F7A4942 /* AFOSchedulerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D79F9B03A15342CB6F3120C0BED425 /* AFOSchedulerCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6938462BBB0E34523FDFBCF642630BD4 /* NSString+URLSchemes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1549D3B08ADA195B0C2E11139B36A6E2 /* NSString+URLSchemes.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6C8CB2CC3AA8897B5005994DDC73537E /* NSFileManager+AFOOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 246AD76E01DFBA6321EAD4B2E8B6146A /* NSFileManager+AFOOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6F22CD64DB4494D2E8DF8EE9626A9792 /* NSFileManager+AFOSandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F2B924CA646BC69A552EB3773CE84 /* NSFileManager+AFOSandBox.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6FABFE71F1EEB625B205F47A12EB9C16 /* AFOCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF0F75516DDDC927D380967928D1391 /* AFOCollectionView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		71D9041A0635870044BB2F799DBF075B /* AFOSchedulerCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CE057D397F7005C163BD7C2BA2E514 /* AFOSchedulerCore.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8111ED9A02C9158F540B14C50BA4ED99 /* AFOSchedulerInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 410B8544052AFE67636569F1BF3F9F92 /* AFOSchedulerInvocation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		867FAC5FD84F2952ACDCFCF24CBE60E7 /* AFOSchedulerBaseClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EE9668E5388A3AF64A7F25E2F846CA /* AFOSchedulerBaseClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		86AE52F5811ACF2681B5EF557F49F440 /* NSString+Formatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9963CB37C4878962C95700FF178A30 /* NSString+Formatting.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		88999BD4DE665EC92E5B89EF8C465D2F /* NSArray+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = 14173B7953805B47A19DAB3482B0A9C3 /* NSArray+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8E2BC598ECBC5AA987DCC71A84768C63 /* AFOFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CF827340D9A96C7BC5B80A1A1A4F95 /* AFOFoundation-dummy.m */; };
 		8FDB17919C5F9DD145FEC748182290EE /* NSFileManager+AFOSandBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4D490877B639E8A25B6428D9841BB1 /* NSFileManager+AFOSandBox.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		942752625206A9B5C2263CFA81EAD68C /* NSString+URLParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 222F987C413CB4C0F4FE7DF8DE153A7B /* NSString+URLParameter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		974C10D715256EDDA029668806CB9D9D /* NSObject+AFOScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B8F3065563E6CA13E802A2C5F00877 /* NSObject+AFOScheduler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9C6DB3984B4A3EF79E516EB0A23BE08E /* NSString+Formatting.h in Headers */ = {isa = PBXBuildFile; fileRef = C949F0DF70126B38616E9213F18B53EA /* NSString+Formatting.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9D3F003893F4225DC8266A0C8A90F836 /* AFOFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2D4F3E1B9B6D3E8E1FB68A00E8FBA4 /* AFOFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A722D516B9140B43C46F680F8FE23AAA /* AFOWeakInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA51D3B14069117854ECEA5C6689869 /* AFOWeakInstance.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B19D3741258FD401E73B2288FD3836B5 /* UIViewController+CurrentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DD9A920DD3385A3AD6D1003C99CEF /* UIViewController+CurrentController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B35BF17756399B1239972C077E14595B /* NSString+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F08DC901CE8A300C43B8137F2968B4 /* NSString+Dictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B5A2BC6189C188D5AC11249A71743323 /* AFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19875C508ED0B94FB2A059B79CFD7B44 /* AFOViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B8FCD5E101939C9044E0467CE5A96268 /* AFOSchedulerBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F99D8D5E65985AAFD8D148FAF675A /* AFOSchedulerBaseClass.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C040A916DCF8B7D605595BA1E6E5C54E /* UIViewController+CurrentController.h in Headers */ = {isa = PBXBuildFile; fileRef = D89A53A0B6B0CC776D3C5950C8F3DA59 /* UIViewController+CurrentController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C1789DC11D63C4F1628F525156B92082 /* NSDictionary+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC6D47D31FD1EA9C6331D9DA355046D /* NSDictionary+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C6FA8A61CE10B48B4FD9C4EF62CF14D5 /* NSBundle+AFOCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FA4FB0FE2E9FD5859A4405D7BE84C /* NSBundle+AFOCategory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CB83D27E9C4D2D421A00F1F3514789C5 /* AFOViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE5FF97A71BE2458BC243603F68182B /* AFOViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D60F58EBF38A02F819508FCA49C55B37 /* AFOSchedulerInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1E5528EC01B842A6AE8D9E695509CD /* AFOSchedulerInvocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DE3B35CF16512226684644DA3215F542 /* AFOTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBBFFE1FBB1A212C74D636B03426431 /* AFOTabBarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E551894A1F14D854848922D5548677F6 /* NSObject+AFOScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B8D712E3AFA416519D0F09727FEF62 /* NSObject+AFOScheduler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EB216A146B4DBC9401E82A19D0B021BB /* NSFileManager+AFOOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 59ADC0DD3E178B52E6C6F47B8BD69D5B /* NSFileManager+AFOOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB6206215C9A5AF98D6000B1768775CA /* NSObject+AFOScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = D949DDA755756DDAF17CC2B94E900F14 /* NSObject+AFOScheduler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EDCD822CB17E7661A0A17E6E92409413 /* NSMutableArray+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CDE568F92CF4F8E60B751A523869D1 /* NSMutableArray+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EE05A825A4BB2FE966E7DFBD44FB92BA /* NSMutableDictionary+AFOAbnormal.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6BCC07D31B41E8BA85B932CE1E3C42 /* NSMutableDictionary+AFOAbnormal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F08241BA6D7EFE2985741E6E9CFECDA7 /* AFOSchedulerCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1529771DB6D1B068CDEC512A7B0F8 /* AFOSchedulerCore-dummy.m */; };
+		F68CF5502ACFD5FA43B4D924B61DC530 /* NSObject+AFOScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BFED1AF5B514B9C52CB09B51F333BA /* NSObject+AFOScheduler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F99D8D973BE1A2DB3FF7F61A7A867DCF /* AFONavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 418252E7643C6F25ABB9661CEBA35833 /* AFONavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FB6E943F8F099502FE3D9EF84D3C1498 /* AFOCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CF055846FE85DCDC860227F3F3C08D /* AFOCollectionViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FF12CE6D03D7B1FA7B57C31ED2B77D56 /* NSString+URLParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 318FD69B9E45C35590D14960E3D34F09 /* NSString+URLParameter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -84,31 +86,35 @@
 
 /* Begin PBXFileReference section */
 		03CF827340D9A96C7BC5B80A1A1A4F95 /* AFOFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFOFoundation-dummy.m"; sourceTree = "<group>"; };
+		08D79F9B03A15342CB6F3120C0BED425 /* AFOSchedulerCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOSchedulerCore.h; path = AFOSchedulerCore/AFOSchedulerCore.h; sourceTree = "<group>"; };
 		0BF4DE68C8A376991161FBACED06E77B /* Pods-AFORouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFORouter-dummy.m"; sourceTree = "<group>"; };
-		13CE057D397F7005C163BD7C2BA2E514 /* AFOSchedulerCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOSchedulerCore.m; path = AFOSchedulerCore/scheduler/AFOSchedulerCore.m; sourceTree = "<group>"; };
 		14173B7953805B47A19DAB3482B0A9C3 /* NSArray+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+AFOAbnormal.h"; path = "AFOFoundation/array/NSArray+AFOAbnormal.h"; sourceTree = "<group>"; };
+		14BFED1AF5B514B9C52CB09B51F333BA /* NSObject+AFOScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AFOScheduler.m"; path = "AFOSchedulerCore/scheduler/NSObject+AFOScheduler.m"; sourceTree = "<group>"; };
 		1549D3B08ADA195B0C2E11139B36A6E2 /* NSString+URLSchemes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLSchemes.h"; path = "AFOFoundation/string/NSString+URLSchemes.h"; sourceTree = "<group>"; };
 		19875C508ED0B94FB2A059B79CFD7B44 /* AFOViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOViewController.m; path = AFOUIKIT/AFOViewController.m; sourceTree = "<group>"; };
-		1E4665CCE1AD0528BDFEE7A685A37EA9 /* AFOSchedulerCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFOSchedulerCore-prefix.pch"; sourceTree = "<group>"; };
 		1E86058C67AAACCF8D2A7DE5AE932EF5 /* Pods-AFORouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFORouter.debug.xcconfig"; sourceTree = "<group>"; };
 		2023AFB5218B47C4A49BBB35FADB45B6 /* libAFOSchedulerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOSchedulerCore.a; path = libAFOSchedulerCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2184F63A9A643C4311E9D1C09A8F93BC /* AFOSchedulerCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFOSchedulerCore.xcconfig; sourceTree = "<group>"; };
 		222F987C413CB4C0F4FE7DF8DE153A7B /* NSString+URLParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLParameter.h"; path = "AFOFoundation/string/NSString+URLParameter.h"; sourceTree = "<group>"; };
 		246AD76E01DFBA6321EAD4B2E8B6146A /* NSFileManager+AFOOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AFOOperation.m"; path = "AFOFoundation/sandbox/NSFileManager+AFOOperation.m"; sourceTree = "<group>"; };
-		29B8F3065563E6CA13E802A2C5F00877 /* NSObject+AFOScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AFOScheduler.m"; path = "AFOSchedulerCore/scheduler/NSObject+AFOScheduler.m"; sourceTree = "<group>"; };
 		2D9963CB37C4878962C95700FF178A30 /* NSString+Formatting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Formatting.m"; path = "AFOFoundation/string/NSString+Formatting.m"; sourceTree = "<group>"; };
 		318FD69B9E45C35590D14960E3D34F09 /* NSString+URLParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLParameter.m"; path = "AFOFoundation/string/NSString+URLParameter.m"; sourceTree = "<group>"; };
+		34EE9668E5388A3AF64A7F25E2F846CA /* AFOSchedulerBaseClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOSchedulerBaseClass.h; path = AFOSchedulerCore/scheduler/AFOSchedulerBaseClass.h; sourceTree = "<group>"; };
 		3505255C390F258C5C3BC1792812C42E /* NSMutableDictionary+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+AFOAbnormal.m"; path = "AFOFoundation/dictionary/NSMutableDictionary+AFOAbnormal.m"; sourceTree = "<group>"; };
 		38B0896D94D40509BDF18615865E8C50 /* AFOTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOTabBarController.m; path = AFOUIKIT/AFOTabBarController.m; sourceTree = "<group>"; };
+		3DC1E657C6394BEA529785DE56DE6A53 /* AFOSchedulerCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFOSchedulerCore.xcconfig; sourceTree = "<group>"; };
+		410B8544052AFE67636569F1BF3F9F92 /* AFOSchedulerInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOSchedulerInvocation.m; path = AFOSchedulerCore/scheduler/AFOSchedulerInvocation.m; sourceTree = "<group>"; };
 		413DD9A920DD3385A3AD6D1003C99CEF /* UIViewController+CurrentController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CurrentController.m"; path = "AFOUIKIT/viewController/UIViewController+CurrentController.m"; sourceTree = "<group>"; };
 		418252E7643C6F25ABB9661CEBA35833 /* AFONavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFONavigationController.h; path = AFOUIKIT/AFONavigationController.h; sourceTree = "<group>"; };
 		43BEECC953DE9AE800FF0B4B8EBF337D /* libPods-AFORouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AFORouter.a"; path = "libPods-AFORouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CF055846FE85DCDC860227F3F3C08D /* AFOCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOCollectionViewLayout.h; path = AFOUIKIT/AFOCollectionViewLayout.h; sourceTree = "<group>"; };
+		47CFEF521782D8F5A48774EFBD1FCF34 /* AFOSchedulerCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFOSchedulerCore-dummy.m"; sourceTree = "<group>"; };
+		4B1E5528EC01B842A6AE8D9E695509CD /* AFOSchedulerInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOSchedulerInvocation.h; path = AFOSchedulerCore/scheduler/AFOSchedulerInvocation.h; sourceTree = "<group>"; };
 		4EA51D3B14069117854ECEA5C6689869 /* AFOWeakInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOWeakInstance.h; path = AFOFoundation/weak/AFOWeakInstance.h; sourceTree = "<group>"; };
 		4EB0959E61EAC889D51F90641FD082AC /* libAFOFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOFoundation.a; path = libAFOFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4F2B924CA646BC69A552EB3773CE84 /* NSFileManager+AFOSandBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AFOSandBox.m"; path = "AFOFoundation/sandbox/NSFileManager+AFOSandBox.m"; sourceTree = "<group>"; };
 		56DEFC469241F17387975B30159FBA0D /* AFOWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOWindow.m; path = AFOUIKIT/AFOWindow.m; sourceTree = "<group>"; };
 		58DF9DD44DB993FE6AAA12BCF3051873 /* NSBundle+AFOCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+AFOCategory.h"; path = "AFOFoundation/bundle/NSBundle+AFOCategory.h"; sourceTree = "<group>"; };
+		592F99D8D5E65985AAFD8D148FAF675A /* AFOSchedulerBaseClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOSchedulerBaseClass.m; path = AFOSchedulerCore/scheduler/AFOSchedulerBaseClass.m; sourceTree = "<group>"; };
 		59ADC0DD3E178B52E6C6F47B8BD69D5B /* NSFileManager+AFOOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+AFOOperation.h"; path = "AFOFoundation/sandbox/NSFileManager+AFOOperation.h"; sourceTree = "<group>"; };
 		5A3E378F66C938D050E401476940E4FC /* AFOWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOWindow.h; path = AFOUIKIT/AFOWindow.h; sourceTree = "<group>"; };
 		6146DD76FA2FD8C50F31BC41871B0D44 /* Pods-AFORouter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFORouter-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -122,8 +128,8 @@
 		9C618551B80DEB54A92658BC289C2B5B /* NSString+URLSchemes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLSchemes.m"; path = "AFOFoundation/string/NSString+URLSchemes.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADC6D47D31FD1EA9C6331D9DA355046D /* NSDictionary+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AFOAbnormal.h"; path = "AFOFoundation/dictionary/NSDictionary+AFOAbnormal.h"; sourceTree = "<group>"; };
+		B05543831789D72BEBC20E2B1456FE29 /* AFOSchedulerCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFOSchedulerCore-prefix.pch"; sourceTree = "<group>"; };
 		BFF0F75516DDDC927D380967928D1391 /* AFOCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOCollectionView.m; path = AFOUIKIT/AFOCollectionView.m; sourceTree = "<group>"; };
-		C01107C6E6966FE973BE92C27DC2B74B /* AFOSchedulerCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOSchedulerCore.h; path = AFOSchedulerCore/scheduler/AFOSchedulerCore.h; sourceTree = "<group>"; };
 		C31916EDEBA52991FD0B71B9A61DFEBF /* AFOCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOCollectionViewLayout.m; path = AFOUIKIT/AFOCollectionViewLayout.m; sourceTree = "<group>"; };
 		C5108E907FF4126FD5804CE04BA52440 /* NSDictionary+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AFOAbnormal.m"; path = "AFOFoundation/dictionary/NSDictionary+AFOAbnormal.m"; sourceTree = "<group>"; };
 		C6040C7FC68AADCFE17D4D32A2C36CC7 /* AFOMacroDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOMacroDefinition.h; path = AFOFoundation/define/AFOMacroDefinition.h; sourceTree = "<group>"; };
@@ -132,16 +138,14 @@
 		CF5D86633863C4ABFB0F4CBB8D5CAC9C /* AFOUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOUIKit.h; path = AFOUIKIT/AFOUIKit.h; sourceTree = "<group>"; };
 		CFA4E1C496D2DDE4504C3D13F914DE7F /* Pods-AFORouter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFORouter-acknowledgements.plist"; sourceTree = "<group>"; };
 		D89A53A0B6B0CC776D3C5950C8F3DA59 /* UIViewController+CurrentController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CurrentController.h"; path = "AFOUIKIT/viewController/UIViewController+CurrentController.h"; sourceTree = "<group>"; };
+		D949DDA755756DDAF17CC2B94E900F14 /* NSObject+AFOScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AFOScheduler.h"; path = "AFOSchedulerCore/scheduler/NSObject+AFOScheduler.h"; sourceTree = "<group>"; };
 		DCBBFFE1FBB1A212C74D636B03426431 /* AFOTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOTabBarController.h; path = AFOUIKIT/AFOTabBarController.h; sourceTree = "<group>"; };
-		DDE1529771DB6D1B068CDEC512A7B0F8 /* AFOSchedulerCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFOSchedulerCore-dummy.m"; sourceTree = "<group>"; };
 		DE6BCC07D31B41E8BA85B932CE1E3C42 /* NSMutableDictionary+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+AFOAbnormal.h"; path = "AFOFoundation/dictionary/NSMutableDictionary+AFOAbnormal.h"; sourceTree = "<group>"; };
 		DEE5FF97A71BE2458BC243603F68182B /* AFOViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOViewController.h; path = AFOUIKIT/AFOViewController.h; sourceTree = "<group>"; };
 		DF3F38DBFD70749CF23809FD489DB772 /* AFOCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOCollectionView.h; path = AFOUIKIT/AFOCollectionView.h; sourceTree = "<group>"; };
 		E65FA4FB0FE2E9FD5859A4405D7BE84C /* NSBundle+AFOCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+AFOCategory.m"; path = "AFOFoundation/bundle/NSBundle+AFOCategory.m"; sourceTree = "<group>"; };
-		E8EB9FDD6F2A2A0B5E8AB964FE016F86 /* AFOSchedulerCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOSchedulerCore.h; path = AFOSchedulerCore/AFOSchedulerCore.h; sourceTree = "<group>"; };
 		EF1B8337CE994F98B22191FD79B88490 /* NSArray+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+AFOAbnormal.m"; path = "AFOFoundation/array/NSArray+AFOAbnormal.m"; sourceTree = "<group>"; };
 		F07064914D55CD458D45916198034482 /* NSString+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Dictionary.m"; path = "AFOFoundation/string/NSString+Dictionary.m"; sourceTree = "<group>"; };
-		F0B8D712E3AFA416519D0F09727FEF62 /* NSObject+AFOScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AFOScheduler.h"; path = "AFOSchedulerCore/scheduler/NSObject+AFOScheduler.h"; sourceTree = "<group>"; };
 		F0F08DC901CE8A300C43B8137F2968B4 /* NSString+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Dictionary.h"; path = "AFOFoundation/string/NSString+Dictionary.h"; sourceTree = "<group>"; };
 		F281150817BECDC29654AE67706441E1 /* Pods-AFORouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFORouter.release.xcconfig"; sourceTree = "<group>"; };
 		F39383F0AADA6BCF727C03C26374B1B7 /* libAFOUIKIT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOUIKIT.a; path = libAFOUIKIT.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,13 +154,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		143D7C70423C7466329A75E8F55E85EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		30C67E9264ADCA8B714F3F50E01FF049 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,6 +175,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD34F04E0C247C601105757F3FEEE634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -188,17 +192,6 @@
 				E65FA4FB0FE2E9FD5859A4405D7BE84C /* NSBundle+AFOCategory.m */,
 			);
 			name = bundle;
-			sourceTree = "<group>";
-		};
-		1110913B04495809E86BC9F302902ECD /* AFOSchedulerCore */ = {
-			isa = PBXGroup;
-			children = (
-				E8EB9FDD6F2A2A0B5E8AB964FE016F86 /* AFOSchedulerCore.h */,
-				A0873F9C0B19D443AEC23E287908C157 /* scheduler */,
-				2F8145CF050DFDF10EF3185FF9A04DE8 /* Support Files */,
-			);
-			name = AFOSchedulerCore;
-			path = AFOSchedulerCore;
 			sourceTree = "<group>";
 		};
 		11B328D25DB6C247CCF228C7D537853D /* array */ = {
@@ -216,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				307883D055706349BE1BEEB8833174DA /* AFOFoundation */,
-				1110913B04495809E86BC9F302902ECD /* AFOSchedulerCore */,
+				749165BFE541722CA017CCC941AE5012 /* AFOSchedulerCore */,
 				8A33C10D1DB25AE0B7D44131232B59F1 /* AFOUIKIT */,
 			);
 			name = Pods;
@@ -254,17 +247,6 @@
 				C6040C7FC68AADCFE17D4D32A2C36CC7 /* AFOMacroDefinition.h */,
 			);
 			name = define;
-			sourceTree = "<group>";
-		};
-		2F8145CF050DFDF10EF3185FF9A04DE8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2184F63A9A643C4311E9D1C09A8F93BC /* AFOSchedulerCore.xcconfig */,
-				DDE1529771DB6D1B068CDEC512A7B0F8 /* AFOSchedulerCore-dummy.m */,
-				1E4665CCE1AD0528BDFEE7A685A37EA9 /* AFOSchedulerCore-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AFOSchedulerCore";
 			sourceTree = "<group>";
 		};
 		307883D055706349BE1BEEB8833174DA /* AFOFoundation */ = {
@@ -314,12 +296,36 @@
 			name = sandbox;
 			sourceTree = "<group>";
 		};
+		4E8D99625FA0031B38F9BD1805DB5341 /* scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				34EE9668E5388A3AF64A7F25E2F846CA /* AFOSchedulerBaseClass.h */,
+				592F99D8D5E65985AAFD8D148FAF675A /* AFOSchedulerBaseClass.m */,
+				4B1E5528EC01B842A6AE8D9E695509CD /* AFOSchedulerInvocation.h */,
+				410B8544052AFE67636569F1BF3F9F92 /* AFOSchedulerInvocation.m */,
+				D949DDA755756DDAF17CC2B94E900F14 /* NSObject+AFOScheduler.h */,
+				14BFED1AF5B514B9C52CB09B51F333BA /* NSObject+AFOScheduler.m */,
+			);
+			name = scheduler;
+			sourceTree = "<group>";
+		};
 		6D2CD736FA80D79A85D13E7C8228C949 /* weak */ = {
 			isa = PBXGroup;
 			children = (
 				4EA51D3B14069117854ECEA5C6689869 /* AFOWeakInstance.h */,
 			);
 			name = weak;
+			sourceTree = "<group>";
+		};
+		749165BFE541722CA017CCC941AE5012 /* AFOSchedulerCore */ = {
+			isa = PBXGroup;
+			children = (
+				08D79F9B03A15342CB6F3120C0BED425 /* AFOSchedulerCore.h */,
+				4E8D99625FA0031B38F9BD1805DB5341 /* scheduler */,
+				D234D1FD8E28BA7F444EF3B9C27423F1 /* Support Files */,
+			);
+			name = AFOSchedulerCore;
+			path = AFOSchedulerCore;
 			sourceTree = "<group>";
 		};
 		8A33C10D1DB25AE0B7D44131232B59F1 /* AFOUIKIT */ = {
@@ -343,17 +349,6 @@
 			);
 			name = AFOUIKIT;
 			path = AFOUIKIT;
-			sourceTree = "<group>";
-		};
-		A0873F9C0B19D443AEC23E287908C157 /* scheduler */ = {
-			isa = PBXGroup;
-			children = (
-				C01107C6E6966FE973BE92C27DC2B74B /* AFOSchedulerCore.h */,
-				13CE057D397F7005C163BD7C2BA2E514 /* AFOSchedulerCore.m */,
-				F0B8D712E3AFA416519D0F09727FEF62 /* NSObject+AFOScheduler.h */,
-				29B8F3065563E6CA13E802A2C5F00877 /* NSObject+AFOScheduler.m */,
-			);
-			name = scheduler;
 			sourceTree = "<group>";
 		};
 		B2F609BDE97B83B286C0C4DFCBEAED4B /* dictionary */ = {
@@ -389,6 +384,17 @@
 				E51F64E05C1613F13DB2039D2417DD8F /* Products */,
 				39C5554FBC3B0914D099079E2AA3E2A1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D234D1FD8E28BA7F444EF3B9C27423F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DC1E657C6394BEA529785DE56DE6A53 /* AFOSchedulerCore.xcconfig */,
+				47CFEF521782D8F5A48774EFBD1FCF34 /* AFOSchedulerCore-dummy.m */,
+				B05543831789D72BEBC20E2B1456FE29 /* AFOSchedulerCore-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFOSchedulerCore";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -457,13 +463,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E76B3967ED6F1A8CDE2DC0078D0A176 /* Headers */ = {
+		C5ACD88911801781C754DB606DDF97E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB12A78476E421F788D2862EA8298E5 /* AFOSchedulerCore.h in Headers */,
-				5295436DA24C0C82343224B63C8AD9E4 /* AFOSchedulerCore.h in Headers */,
-				E551894A1F14D854848922D5548677F6 /* NSObject+AFOScheduler.h in Headers */,
+				867FAC5FD84F2952ACDCFCF24CBE60E7 /* AFOSchedulerBaseClass.h in Headers */,
+				57AB5808C0608A9282A8357F5F7A4942 /* AFOSchedulerCore.h in Headers */,
+				D60F58EBF38A02F819508FCA49C55B37 /* AFOSchedulerInvocation.h in Headers */,
+				EB6206215C9A5AF98D6000B1768775CA /* NSObject+AFOScheduler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,11 +523,11 @@
 		};
 		314D580FEA95EADBAAE8A008B282E18B /* AFOSchedulerCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB289243EA8E21CA2B48FA52DF376F41 /* Build configuration list for PBXNativeTarget "AFOSchedulerCore" */;
+			buildConfigurationList = 837785F155A02F9637545A0C720F24A0 /* Build configuration list for PBXNativeTarget "AFOSchedulerCore" */;
 			buildPhases = (
-				9E76B3967ED6F1A8CDE2DC0078D0A176 /* Headers */,
-				090FEF579D0C11AA5475CD1298CBF7F1 /* Sources */,
-				143D7C70423C7466329A75E8F55E85EC /* Frameworks */,
+				C5ACD88911801781C754DB606DDF97E8 /* Headers */,
+				4097C6D4EF6C89EFCFE482524BC05711 /* Sources */,
+				DD34F04E0C247C601105757F3FEEE634 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -578,16 +585,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		090FEF579D0C11AA5475CD1298CBF7F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F08241BA6D7EFE2985741E6E9CFECDA7 /* AFOSchedulerCore-dummy.m in Sources */,
-				71D9041A0635870044BB2F799DBF075B /* AFOSchedulerCore.m in Sources */,
-				974C10D715256EDDA029668806CB9D9D /* NSObject+AFOScheduler.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3A4DCBC3FAE4BC0DAA16954B1B3C0DD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -600,6 +597,17 @@
 				B5A2BC6189C188D5AC11249A71743323 /* AFOViewController.m in Sources */,
 				3BB5A2D7015E33540D136452F57381EF /* AFOWindow.m in Sources */,
 				B19D3741258FD401E73B2288FD3836B5 /* UIViewController+CurrentController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4097C6D4EF6C89EFCFE482524BC05711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FCD5E101939C9044E0467CE5A96268 /* AFOSchedulerBaseClass.m in Sources */,
+				1D57C16329CD93515447EEA0C97A285F /* AFOSchedulerCore-dummy.m in Sources */,
+				8111ED9A02C9158F540B14C50BA4ED99 /* AFOSchedulerInvocation.m in Sources */,
+				F68CF5502ACFD5FA43B4D924B61DC530 /* NSObject+AFOScheduler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,9 +662,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CABABCADC23EAB8AF852B535D5D8FCA /* Debug */ = {
+		1B7B98C957DA7FC51401E2FE1C9029C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2184F63A9A643C4311E9D1C09A8F93BC /* AFOSchedulerCore.xcconfig */;
+			baseConfigurationReference = 3DC1E657C6394BEA529785DE56DE6A53 /* AFOSchedulerCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -894,9 +902,9 @@
 			};
 			name = Debug;
 		};
-		E628877766ADFDB79998102C42BBE0C3 /* Release */ = {
+		BBF0FCAEC8A08CB9810D701347339AA1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2184F63A9A643C4311E9D1C09A8F93BC /* AFOSchedulerCore.xcconfig */;
+			baseConfigurationReference = 3DC1E657C6394BEA529785DE56DE6A53 /* AFOSchedulerCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -983,20 +991,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		837785F155A02F9637545A0C720F24A0 /* Build configuration list for PBXNativeTarget "AFOSchedulerCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7B98C957DA7FC51401E2FE1C9029C3 /* Debug */,
+				BBF0FCAEC8A08CB9810D701347339AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ADEBA6C53132723D5EB20B7385BFB1F0 /* Build configuration list for PBXNativeTarget "Pods-AFORouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E67D0615736CE76A833415B892438120 /* Debug */,
 				8054265F772CBFE4043C447FDB8D48BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB289243EA8E21CA2B48FA52DF376F41 /* Build configuration list for PBXNativeTarget "AFOSchedulerCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1CABABCADC23EAB8AF852B535D5D8FCA /* Debug */,
-				E628877766ADFDB79998102C42BBE0C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import <AFOUIKIT/UIViewController+CurrentController.h>
 #import <AFOFoundation/AFOFoundation.h>
+#import "AFOSchedulerBaseClass+AFORouter.h"
 #import "JLRoutes.h"
 @interface AFORouterManager ()<UIApplicationDelegate>
 @property (nonatomic, strong) JLRoutes                  *routes;
@@ -38,8 +39,6 @@
         if ([instance respondsToSelector:@selector(passingParameters:)]) {
             [instance performSelector:@selector(passingParameters:)withObject:parameters];
         }
-//        AFORouterActionContext *action = [[AFORouterActionContext alloc] initAction:parameters[@"action"]];
-//        [action currentController:[UIViewController currentViewController] nextController:[self nextController:parameters] parameter:parameters];
         return YES;
     }];
 }

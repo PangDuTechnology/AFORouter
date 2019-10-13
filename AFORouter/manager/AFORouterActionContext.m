@@ -9,7 +9,6 @@
 #import "AFORouterActionContext.h"
 #import "AFORouterTypeAction.h"
 @interface AFORouterActionContext ()
-@property (nonatomic, copy)                 NSString *strAction;
 @property (nonatomic, strong)           NSDictionary *actionDic;
 @property (nonatomic, strong)    AFORouterTypeAction *action;
 @property (nonatomic, strong)    UIViewController    *currentController;
@@ -24,19 +23,11 @@
     return self;
 }
 - (void)passingParameters:(NSDictionary *)paramenter{
-    Class class = NSClassFromString(self.actionDic[self.strAction]);
+    NSString *strAction = paramenter[@"action"];
+    Class class = NSClassFromString(self.actionDic[strAction]);
     self.action = [[class alloc] init];
     if ([self.action respondsToSelector:@selector(currentController:nextController: parameter:)]) {
         [self.action currentController:self.currentController nextController:self.nextController parameter:paramenter];
-    }
-}
-- (void)currentController:(UIViewController *)current
-           nextController:(UIViewController *)next
-                parameter:(nonnull NSDictionary *)paramenter{
-    Class class = NSClassFromString(self.actionDic[self.strAction]);
-    self.action = [[class alloc] init];
-    if ([self.action respondsToSelector:@selector(currentController:nextController: parameter:)]) {
-        [self.action currentController:current nextController:next parameter:paramenter];
     }
 }
 #pragma mark ------ property

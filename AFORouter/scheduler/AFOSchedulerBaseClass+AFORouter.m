@@ -1,0 +1,26 @@
+//
+//  AFOSchedulerBaseClass+AFORouter.m
+//  AFORouter
+//
+//  Created by piccolo on 2019/10/13.
+//  Copyright © 2019 AFO. All rights reserved.
+//
+#import <UIKit/UIKit.h>
+#import "AFOSchedulerBaseClass+AFORouter.h"
+#import <AFOSchedulerCore/AFOSchedulerCore.h>
+#import <AFOUIKIT/UIViewController+CurrentController.h>
+@implementation AFOSchedulerBaseClass (AFORouter)
++ (void)jumpPassingParameters:(NSDictionary *)parameters{
+    Class class = NSClassFromString(@"AFORouterActionContext");
+    id instance = [[class alloc] init];
+    [instance setValue:[UIViewController currentViewController] forKey:@"currentController"];
+    [instance setValue:[self nextController:parameters] forKey:@"nextController"];
+    [instance schedulerPerformSelector:@selector(passingParameters:) params:@[parameters]];
+}
++ (UIViewController *)nextController:(NSDictionary *)parameters{
+    Class class = NSClassFromString(parameters[@"next"]);
+    UIViewController *controller = [[class alloc] init];
+    controller.hidesBottomBarWhenPushed = YES;
+    return controller;
+}
+@end
