@@ -1,12 +1,12 @@
 //
-//  AFOSchedulerInvocation.m
+//  AFOSchedulerCore.m
 //  AFORouter
 //
 //  Created by xianxueguang on 2019/10/9.
 //  Copyright © 2019年 AFO. All rights reserved.
 //
 
-#import "AFOSchedulerInvocation.h"
+#import "AFOSchedulerCore.h"
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 //---
@@ -21,13 +21,13 @@ else if (strcmp(currentArgumentType, @encode(type)) == 0){\
 type argumentValue = [(NSNumber *)obj typeValue];\
 [invocation setArgument:&argumentValue atIndex:(2 + idx)];\
 }
-@interface AFOSchedulerInvocation ()
+@interface AFOSchedulerCore ()
 
 @end
 
-@implementation AFOSchedulerInvocation
+@implementation AFOSchedulerCore
 + (instancetype)shareSchedulerCore{
-    static AFOSchedulerInvocation *schedulerCore;
+    static AFOSchedulerCore *schedulerCore;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         schedulerCore = [[self alloc]init];

@@ -1,5 +1,5 @@
 //
-//  AFOSchedulerInvocation.h
+//  AFOSchedulerCore.h
 //  AFORouter
 //
 //  Created by xianxueguang on 2019/10/9.
@@ -20,7 +20,7 @@ typedef NS_ENUM(NSInteger, AFOSCHEDULER_ERROR_CODES) {
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AFOSchedulerInvocation : NSObject
+@interface AFOSchedulerCore : NSObject
 + (instancetype)shareSchedulerCore;
 - (nullable id)schedulerInstanceMethod:(SEL)method
                                 target:(id)target

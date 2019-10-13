@@ -23,28 +23,20 @@ PODS:
 
 DEPENDENCIES:
   - AFOFoundation
-  - AFOSchedulerCore (from `/Users/piccolo/Documents/GitHub/AFOSchedulerCore`)
+  - AFOSchedulerCore
   - AFOUIKIT
 
 SPEC REPOS:
   trunk:
     - AFOFoundation
+    - AFOSchedulerCore
     - AFOUIKIT
-
-EXTERNAL SOURCES:
-  AFOSchedulerCore:
-    :git: "/Users/piccolo/Documents/GitHub/AFOSchedulerCore"
-
-CHECKOUT OPTIONS:
-  AFOSchedulerCore:
-    :commit: 51d6d8a2ace2a87b1f034d2ab745ec882c334d37
-    :git: "/Users/piccolo/Documents/GitHub/AFOSchedulerCore"
 
 SPEC CHECKSUMS:
   AFOFoundation: b5953521aa5c436dba3d2e77d56b5614289476ab
   AFOSchedulerCore: 0e4cdd5bdadfb2ae323ccc4cf9b205757b34d540
   AFOUIKIT: b1e12d14891b02f23c5dd3808db57ee6873e5c15
 
-PODFILE CHECKSUM: fb7c498041aec7ecc5f70db83b424542fea30880
+PODFILE CHECKSUM: bb9f3de7949f63819bb46013ee63bcf7b8fd7b06
 
 COCOAPODS: 1.8.3
