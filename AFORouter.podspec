@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFORouter"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "The router."
   s.description  = 'Used to pass values between pages.'
   s.homepage     = "https://github.com/PangDuTechnology/AFORouter.git"
