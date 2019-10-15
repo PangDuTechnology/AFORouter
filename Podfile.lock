@@ -15,7 +15,13 @@ PODS:
   - AFOFoundation/string (1.0.9)
   - AFOFoundation/weak (1.0.9)
   - AFOSchedulerCore (0.0.1):
+    - AFOSchedulerCore/homePage (= 0.0.1)
+    - AFOSchedulerCore/playList (= 0.0.1)
+    - AFOSchedulerCore/rooter (= 0.0.1)
     - AFOSchedulerCore/scheduler (= 0.0.1)
+  - AFOSchedulerCore/homePage (0.0.1)
+  - AFOSchedulerCore/playList (0.0.1)
+  - AFOSchedulerCore/rooter (0.0.1)
   - AFOSchedulerCore/scheduler (0.0.1)
   - AFOUIKIT (0.0.7):
     - AFOUIKIT/viewController (= 0.0.7)
@@ -37,12 +43,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AFOSchedulerCore:
-    :commit: cd3a6ffd6eb253eccbb57264af00e65a056ccda3
+    :commit: 2cae1a19763847b7f540afc95b8e16774474f400
     :git: "/Users/piccolo/Documents/GitHub/AFOSchedulerCore"
 
 SPEC CHECKSUMS:
   AFOFoundation: b5953521aa5c436dba3d2e77d56b5614289476ab
-  AFOSchedulerCore: 0e4cdd5bdadfb2ae323ccc4cf9b205757b34d540
+  AFOSchedulerCore: e67576eb67f1e252498368ff4f84844736f5af15
   AFOUIKIT: b1e12d14891b02f23c5dd3808db57ee6873e5c15
 
 PODFILE CHECKSUM: 50d252527ef32ea21cd365e9f03fc081c6552f02
