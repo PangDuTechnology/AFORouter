@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AFOSchedulerBaseClass (AFORouter)
 + (void)jumpPassingParameters:(NSDictionary *)parameters;
++ (void)jumpPassingParameters:(NSDictionary *)parameters
+                        block:(void(^)(id target))block;
 @end
 
 NS_ASSUME_NONNULL_END
