@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		240903BC1FF0955D0022A943 /* AFORouterManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		240BAB781FE1238200D58435 /* AFORouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 240BAB761FE1238200D58435 /* AFORouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24CA98631FE79C0500CE9BB2 /* AFORouterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24CA98641FE79C0500CE9BB2 /* AFORouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */; };
@@ -50,7 +49,6 @@
 		07F1DB13B8058B04FE6EA04F /* Pods-AFORouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFORouter.release.xcconfig"; path = "Target Support Files/Pods-AFORouter/Pods-AFORouter.release.xcconfig"; sourceTree = "<group>"; };
 		128F025D38F2E2A9769FA82E /* Pods-AFORouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFORouter.debug.xcconfig"; path = "Target Support Files/Pods-AFORouter/Pods-AFORouter.debug.xcconfig"; sourceTree = "<group>"; };
 		1756AA9F8EA3FE32C7736FFD /* libPods-AFORouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFORouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFORouterManagerDelegate.h; sourceTree = "<group>"; };
 		240BAB731FE1238200D58435 /* AFORouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFORouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240BAB761FE1238200D58435 /* AFORouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouter.h; sourceTree = "<group>"; };
 		24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterManager.h; sourceTree = "<group>"; };
@@ -171,7 +169,6 @@
 		DB3F576E233F943F00BD7141 /* manager */ = {
 			isa = PBXGroup;
 			children = (
-				240903BB1FF0955D0022A943 /* AFORouterManagerDelegate.h */,
 				24CA98611FE79C0500CE9BB2 /* AFORouterManager.h */,
 				24CA98621FE79C0500CE9BB2 /* AFORouterManager.m */,
 				DB30B47F2343989A0076594E /* action */,
@@ -186,7 +183,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				240903BC1FF0955D0022A943 /* AFORouterManagerDelegate.h in Headers */,
 				240BAB781FE1238200D58435 /* AFORouter.h in Headers */,
 				24CA98631FE79C0500CE9BB2 /* AFORouterManager.h in Headers */,
 				24E72704232CF8CA00C850C0 /* JLRoutes.h in Headers */,

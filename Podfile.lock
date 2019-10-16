@@ -43,7 +43,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AFOSchedulerCore:
-    :commit: f8b82c19caed93a8327c9d9b6836d03d5b01d10e
+    :commit: eca43f2842cc9144a3acf37d9529e02a1f661841
     :git: "/Users/piccolo/Documents/GitHub/AFOSchedulerCore"
 
 SPEC CHECKSUMS:
