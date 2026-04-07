@@ -98,7 +98,7 @@
 		158C70D9D765C274CCBF35CBC1590A48 /* AFOWeakInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOWeakInstance.h; path = AFOFoundation/weak/AFOWeakInstance.h; sourceTree = "<group>"; };
 		1E86058C67AAACCF8D2A7DE5AE932EF5 /* Pods-AFORouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFORouter.debug.xcconfig"; sourceTree = "<group>"; };
 		1ED025967E2B76D7CD25F69218A3F77C /* AFOSchedulerCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFOSchedulerCore-prefix.pch"; sourceTree = "<group>"; };
-		2023AFB5218B47C4A49BBB35FADB45B6 /* libAFOSchedulerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOSchedulerCore.a; path = libAFOSchedulerCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2023AFB5218B47C4A49BBB35FADB45B6 /* libAFOSchedulerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFOSchedulerCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		250CC0D1B42AEE64E37E5873A3125477 /* AFOViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOViewController.h; path = AFOUIKIT/AFOViewController.h; sourceTree = "<group>"; };
 		265561BCCEA9943F4CC7F33F15AC802F /* AFOSchedulerBaseClass+AFOHomePage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AFOSchedulerBaseClass+AFOHomePage.m"; path = "AFOSchedulerCore/homePage/AFOSchedulerBaseClass+AFOHomePage.m"; sourceTree = "<group>"; };
 		28862BB65E41487C154E2A7EEAB63231 /* NSFileManager+AFOSandBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AFOSandBox.m"; path = "AFOFoundation/sandbox/NSFileManager+AFOSandBox.m"; sourceTree = "<group>"; };
@@ -108,10 +108,10 @@
 		3418F1CA0513A238C112B2C143C20F03 /* AFOSchedulerBaseClass+AFOHomePage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AFOSchedulerBaseClass+AFOHomePage.h"; path = "AFOSchedulerCore/homePage/AFOSchedulerBaseClass+AFOHomePage.h"; sourceTree = "<group>"; };
 		3B825DBDE2A4EA4192FDB3108E29A1C3 /* NSString+URLSchemes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLSchemes.h"; path = "AFOFoundation/string/NSString+URLSchemes.h"; sourceTree = "<group>"; };
 		3F820EFC13FF7E6AF541DF40F389E5A6 /* UIViewController+CurrentController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CurrentController.h"; path = "AFOUIKIT/viewController/UIViewController+CurrentController.h"; sourceTree = "<group>"; };
-		43BEECC953DE9AE800FF0B4B8EBF337D /* libPods-AFORouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AFORouter.a"; path = "libPods-AFORouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BEECC953DE9AE800FF0B4B8EBF337D /* libPods-AFORouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFORouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4662023954499FFE504176F2339CDC5B /* NSBundle+AFOCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+AFOCategory.m"; path = "AFOFoundation/bundle/NSBundle+AFOCategory.m"; sourceTree = "<group>"; };
 		4C0EBA240C57D8A7611DDD4A68B15032 /* NSMutableArray+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+AFOAbnormal.h"; path = "AFOFoundation/array/NSMutableArray+AFOAbnormal.h"; sourceTree = "<group>"; };
-		4EB0959E61EAC889D51F90641FD082AC /* libAFOFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOFoundation.a; path = libAFOFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB0959E61EAC889D51F90641FD082AC /* libAFOFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFOFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC22FE6D2DD0B9A4B281344837C5C77 /* NSString+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Dictionary.h"; path = "AFOFoundation/string/NSString+Dictionary.h"; sourceTree = "<group>"; };
 		52FC23883152D0F355B6EDF0E4428B15 /* UIViewController+CurrentController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CurrentController.m"; path = "AFOUIKIT/viewController/UIViewController+CurrentController.m"; sourceTree = "<group>"; };
 		54D76475370718E82B2FD9F3A2F33B21 /* AFOFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFOFoundation-prefix.pch"; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		86DE82B6ACFDF58A48CA0034BCC6E84A /* AFOMacroDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOMacroDefinition.h; path = AFOFoundation/define/AFOMacroDefinition.h; sourceTree = "<group>"; };
 		97B494A8A4DFC17146F32F3AADF53D63 /* AFOWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOWindow.m; path = AFOUIKIT/AFOWindow.m; sourceTree = "<group>"; };
 		9D28BD333C8D3BEE08AA4CD91E9B8990 /* AFOSchedulerBaseClass+AFOPlayList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AFOSchedulerBaseClass+AFOPlayList.h"; path = "AFOSchedulerCore/playList/AFOSchedulerBaseClass+AFOPlayList.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F10CE6078E0890091B8518065749F49 /* AFOSchedulerCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFOSchedulerCore-dummy.m"; sourceTree = "<group>"; };
 		9F289D321DBB973C3D27502BC64B8B2F /* AFOSchedulerInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOSchedulerInvocation.h; path = AFOSchedulerCore/scheduler/AFOSchedulerInvocation.h; sourceTree = "<group>"; };
 		A61CC9EEEAAE3A0D1D6A1ACB74B4F683 /* AFOCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOCollectionViewLayout.h; path = AFOUIKIT/AFOCollectionViewLayout.h; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		EC6B8877A66CE3231A9884054B607BBC /* NSMutableArray+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+AFOAbnormal.m"; path = "AFOFoundation/array/NSMutableArray+AFOAbnormal.m"; sourceTree = "<group>"; };
 		F281150817BECDC29654AE67706441E1 /* Pods-AFORouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFORouter.release.xcconfig"; sourceTree = "<group>"; };
 		F2A05DC64CE8490B5A6052E01CE28DE0 /* AFOFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOFoundation.h; path = AFOFoundation/AFOFoundation.h; sourceTree = "<group>"; };
-		F39383F0AADA6BCF727C03C26374B1B7 /* libAFOUIKIT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOUIKIT.a; path = libAFOUIKIT.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39383F0AADA6BCF727C03C26374B1B7 /* libAFOUIKIT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFOUIKIT.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F404F501AA760D0C7DFCED5350D81C1C /* AFOSchedulerBaseClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOSchedulerBaseClass.h; path = AFOSchedulerCore/scheduler/AFOSchedulerBaseClass.h; sourceTree = "<group>"; };
 		F6BE9624A94D767D682251E05E7B8EED /* NSString+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Dictionary.m"; path = "AFOFoundation/string/NSString+Dictionary.m"; sourceTree = "<group>"; };
 		F9BB466CCAC88483C8F69444789F7129 /* NSArray+AFOAbnormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+AFOAbnormal.m"; path = "AFOFoundation/array/NSArray+AFOAbnormal.m"; sourceTree = "<group>"; };
@@ -245,7 +245,6 @@
 				7D2F0A83FA58515D92770103437219F9 /* Support Files */,
 				2710060A8824E2CD07EDDAA489034863 /* weak */,
 			);
-			name = AFOFoundation;
 			path = AFOFoundation;
 			sourceTree = "<group>";
 		};
@@ -278,7 +277,6 @@
 				978374FC26EC6B0D0766907C94CF5070 /* scheduler */,
 				D5C13CD6B9727DAE017795C09250A9DF /* Support Files */,
 			);
-			name = AFOSchedulerCore;
 			path = AFOSchedulerCore;
 			sourceTree = "<group>";
 		};
@@ -355,7 +353,6 @@
 				DAA84CCE956C0A6E58FD39A5E03530FC /* Support Files */,
 				57FE04BD0416607B13CD12490980208E /* viewController */,
 			);
-			name = AFOUIKIT;
 			path = AFOUIKIT;
 			sourceTree = "<group>";
 		};
@@ -723,7 +720,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/AFOFoundation/AFOFoundation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -791,8 +788,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -807,7 +803,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/AFOSchedulerCore/AFOSchedulerCore-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -895,7 +891,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -917,7 +913,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/AFOUIKIT/AFOUIKIT-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -941,7 +937,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/AFOFoundation/AFOFoundation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -964,7 +960,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -985,7 +981,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/AFOSchedulerCore/AFOSchedulerCore-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -1008,7 +1004,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/AFOUIKIT/AFOUIKIT-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
