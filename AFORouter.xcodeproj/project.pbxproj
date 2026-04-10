@@ -31,6 +31,8 @@
 		DB3C59F923436021001AA3CB /* AFORouterTypeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C59F723436021001AA3CB /* AFORouterTypeAction.m */; };
 		DB3C59FC234361A3001AA3CB /* AFORouterActionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C59FA234361A3001AA3CB /* AFORouterActionContext.h */; };
 		DB3C59FD234361A3001AA3CB /* AFORouterActionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C59FB234361A3001AA3CB /* AFORouterActionContext.m */; };
+		B1E0A0132008568700490603 /* AFORouting.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E0A0112008568700490601 /* AFORouting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1E0A0142008568700490604 /* AFORouting.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E0A0122008568700490602 /* AFORouting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +75,8 @@
 		DB3C59F723436021001AA3CB /* AFORouterTypeAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterTypeAction.m; sourceTree = "<group>"; };
 		DB3C59FA234361A3001AA3CB /* AFORouterActionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouterActionContext.h; sourceTree = "<group>"; };
 		DB3C59FB234361A3001AA3CB /* AFORouterActionContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouterActionContext.m; sourceTree = "<group>"; };
+		B1E0A0112008568700490601 /* AFORouting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORouting.h; sourceTree = "<group>"; };
+		B1E0A0122008568700490602 /* AFORouting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORouting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				240BAB761FE1238200D58435 /* AFORouter.h */,
+				B1E0A0112008568700490601 /* AFORouting.h */,
+				B1E0A0122008568700490602 /* AFORouting.m */,
 				DB3F576E233F943F00BD7141 /* manager */,
 				DB3F576C233F940700BD7141 /* router */,
 			);
@@ -184,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				240BAB781FE1238200D58435 /* AFORouter.h in Headers */,
+				B1E0A0132008568700490603 /* AFORouting.h in Headers */,
 				24CA98631FE79C0500CE9BB2 /* AFORouterManager.h in Headers */,
 				24E72704232CF8CA00C850C0 /* JLRoutes.h in Headers */,
 				24E72700232CF8CA00C850C0 /* JLRRouteHandler.h in Headers */,
@@ -294,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E0A0142008568700490604 /* AFORouting.m in Sources */,
 				24E72703232CF8CA00C850C0 /* JLRRouteRequest.m in Sources */,
 				DB3C59FD234361A3001AA3CB /* AFORouterActionContext.m in Sources */,
 				24CA98641FE79C0500CE9BB2 /* AFORouterManager.m in Sources */,

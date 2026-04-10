@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFORouter"
-  s.version      = "0.0.9"
+  s.version      = "0.0.13"
   s.summary      = "The router."
   s.description  = 'Used to pass values between pages.'
   s.homepage     = "https://github.com/PangDuTechnology/AFORouter.git"
@@ -21,8 +21,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/PangDuTechnology/AFORouter.git", :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files = 'AFORouter/AFORouter.h'
-  s.public_header_files = 'AFORouter/AFORouter.h'   
+  s.source_files = 'AFORouter/AFORouter.h', 'AFORouter/AFORouting.{h,m}'
+  s.public_header_files = 'AFORouter/AFORouter.h', 'AFORouter/AFORouting.h'
+  s.default_subspecs = 'router', 'manager'
 
   s.subspec 'router' do |jl|
       jl.source_files = 'AFORouter/router/*.{h,m}' 
