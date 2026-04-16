@@ -19,7 +19,21 @@
     Class class = NSClassFromString(next);
     UIViewController *controller = [[class alloc] init];
     controller.hidesBottomBarWhenPushed = YES;
+    NSString *title = nil;
+    id rawTitle = paramenter[@"title"];
+    if ([rawTitle isKindOfClass:[NSString class]]) {
+        title = (NSString *)rawTitle;
+    }
+    if (title.length > 0) {
+        controller.title = title;
+        controller.navigationItem.title = title;
+        controller.navigationItem.titleView = nil;
+        if (@available(iOS 11.0, *)) {
+            controller.navigationItem.largeTitleDisplayMode = UINavigationItemLargeTitleDisplayModeNever;
+        }
+    }
     [AFOSchedulerBaseClass schedulerController:current present:controller parameters:paramenter];
-    [current.navigationController pushViewController:controller animated:YES];
+    UINavigationController *nav = current.navigationController ?: current.tabBarController.selectedViewController.navigationController;
+    [nav pushViewController:controller animated:YES];
 }
 @end
