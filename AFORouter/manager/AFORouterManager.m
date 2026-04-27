@@ -41,7 +41,7 @@
     [self loadRotesFile];
     return YES;
 }
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation{
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options {
     return [self routeURL:url];
 }
 #pragma mark ------ dealloc
