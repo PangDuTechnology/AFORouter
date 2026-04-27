@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AFORouter"
-  s.version      = "0.0.14"
+  s.version      = "0.0.15"
   s.summary      = "The router."
   s.description  = <<-DESC
     基于 JLRoutes 的应用内路由与页面跳转封装，依赖 AFOFoundation、AFOSchedulerCore。
